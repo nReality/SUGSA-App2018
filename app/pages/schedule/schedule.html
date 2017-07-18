@@ -26,7 +26,7 @@
             <button class="scheduletogglebutton" small block
                     (click)="toggleLocation(location.id)"
                     [outline]="location.hide"
-                    [ngStyle]="{'background-color': location.color }">{{location.name}}</button>
+                    [ngStyle]="{'background-color': getLocationBackgroungColor(location), 'color': getLocationColor(location), 'border-color': getLocationColor(location) }">{{location.name}}</button>
           </td>
         </div>
       </tr>
