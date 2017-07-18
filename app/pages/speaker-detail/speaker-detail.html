@@ -16,7 +16,7 @@
 
   <ion-card padding>
     <p *ngIf="speaker.affiliation">{{ speaker.affiliation }}</p>
-    <p *ngIf="speaker.about">{{speaker.about}}</p>
+    <p *ngIf="speaker.about" [innerHTML]="speaker.about"></p>
   </ion-card>
 
 </ion-content>

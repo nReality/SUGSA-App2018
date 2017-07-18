@@ -77,4 +77,9 @@ export class SessionDetailPage {
   goToTwitter(speakers) {
     this.tweetShare.shareViaTwitterWithSpeakerAndConference('.', speakers);
   }
+
+  getSpeakerImage(speaker) {
+    var imageName = speaker.profilePic ? speaker.profilePic : "no-image-head.png";
+    return 'img/speakers/' + imageName;
+  }
 }
