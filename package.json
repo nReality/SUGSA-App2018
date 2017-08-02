@@ -1,10 +1,10 @@
 {
-    "name": "com.nreality.ScrumGatheringSAConf",
-    "description": "Information for the Scrum Gathering conference, held on 3-4 November.",
+    "name": "com.nreality.TestConference2017",
+    "description": "Test Conference 2017 App.",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nReality/SUGSA-ScrumGathering-App2016"
+        "url": "https://github.com/nReality/conference-app-template"
     },
     "dependencies": {
         "@angular/common": "2.0.0-rc.4",
