@@ -16,7 +16,7 @@ This repo only works with ionic 2.0.0, to run install: `npm install ionic@2.0.0 
 * Run `npm install` from the project root.
 * Install the ionic CLI (`npm install -g ionic@2.0.0`)
 * Run `ionic serve` in a terminal from the project root.
-* Go to `http://localhost:8080/lab.html` for a hosted lab view
+* Go to `http://localhost:8100/lab.html` for a hosted lab view
 * Profit
 
 **Note:** Is your build slow? Update `npm` to 3.x: `npm install -g npm`.
