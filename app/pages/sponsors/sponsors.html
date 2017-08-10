@@ -23,7 +23,7 @@
   <br/>
   <div *ngFor="let sponsor of sponsors">
     <h3 text-center>{{sponsor.name}}</h3>
-    <a href="#">
+    <a href="#" (click)="openPagInNewWindow(sponsor.url)">
         <img [src]="sponsor.imageSrc">
     </a>
   </div>
