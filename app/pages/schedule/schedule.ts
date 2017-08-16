@@ -26,6 +26,7 @@ export class SchedulePage {
   excludeTracks = [];
   excludeLocations = [];
   locations: Array<{name: string, id: string, hide: boolean, color: string}> = [];
+  location_rows: Array<Array<{name: string, id: string, hide: boolean, color: string}>> = [];
   excludeDays = [];
   days = [];
   storage : Storage;
@@ -38,16 +39,30 @@ export class SchedulePage {
     public confData: ConferenceData,
     public user: UserData
   ) {
-
     this.confData.data.locations.forEach(location => {
-          this.locations.push({
-            name: location.name,
-            id: location.id,
-            hide: false,
-            color: location.color
-          });
+      this.locations.push({
+        name: location.name,
+        id: location.id,
+        hide: false,
+        color: location.color
+      });
     });
-   this.storage = new Storage(LocalStorage);
+    this.splitLocationsIntoRows();
+    this.storage = new Storage(LocalStorage);
+  }
+
+  splitLocationsIntoRows() {
+    var preffered_items_per_row = 4;
+    var rows = Math.ceil(this.locations.length / preffered_items_per_row);
+    var per_row = Math.ceil(this.locations.length / rows);
+    console.log('splitting %d locations into %d rows of %d each', this.locations.length, rows, per_row);
+
+    var start = 0;
+    while (start < this.locations.length) {
+      var end = start + per_row;
+      this.location_rows.push(this.locations.slice(start, end));
+      start = end;
+    }
   }
 
   toggleFavourites(){
