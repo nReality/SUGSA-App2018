@@ -7,6 +7,18 @@ export class TweetShare {
     this.platform = platform;
   }
 
+  shareViaTwitterWithSpeakerAndConference(message, speakers: Array<any>) {
+    var speakerstring = ""
+    for (var speaker of speakers) {
+      speakerstring += " " + speaker.twitter;
+    }
+    this.shareViaTwitterWithConference(message + speakerstring);
+  }
+
+  shareViaTwitterWithConference(message) {
+    this.shareViaTwitter(message + ' @SAAFOSTofficial', null, null)
+  }
+
   shareViaTwitter(message, image, link) {
     var pl = (<any>window).plugins
     if (pl == null) {

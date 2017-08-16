@@ -29,7 +29,7 @@ export class SpeakerListPage {
   }
 
   goToSpeakerTwitter(speaker) {
-    this.tweetShare.shareViaTwitter("." + speaker.twitter + " @SUGSA", null, null);
+    this.tweetShare.shareViaTwitterWithSpeakerAndConference('.', [ speaker ]);
   }
 
   openSpeakerShare(speaker) {

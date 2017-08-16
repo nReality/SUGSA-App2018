@@ -22,7 +22,6 @@ export class SpeakerDetailPage {
   }
 
   goToSpeakerTwitter(speaker) {
-  //  window.open(`https://twitter.com/${speaker.twitter}`);
-    this.tweetShare.shareViaTwitter("."+speaker.twitter+" @SUGSA",null,null)
+    this.tweetShare.shareViaTwitterWithSpeakerAndConference('.', [ speaker ]);
   }
 }
