@@ -10,7 +10,9 @@ export class TweetShare {
   shareViaTwitterWithSpeakerAndConference(message, speakers: Array<any>) {
     var speakerstring = ""
     for (var speaker of speakers) {
-      speakerstring += " " + speaker.twitter;
+      if (speaker && speaker.twitter !== '@someone') {
+        speakerstring += " " + speaker.twitter;
+      }
     }
     this.shareViaTwitterWithConference(message + speakerstring);
   }
