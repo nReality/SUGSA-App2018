@@ -1,9 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { Content, AlertController, App, ItemSliding, List, ModalController, LocalStorage, Storage, NavController } from 'ionic-angular';
+import { Content, AlertController, App, ItemSliding, List, LocalStorage, Storage, NavController } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
-import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { UserData } from '../../providers/user-data';
 
@@ -34,7 +33,6 @@ export class SchedulePage {
   constructor(
     public alertCtrl: AlertController,
     public app: App,
-    public modalCtrl: ModalController,
     public navCtrl: NavController,
     public confData: ConferenceData,
     public user: UserData
@@ -127,19 +125,6 @@ export class SchedulePage {
     this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.excludeLocations, this.excludeDays, this.segment).then(data => {
       this.days = data;
     });
-  }
-
-  presentFilter() {
-    let modal = this.modalCtrl.create(ScheduleFilterPage, this.excludeTracks);
-    modal.present();
-
-    modal.onDidDismiss((data: any[]) => {
-      if (data) {
-        this.excludeTracks = data;
-        this.updateSchedule();
-      }
-    });
-
   }
 
   goToSessionDetail(sessionData) {
