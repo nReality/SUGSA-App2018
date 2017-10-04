@@ -6,7 +6,7 @@ import {StatusBar, Splashscreen} from 'ionic-native';
 import {ConferenceData} from './providers/conference-data';
 import {UserData} from './providers/user-data';
 import {AccountPage} from './pages/account/account';
-import {TabsPage} from './pages/tabs/tabs';
+//import {TabsPage} from './pages/tabs/tabs';
 import {LoginPage} from './pages/login/login';
 import {SignupPage} from './pages/signup/signup';
 import {TweetShare} from './providers/tweet-share';
@@ -35,10 +35,10 @@ class ConferenceApp {
   // List of pages that can be navigated to from the left menu
 
   appPages: PageObj[] = [
-    { title: 'Schedule', component: TabsPage, icon: 'calendar' },
-    { title: 'Speakers', component: TabsPage, icon: 'contacts' },
-    { title: 'About', component: TabsPage, icon: 'information-circle' },
-    { title: 'Sponsors', component: TabsPage, icon: 'ribbon' }
+    { title: 'Schedule', component: SchedulePage, icon: 'calendar' },
+    { title: 'Speakers', component: SpeakerListPage, icon: 'contacts' },
+    { title: 'About', component: AboutPage, icon: 'information-circle' },
+    { title: 'Sponsors', component: SponsorsPage, icon: 'ribbon' }
   ];
  rootPage: any;
 
@@ -65,7 +65,7 @@ class ConferenceApp {
       StatusBar.styleDefault();
       confData.load().then(() => {
           console.log('data loaded');
-          this.rootPage = TabsPage;
+          this.rootPage = SchedulePage;
           this.menu.enable(true, 'mainmenu');
           Splashscreen.hide();
       });
