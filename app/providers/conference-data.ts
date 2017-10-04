@@ -17,16 +17,58 @@ export class ConferenceData {
 
     // don't have the data yet
     return new Promise(resolve => {
-      // We're using Angular Http provider to request the data,
-      // then on the response it'll map the JSON data to a parsed JS object.
-      // Next we process the data and resolve the promise with the new data.
-      this.http.get('data/data.json').subscribe(res => {
-        // we've got back the raw data, now generate the core schedule data
-        // and save the data for later reference
-        this.data = this.processData(res.json());
-        resolve(this.data);
-      });
+        this.user.getConferenceData().then(conferenceData => {
+            if (!conferenceData) {
+                this.downloadData(resolve);
+                return;
+            }
+            this.downloadData(resolve, JSON.parse(conferenceData));
+        });
     });
+  }
+
+  downloadData(resolve: Function, oldConferenceData?:any) {
+      if (oldConferenceData) {
+          this.data = this.processData(oldConferenceData);
+          resolve(this.data);
+      }
+
+      let fallback = () => {
+          if (oldConferenceData) {
+              return;
+          }
+
+          console.log('loading failed, loading local data');
+          this.http.get('data/data.json').subscribe(res => {
+              this.processResponse(res, 'offline', resolve);
+          });
+      }
+
+      this.http.get('https://api.github.com/repos/nreality/agile-africa-2017/git/refs/heads/master')
+      .subscribe(res => {
+        let result = res.json();
+        console.log(result);
+        let latestCommit = result.object.sha;
+
+        if (oldConferenceData && latestCommit === oldConferenceData.version) {
+            console.log('data still fine, using saved data');
+        } else {
+            console.log('data outdated, loading new');
+            this.http.get('https://raw.githubusercontent.com/nReality/agile-africa-2017/' + latestCommit +'/www/data/data.json').subscribe(res => {
+              this.processResponse(res, latestCommit, resolve);
+          }, fallback);
+        }
+    }, fallback);
+  }
+
+
+
+  processResponse(response: any, version: string, resolve: Function) {
+      let conferenceData = response.json();
+      conferenceData.version = version;
+      this.user.saveConferenceData(conferenceData);
+      this.data = this.processData(conferenceData);
+      resolve(this.data);
   }
 
   processData(data) {
@@ -60,10 +102,12 @@ export class ConferenceData {
   processSession(data, session, date) {
 
     this.user.checkIfLocalfavourite(session.name);
-
     var locationArray = data.locationMappings.filter(function(obj) {return obj.id == session.locationId});
+    if (!locationArray.length) {
+      console.log(session.locationId);
+    }
     session.locationName = locationArray? locationArray[0].name : null;
-
+    session.location = locationArray? locationArray[0] : null;
     session.date = date
     // loop through each speaker and load the speaker data
     // using the speaker name as the key

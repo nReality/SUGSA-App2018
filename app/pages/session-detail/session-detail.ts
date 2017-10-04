@@ -37,10 +37,10 @@ export class SessionDetailPage {
   }
 
   restoreState(){
-    this.local.get(this.session.name).then((data) => {
+    this.local.get(this.session.name + '-rating').then((data) => {
       var storedRating = JSON.parse(data);
 
-      if(data){
+      if(data) {
         this.onRate(storedRating.value);
         this.comment = storedRating.comment;
       }
@@ -55,7 +55,7 @@ export class SessionDetailPage {
   postRating(session){
     var deviceId = Device.device.uuid || Date.now();
     firebase.database().ref(session.name + '/' + deviceId).set({value: this._rating, comment:(this.comment || "")});
-    this.local.set(session.name, JSON.stringify({value: this._rating, comment: this.comment}));
+    this.local.set(session.name + '-rating', JSON.stringify({value: this._rating, comment: this.comment}));
 
     this.showSuccess();
   }
@@ -75,7 +75,22 @@ export class SessionDetailPage {
   }
 
   goToTwitter(speakers) {
-    this.tweetShare.shareViaTwitterWithSpeakerAndConference('.', speakers);
+      let speakerstring = this.getTwitterString(speakers);
+    //window.open(`https://twitter.com/share?text=` + sessionName);
+      this.tweetShare.shareViaTwitter("." + speakerstring+" @AgileAfrica",null,null)
+  }
+
+  hasTwitterAccounts(speakers) {
+      let speakerstring = this.getTwitterString(speakers);
+      return speakerstring.replace(/undefined/g, "").trim() || false;
+  }
+
+  getTwitterString(speakers) {
+      var speakerstring = ""
+      for (var speaker of speakers) {
+          speakerstring += speaker.twitter + " "
+      }
+      return speakerstring;
   }
 
   getSpeakerImage(speaker) {

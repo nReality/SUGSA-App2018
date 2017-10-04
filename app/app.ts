@@ -6,7 +6,7 @@ import {StatusBar, Splashscreen} from 'ionic-native';
 import {ConferenceData} from './providers/conference-data';
 import {UserData} from './providers/user-data';
 import {AccountPage} from './pages/account/account';
-//import {TabsPage} from './pages/tabs/tabs';
+import {TabsPage} from './pages/tabs/tabs';
 import {LoginPage} from './pages/login/login';
 import {SignupPage} from './pages/signup/signup';
 import {TweetShare} from './providers/tweet-share';
@@ -35,13 +35,12 @@ class ConferenceApp {
   // List of pages that can be navigated to from the left menu
 
   appPages: PageObj[] = [
-    { title: 'Schedule', component: SchedulePage, icon: 'calendar' },
-    { title: 'Speakers', component: SpeakerListPage, icon: 'contacts' },
-    { title: 'About', component: AboutPage, icon: 'information-circle' },
-    { title: 'Sponsors', component: SponsorsPage, icon: 'ribbon' }
+    { title: 'Schedule', component: TabsPage, icon: 'calendar' },
+    { title: 'Speakers', component: TabsPage, icon: 'contacts' },
+    { title: 'About', component: TabsPage, icon: 'information-circle' },
+    { title: 'Sponsors', component: TabsPage, icon: 'ribbon' }
   ];
-
-  rootPage: any = SchedulePage;
+ rootPage: any;
 
   constructor(
     public events: Events,
@@ -51,11 +50,12 @@ class ConferenceApp {
     confData: ConferenceData
   ) {
     var config = {
-      apiKey: "AIzaSyBJpyz1Y4ueO2dqqT2iNobdCSdTb3dHpBQ",
-      authDomain: "scrum-gathering-sa-2016-80aef.firebaseapp.com",
-      databaseURL: "https://scrum-gathering-sa-2016-80aef.firebaseio.com",
-      storageBucket: "scrum-gathering-sa-2016-80aef.appspot.com",
-      messagingSenderId: "908541757826"
+      apiKey: "AIzaSyByXyIgWx9_jKNEYvnCpglS8tdY912fGRA",
+      authDomain: "agile-africa-fa653.firebaseapp.com",
+      databaseURL: "https://agile-africa-fa653.firebaseio.com",
+      projectId: "agile-africa-fa653",
+      storageBucket: "agile-africa-fa653.appspot.com",
+      messagingSenderId: "816289217843"
     };
 
     firebase.initializeApp(config);
@@ -63,15 +63,13 @@ class ConferenceApp {
     // Call any initial plugins when ready
     platform.ready().then(() => {
       StatusBar.styleDefault();
-      Splashscreen.hide();
+      confData.load().then(() => {
+          console.log('data loaded');
+          this.rootPage = TabsPage;
+          this.menu.enable(true, 'mainmenu');
+          Splashscreen.hide();
+      });
     });
-
-    // load the conference data
-    confData.load();
-
-
-    this.menu.enable(true, 'mainmenu');
-
   }
 
   openPage(page: PageObj) {
@@ -84,9 +82,7 @@ class ConferenceApp {
     } else {
       this.nav.setRoot(page.component);
     }
-
   }
-
 }
 
 

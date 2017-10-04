@@ -22,6 +22,12 @@ export class SpeakerDetailPage {
   }
 
   goToSpeakerTwitter(speaker) {
-    this.tweetShare.shareViaTwitterWithSpeakerAndConference('.', [ speaker ]);
+  //  window.open(`https://twitter.com/${speaker.twitter}`);
+    this.tweetShare.shareViaTwitter("."+speaker.twitter+" @AgileAfrica",null,null)
+  }
+
+  getSpeakerImage(speaker) {
+    var imageName = speaker.profilePic ? speaker.profilePic : "img/speakers/no-image-head.png";
+    return imageName;
   }
 }
