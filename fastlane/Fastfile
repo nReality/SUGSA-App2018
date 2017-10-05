@@ -10,8 +10,8 @@ platform :ios do
   desc "This will also make sure the profile is up to date"
   lane :beta do
       sh('../ionic build ios')
-      match(git_branch: "nreality", type: "appstore", app_identifier: "com.nreality.agileafricaconf")
-      gym(workspace: 'platforms/ios/Agile Africa Conference.xcworkspace', export_method: "app-store")
+      match(git_branch: "nreality", type: "appstore", app_identifier: "com.nreality.ScrumGatheringSAConf")
+      gym(workspace: 'platforms/ios/Scrum Gathering South Africa.xcworkspace', export_method: "app-store")
       pilot
   end
 

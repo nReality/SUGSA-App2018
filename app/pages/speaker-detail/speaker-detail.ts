@@ -23,7 +23,7 @@ export class SpeakerDetailPage {
 
   goToSpeakerTwitter(speaker) {
   //  window.open(`https://twitter.com/${speaker.twitter}`);
-    this.tweetShare.shareViaTwitter("."+speaker.twitter+" @AgileAfrica",null,null)
+    this.tweetShare.shareViaTwitter("."+speaker.twitter+" @sgsouthafrica",null,null)
   }
 
   getSpeakerImage(speaker) {

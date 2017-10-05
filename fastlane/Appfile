@@ -1,4 +1,4 @@
-app_identifier "com.nreality.agileafricaconf" # The bundle identifier of your app
+app_identifier "com.nreality.ScrumGatheringSAConf" # The bundle identifier of your app
 apple_id "reinhard@nreality.com" # Your Apple email address
 
 team_id "8MDZR45CDF" # Developer Portal Team ID
