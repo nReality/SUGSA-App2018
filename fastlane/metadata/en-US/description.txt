@@ -1,10 +1,9 @@
-Scrum Gathering South Africa 2017 Conference | November 9-10 | Cape Town
-
-This App is your companion to the Scrum Gathering South Africa conference that helps you:
-• Navigate the schedule
-• See talk and speaker details to help you choose
-• Rate the talks (after the talk, please open the talk and tap your rating and optionally add a comment )
-
-Scrum Gathering South Africa is an annual conference where African software professionals meet to uncover better ways of working and developing software.
+Regional Scrum Gathering South Africa is an annual conference where software professionals and Agile enthusiasts meet to uncover better ways of working and developing software.
 
 You will get the chance to hear leading international and local speakers and more importantly, interact with professionals from various software development communities.
+
+This App is your companion to the 2017 SA conference (9-10 November in Cape Town) that helps you:
+• Navigate the schedule and create your own schedule by marking favourites
+• See talk and speaker details to help you choose
+• Rate the talks (after the talk, please open the talk and tap your rating and optionally add a comment )
+• Interact with the speaker through Twitter
