@@ -1,6 +1,6 @@
 {
-  "name": "com.nreality.ScrumGatheringSAConf",
-  "description": "Information for the Scrum Gathering conference, held on 3-4 November.",
+  "name": "com.nreality.ScrumGatheringSAConf2017",
+  "description": "Information for the Scrum Gathering conference, held on 9-10 November.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
