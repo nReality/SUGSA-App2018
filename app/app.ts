@@ -13,6 +13,7 @@ import {TweetShare} from './providers/tweet-share';
 import { SchedulePage } from './pages/schedule/schedule';
 import { SpeakerListPage } from './pages/speaker-list/speaker-list';
 import { AboutPage } from './pages/about/about';
+import { TwitterPage } from './pages/twitter/twitter';
 import {SponsorsPage} from './pages/sponsors/sponsors';
 
 import * as firebase from 'firebase';
@@ -37,6 +38,7 @@ class ConferenceApp {
   appPages: PageObj[] = [
     { title: 'Schedule', component: SchedulePage, icon: 'calendar' },
     { title: 'Speakers', component: SpeakerListPage, icon: 'contacts' },
+    { title: 'Twitter', component: TwitterPage, icon: 'information-circle' },
     { title: 'About', component: AboutPage, icon: 'information-circle' },
     { title: 'Sponsors', component: SponsorsPage, icon: 'ribbon' }
   ];
