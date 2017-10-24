@@ -16,7 +16,7 @@ export class TwitterPage {
   }
   ionViewDidEnter(){
     this.platform.ready().then(() => {
-      //let browser = new InAppBrowser("https://mobile.twitter.com/search?q=SUGSA&src=typed_query",'_blank');
+      let browser = new InAppBrowser("tweets.html",'_blank','toolbar=yes,toolbarposition=bottom,location=no');
 
 
       });
@@ -25,7 +25,7 @@ export class TwitterPage {
 
   }
 
-  ngAfterViewInit() {
+  ngAfterViewInit() {/*
     this.zone.runOutsideAngular(() => {
       console.log("trying twitter source")
       !function(d,s,id){
@@ -39,7 +39,7 @@ export class TwitterPage {
           }
           (document,"script","twitter-wjs");
       });
-
+*/
       setTimeout(function(){
         /*
         this.zone.runOutsideAngular(() => {
