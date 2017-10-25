@@ -13,8 +13,8 @@ import {TweetShare} from './providers/tweet-share';
 import { SchedulePage } from './pages/schedule/schedule';
 import { SpeakerListPage } from './pages/speaker-list/speaker-list';
 import { AboutPage } from './pages/about/about';
-import { TwitterPage } from './pages/twitter/twitter';
 import {SponsorsPage} from './pages/sponsors/sponsors';
+import { InAppBrowser} from 'ionic-native';
 
 import * as firebase from 'firebase';
 
@@ -23,6 +23,7 @@ interface PageObj {
   component: any;
   icon: string;
   index?: number;
+  script: () => void;
 }
 
 @Component({
@@ -36,11 +37,13 @@ class ConferenceApp {
   // List of pages that can be navigated to from the left menu
 
   appPages: PageObj[] = [
-    { title: 'Schedule', component: SchedulePage, icon: 'calendar' },
-    { title: 'Speakers', component: SpeakerListPage, icon: 'contacts' },
-    { title: 'Twitter', component: TwitterPage, icon: 'information-circle' },
-    { title: 'About', component: AboutPage, icon: 'information-circle' },
-    { title: 'Sponsors', component: SponsorsPage, icon: 'ribbon' }
+    { title: 'Schedule', component: SchedulePage, icon: 'calendar', script: null },
+    { title: 'Speakers', component: SpeakerListPage, icon: 'contacts', script: null },
+    { title: 'View Tweets', component: null, icon: 'logo-twitter', script: ()=> {
+      let browser = new InAppBrowser("tweets.html",'_blank','toolbar=yes,toolbarposition=top,location=no,useWideViewPort=no,zoom=no');
+    }  },
+    { title: 'About', component: AboutPage, icon: 'information-circle', script: null },
+    { title: 'Sponsors', component: SponsorsPage, icon: 'ribbon', script: null }
   ];
  rootPage: any;
 
@@ -75,6 +78,11 @@ class ConferenceApp {
   }
 
   openPage(page: PageObj) {
+    if (page.script != null){
+      page.script();
+      return;
+    }
+
     // the nav component was found using @ViewChild(Nav)
     // reset the nav to remove previous pages and only have this page
     // we wouldn't want the back button to show in this scenario
