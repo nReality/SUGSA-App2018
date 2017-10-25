@@ -98,8 +98,7 @@
                 {
                   "about": "<p></p>",
                   "name": "Mike Burrows\t",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Mike-Burrows.jpg"
+                  "priority": 1
                 }
               ],
               "description": "<p>Which is better: \"top down\", with the challenge of overcoming resistance to change, or \"bottom up\", perhaps never gathering momentum? Is it indeed a dichotomy, or can organisational transformation find a third way that is simultaneously respectful, ambitious, and sustainable? We'll explore a synthesis of ideas old and new, organised by a five-stage process of Discovery, Exploration, Mapping, Elaboration, and Operation.</p>",
@@ -405,8 +404,7 @@
       "about": "<p> </p>",
       "name": "Mike Burrows",
       "priority": 1,
-      "profilePic": "img/speakers/Mike-Burrows.jpg",
-      "twitter": "@sugsa"
+      "profilePic": "img/speakers/Mike-Burrows.jpg"
     },
     {
       "name": "Kent Beck",
