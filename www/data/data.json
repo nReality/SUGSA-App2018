@@ -29,7 +29,7 @@
                   "about": "<p></p>",
                   "name": "Joshua Lewis",
                   "priority": 1,
-                  "profilePic": "img/speakers/Josh.jpg"
+                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -40,7 +40,9 @@
               "tracks": [
                 "queens"
               ],
-              "speakerNames": []
+              "speakerNames": [
+                
+              ]
             }
           ]
         },
@@ -49,7 +51,9 @@
           "sessions": [
             {
               "date": "9th November 2017",
-              "speakers": [],
+              "speakers": [
+                
+              ],
               "description": "<p>Please visit the Welcome Desk in the Foyer to register.</p><br><p></p>",
               "name": "Registration",
               "locationId": "foyer",
@@ -58,7 +62,9 @@
               "tracks": [
                 "foyer"
               ],
-              "speakerNames": []
+              "speakerNames": [
+                
+              ]
             }
           ]
         },
@@ -98,8 +104,7 @@
                 {
                   "about": "<p></p>",
                   "name": "Mike Burrows\t",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Mike-Burrows.jpg"
+                  "priority": 1
                 }
               ],
               "description": "<p>Which is better: \"top down\", with the challenge of overcoming resistance to change, or \"bottom up\", perhaps never gathering momentum? Is it indeed a dichotomy, or can organisational transformation find a third way that is simultaneously respectful, ambitious, and sustainable? We'll explore a synthesis of ideas old and new, organised by a five-stage process of Discovery, Exploration, Mapping, Elaboration, and Operation.</p>",
@@ -121,16 +126,20 @@
           "sessions": [
             {
               "date": "9th November 2017",
-              "speakers": [],
+              "speakers": [
+                
+              ],
               "description": "<p></p>",
               "name": "Tea Break",
               "locationId": "foyer",
               "timeStart": "10:30 am",
-              "timeEnd": "11:45 am",
+              "timeEnd": "10:45 am",
               "tracks": [
                 "foyer"
               ],
-              "speakerNames": []
+              "speakerNames": [
+                
+              ]
             }
           ]
         },
@@ -165,7 +174,8 @@
                 {
                   "about": "<p>Justin used to be part of the SUGSA committee. He used to live and work in sunny Cape Town. Justin currently lives and works in snowy Stockholm. He is happy.\n\nJustin wants to live in a world filled with innovative businesses, happy teams, happy customers and a dancing squirrel. As an agile coach at Spotify, he often inspects & adapts. He also sings the Agile Manifesto song in a Stockholm shower to the beat of Mamma Mia. \nYou can reach him at @the_jus on twitter or listen to him talk about scrum at scrumand.co/p>",
                   "name": "Justin Kotze",
-                  "priority": 1
+                  "priority": 1,
+                  "profilePic": "img/speakers/Justin-Kotze.jpg"
                 }
               ],
               "description": "<p>\"All you need is love.\nAll you need is love, love.\nLove is all you need.\"\n \nThe Beatles say it best. All you need is to love your Product Owners.\n \nI used to not like Product Owners. In my journey there’s always been this subtle undertone when I’ve spoken to ScrumMasters about Product Owners, about how difficult they are. Heck, I’ve even attended a session with ScrumMasters called: “How to deal with difficult Product Owners”.\n \nThis thinking changed drastically when I moved to Spotify and saw what can happen if you love your Product Owner.\n \nThis session will be valuable for ScrumMasters, development managers, agile coaches, product owners and anyone who cares about better Product Ownership</p>",
@@ -186,7 +196,8 @@
                 {
                   "about": "<p>Gavin Stevens is currently a Product Owner at Prodigy Finance - an international fintech startup which provides loans to international students.  His PO journey began in e-commerce, but he has now been with Prodigy for the last 3 years.  In his time at Prodigy, he has worked with several scrum teams to implement various products and features across the business, although his focus is currently on risk assessment and verification.  He is passionate about figuring out ways to empower his team and not get involved unnecessarily.</p>",
                   "name": "Gavin Stevens",
-                  "priority": 1
+                  "priority": 1,
+                  "profilePic": "img/speakers/Gavin-Stevens.jpg"
                 }
               ],
               "description": "<p>In my role as a product owner, I’ve noticed how it is all too easy to get pulled into processes and tightly defined roles in a scrum team that don’t necessarily provide value and make sense.  I’ve noticed inefficiencies that are often overlooked and I’ve seen some of the effects that these can have on a team.\n\nI will be sharing some stories and analogies of how these issues can impact on your team and how you could look to improve the way you interact with your team as a PO and become a more effective scrum team.</p>",
@@ -208,7 +219,9 @@
           "sessions": [
             {
               "date": "9th November 2017",
-              "speakers": [],
+              "speakers": [
+                
+              ],
               "description": "<p></p>",
               "name": "Tea Break",
               "locationId": "foyer",
@@ -217,7 +230,9 @@
               "tracks": [
                 "foyer"
               ],
-              "speakerNames": []
+              "speakerNames": [
+                
+              ]
             }
           ]
         },
@@ -277,7 +292,7 @@
                   "priority": 1
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>I have been a Scrum master for over 3 years now and I do some agile coaching on the side. I have an Honours degree in Psychology and continue to be fascinated by people.  I was a Project manager and Business analyst in my previous life and am a born and bred Capetonian.  I enjoy running along the promenade or in the mountains and socialising with good friends and family amongst other things.</p>",
               "name": "Continuous Improvement starts with YOU!",
               "locationId": "harlem",
               "timeStart": "11:45 am\t",
@@ -296,7 +311,9 @@
           "sessions": [
             {
               "date": "9th November 2017",
-              "speakers": [],
+              "speakers": [
+                
+              ],
               "description": "<p></p>",
               "name": "Lunch (75 Minutes)",
               "locationId": "foyer",
@@ -305,7 +322,9 @@
               "tracks": [
                 "foyer"
               ],
-              "speakerNames": []
+              "speakerNames": [
+                
+              ]
             }
           ]
         },
@@ -316,13 +335,13 @@
               "date": "9th November 2017",
               "speakers": [
                 {
-                  "about": "<p></p>",
+                  "about": "<p>I (Jay) do not have any conference speaking experience. Sam Laing however is very seasoned which is why I accepted her help with open arms. Here is a list of places where she has spoken: https://www.growingagile.co.za/talks/ . Even though I don't have any conference experience, as a scrum master, I have to talk to large groups of people on a daily basis, the majority of that is facilitating workshops. Since the option I am proposing for Agile Africa is a workshop style I'm confident that I will be able to do it.</p>",
                   "name": "Jay-allen Morris",
                   "priority": 1,
                   "profilePic": "img/speakers/Jay-Allen-Morris.jpg"
                 },
                 {
-                  "about": "<p></p>",
+                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.</p>",
                   "name": "Samantha Laing",
                   "priority": 1,
                   "profilePic": "img/speakers/Samantha-Laing.jpg"
@@ -345,14 +364,16 @@
               "date": "9th November 2017",
               "speakers": [
                 {
-                  "about": "<p></p>",
+                  "about": "<p>Yogini is a scrum master, aspiring Agile Coach in Absa. Yogini first encountered Agile in 2014 and has been learning about and doing it ever since. She loves how simple it is to practice and the benefits can be seen immediately.</p>",
                   "name": "Yogini Moodley",
-                  "priority": 1
+                  "priority": 1,
+                  "profilePic": "img/speakers/Yogini-Moodley.jpg"
                 },
                 {
-                  "about": "<p></p>",
+                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
                   "name": "Karen Greaves",
-                  "priority": 1
+                  "priority": 1,
+                  "profilePic": "img/speakers/Karen-Greaves.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -372,14 +393,16 @@
               "date": "9th November 2017",
               "speakers": [
                 {
-                  "about": "<p></p>",
+                  "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.\n</p>",
                   "name": "Joshua Lewis",
-                  "priority": 1
+                  "priority": 1,
+                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
                 },
                 {
-                  "about": "<p></p>",
+                  "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. \nThe learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.\nBuilding the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup. \nI am also a member of AST (Association for Software Testing). \nAs Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p>",
                   "name": "Louise Perold",
-                  "priority": 1
+                  "priority": 1,
+                  "profilePic": "img/speakers/Louise-Perold.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -396,11 +419,146 @@
               ]
             }
           ]
+        },
+        {
+          "time": "3:15 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Tea Break",
+              "locationId": "foyer",
+              "timeStart": "3:15 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "3:30 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.\n</p>",
+                  "name": "Samantha Laing",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Samantha-Laing.jpg"
+                },
+                {
+                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
+                  "name": "Karen Greaves",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Karen-Greaves.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "The Agile Coaches Workshop",
+              "locationId": "central",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "central"
+              ],
+              "speakerNames": [
+                "Samantha Laing",
+                "Karen Greaves"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>I'm an agile Product Owner Coach, and and Agile Fluency™ Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
+                  "name": "Steve Holyer",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Steve-Holyer.jpg"
+                },
+                {
+                  "about": "<p></p>",
+                  "name": "Cara Turner",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Cara-Turner.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "5 Repeatable Steps to Meet Your Customer — Continuously",
+              "locationId": "queens",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "queens"
+              ],
+              "speakerNames": [
+                "Steve Holyer",
+                "Cara Turner"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>Regina works as an Agile Coach and loves what she does. She's worked in IT for most of her working career although she started off in the business. She's worked mainly in the financial services industry although she did spent 8 years managing projects at Dimension Data.\n\nFor fun she engages in blogging, public speaking, reading, photography and travel. She lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers.\n\nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work.\n\nYou can reach her at regina.martins@agile42.com.</p>",
+                  "name": "Regina Martins",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Regina-Martins.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Escape! The Curse Of The Temple – Learn How To Collaborate Like Indiana Jones",
+              "locationId": "harlem",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "harlem"
+              ],
+              "speakerNames": [
+                "Regina Martins"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "5:00 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Sponsored Drinks",
+              "locationId": "foyer",
+              "timeStart": "5:00 pm",
+              "timeEnd": "7:00 pm",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
         }
       ]
     }
   ],
   "speakers": [
+    {
+      "about": "<p> </p>",
+      "name": "Mike Burrows",
+      "priority": 1,
+      "profilePic": "img/speakers/Mike-Burrows.jpg"
+    },
     {
       "name": "Kent Beck",
       "profilePic": "http://2017.agileafricaconf.com/wp-content/uploads/2017/06/kent-beck.jpg",
