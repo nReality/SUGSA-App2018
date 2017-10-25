@@ -4,13 +4,33 @@
   <meta content=
     "width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
     name="viewport" />
+  <style>
+
+  .loader {
+
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+  </style>
 </head>
-<body>
+<body style="height: 100%; margin: 0px; padding: 0px; ">
+  <div align="center">
   <a class="twitter-timeline"
     data-show-replies="true"
     data-chrome="noheader nofooter noborders"
     href="https://twitter.com/search?q=sugsa"
-    data-widget-id="923109604153839616">Loading tweets about SUGSA 2017...</a>
+    data-widget-id="923109604153839616"><div class="loader"></div></a>
   <script src="http://platform.twitter.com/widgets.js"></script>
+  </div>
 </body>
 </html>
