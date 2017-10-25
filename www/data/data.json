@@ -5,8 +5,8 @@
     "imageSrc": "img/icon.png",
     "heading": "Scrum Gathering South Africa 2017",
     "subHeading": "About the conference",
-    "description": "TODO",
-    "website": "",
+    "description": "Regional Scrum Gathering South Africa is an annual conference where software professionals and Agile enthusiasts meet to uncover better ways of working and developing software",
+    "website": "http://sugsa.org.za/",
     "links": [
       {
         "linkText": "Give us feedback!",
@@ -40,9 +40,7 @@
               "tracks": [
                 "queens"
               ],
-              "speakerNames": [
-                
-              ]
+              "speakerNames": []
             }
           ]
         },
@@ -50,10 +48,8 @@
           "time": "8:00 am",
           "sessions": [
             {
-              "date": "9th November 2017\n",
-              "speakers": [
-                
-              ],
+              "date": "9th November 2017",
+              "speakers": [],
               "description": "<p>Please visit the Welcome Desk in the Foyer to register.</p><br><p></p>",
               "name": "Registration",
               "locationId": "foyer",
@@ -62,9 +58,7 @@
               "tracks": [
                 "foyer"
               ],
-              "speakerNames": [
-                
-              ]
+              "speakerNames": []
             }
           ]
         },
@@ -83,14 +77,14 @@
               ],
               "description": "<p></p>",
               "name": "Welcome",
-              "locationId": "ballroom",
+              "locationId": "central",
               "timeStart": "9:00 am",
               "timeEnd": "9:20 am",
               "tracks": [
                 "central"
               ],
               "speakerNames": [
-                "Kevin Pedersen\n"
+                "Kevin Pedersen"
               ]
             }
           ]
@@ -114,7 +108,7 @@
               "timeStart": "9:20 am",
               "timeEnd": "10:30 am",
               "tracks": [
-                "central\n"
+                "central"
               ],
               "speakerNames": [
                 "Mike Burrows"
@@ -127,25 +121,21 @@
           "sessions": [
             {
               "date": "9th November 2017",
-              "speakers": [
-                
-              ],
+              "speakers": [],
               "description": "<p></p>",
               "name": "Tea Break",
               "locationId": "foyer",
               "timeStart": "10:30 am",
               "timeEnd": "11:45 am",
               "tracks": [
-                "foyer\t"
+                "foyer"
               ],
-              "speakerNames": [
-                
-              ]
+              "speakerNames": []
             }
           ]
         },
         {
-          "time": "10:45 am\t",
+          "time": "10:45 am",
           "sessions": [
             {
               "date": "9th November 2017",
@@ -159,7 +149,7 @@
               ],
               "description": "<p>This session is targeted at Coaches & Scrum Masters who are struggling with getting people to think Agile and so behave in a more Agile manner.  In particular, how do you get managers at all levels to shift out of the old waterfall way of thinking and behaving and really adopt Agile ? How do you get feature teams to be autonomous and self-managing? \nWe know we need to address the behaviour and cultures that are thwarting Agility, but are stuck on the ‘how ? ’ As individuals in the thick of it, it is easy to coach only at a process level in the hope that by focusing people on ‘doing’ Agile they will start to ‘think’ Agile. In so doing, we often actively avoid focusing on the people and how they are engaging with Agile, believing that this is a specialized field outside of our scope and limited to people like therapists & professional coaches. This often results in a high demand and dependence on Agile coaches to ensure people stick to the processes and principles. \nAt its core, Agile is a shift away from unilateral control. Only unilateral control is a way of being that is deeply embedded within us (leaders and followers alike) and so hard to shift without a conscious intervention.\nWithin Standard Bank we have been implementing a Behaviour Laboratory run internally by IT resources that focuses on a new style of leadership - the mutual learning model. Introduced by Roger Schwartz in his book  “The Skilled Facilitator”, mutual learning and its ground rules for collaboration create strong support for Agile and SAFE implementation at an individual level and in so doing, allows us to create and actively support an environment and behaviours that sustain  the agile culture shift. \n</p>",
               "name": "Shifting into an Agile Mindset – Practical Tools for Scrum Masters & Coaches",
-              "locationId": "central\t",
+              "locationId": "central",
               "timeStart": "10:45 am",
               "timeEnd": "11:30 am",
               "tracks": [
@@ -184,7 +174,7 @@
               "timeStart": "10:45 am",
               "timeEnd": "11:30 am",
               "tracks": [
-                "queens\t"
+                "queens"
               ],
               "speakerNames": [
                 "Justin Kotze"
@@ -203,12 +193,12 @@
               "name": "10 ways to help your scrum team – a PO perspective",
               "locationId": "harlem",
               "timeStart": "10:45 am",
-              "timeEnd": "11:30 am\t",
+              "timeEnd": "11:30 am",
               "tracks": [
                 "harlem"
               ],
               "speakerNames": [
-                "Gavin Stevens\t"
+                "Gavin Stevens"
               ]
             }
           ]
@@ -218,20 +208,16 @@
           "sessions": [
             {
               "date": "9th November 2017",
-              "speakers": [
-                
-              ],
+              "speakers": [],
               "description": "<p></p>",
               "name": "Tea Break",
-              "locationId": "foyer\t",
+              "locationId": "foyer",
               "timeStart": "11:30 am",
-              "timeEnd": "11:45 am\t",
+              "timeEnd": "11:45 am",
               "tracks": [
-                "foyer\t"
+                "foyer"
               ],
-              "speakerNames": [
-                
-              ]
+              "speakerNames": []
             }
           ]
         },
@@ -254,7 +240,7 @@
               "timeStart": "11:45 am",
               "timeEnd": "12:30 pm",
               "tracks": [
-                "central\t"
+                "central"
               ],
               "speakerNames": [
                 "Mary Thorn"
@@ -310,9 +296,7 @@
           "sessions": [
             {
               "date": "9th November 2017",
-              "speakers": [
-                
-              ],
+              "speakers": [],
               "description": "<p></p>",
               "name": "Lunch (75 Minutes)",
               "locationId": "foyer",
@@ -321,59 +305,7 @@
               "tracks": [
                 "foyer"
               ],
-              "speakerNames": [
-                
-              ]
-            },
-            {
-              "date": "21st August 2017",
-              "speakers": [
-                {
-                  "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. The learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.</p><br><p>I am at my happiest when I see a team able to do their best testing work and add valuable information into the system. One way I like to do this is to be part of the team. Mentoring and coaching the team from an external viewpoint is also something I am comfortable with. I realise that much of the work we do is heavily influenced by the greater system we are in. I have many years experience of making these things visible and coming up with practical ideas to maximize the value derived from the testing efforts.</p><br><p>Building the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup.</p><br><p>I enjoy speaking at conferences and have spoken at Let’s Test in Sweden, Copenhagen Context and CAST in North America and I was the co-program chair for CAST 2013.</p><br><p>As Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p><br><p></p>",
-                  "name": "Louise Perold",
-                  "priority": 1
-                },
-                {
-                  "about": "<p>Joshua is an experienced Agile and Developer coach. He also lectures part-time at a post-graduate level.</p><br><p></p>",
-                  "name": "Joshua Lewis",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Josh.jpg"
-                }
-              ],
-              "description": "<p>Do your product managers, developers and testers have different interprations and understanding of the requirements of your software systems? Many organisations struggle to achieve a single, shared understanding of what problem they’re trying to solve with their software, and how they actually expect their software systems to behave. This leads to much wasted time and effort in the software development process. During my coaching and training I have developed a practice designed for whole-team collaborative exploration and specification of expected system behaviour. The practice leads to shared understanding across entire teams, as well as lightweight documentation which can be easily turned into automated tests.</p><br><p></p>",
-              "name": "Workshop: Collaborative Exploration and Specification",
-              "locationId": "boundary-room",
-              "timeStart": "2:30 pm",
-              "timeEnd": "4:00 pm",
-              "tracks": [
-                "boundary-room"
-              ],
-              "speakerNames": [
-                "Louise Perold",
-                "Joshua Lewis"
-              ]
-            },
-            {
-              "date": "21st August 2017",
-              "speakers": [
-                {
-                  "about": "<p>Sonja partners with leaders and other practitioners to enable responsive and agile organisations and make sense of complex problems like culture and change. She does this through the use of pioneering ideas and tools from complexity theory and narrative practice. Her expertise lies in enabling environments in organisations where thinking and behaviour shifts toward greater strategic agility and resilience. Focus areas include: enabling change resilience; effective strategy execution; devolved decision-making; sense-making; and culture.</p><br><p>Sonja has over 15 years experience consulting locally and internationally. Prior to founding More Beyond, she consulted for PWC and IBM. She is the exclusive South African partner for Prof Dave Snowden’s company Cognitive Edge and supplies training in their open source methods; the Cynefin sense-making framework as well as the Sensemaker software suite.</p><br><p></p>",
-                  "name": "Sonja Blignaut",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Sonja-sml.jpg"
-                }
-              ],
-              "description": "<p>In today’s VUCA world, organisations are on a quest to become more agile and responsive. The Agile community has found themselves at the “spearhead”, and as the ideas mature, questions around scaling beyond small teams and beyond IT have become pertinent and in many cases seem intractable.</p><br><p>In this session we will go back to first principles and explore what we can learn from others who thrive in uncertainty and who seem to have perfected not only agility but responsiveness. We will apply ideas from complexity thinking and explore principles from the arts, the armed forces and sports teams. The focus will be on enabling strategic agility and responsiveness, not implementing Agile. We will also explore how this has been practically implemented in real client environments.</p><br><p></p>",
-              "name": "Workshop: Responsive Organisations: Enabling Strategic Agility (beyond Agile)",
-              "locationId": "gala-room",
-              "timeStart": "2:30 pm",
-              "timeEnd": "4:00 pm",
-              "tracks": [
-                "gala-room"
-              ],
-              "speakerNames": [
-                "Sonja Blignaut"
-              ]
+              "speakerNames": []
             }
           ]
         },
@@ -398,7 +330,7 @@
               ],
               "description": "<p></p>",
               "name": "Building blocks for effective retrospectives",
-              "locationId": "central\t",
+              "locationId": "central",
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
               "tracks": [
@@ -768,7 +700,7 @@
   ],
   "map": [
     {
-      "name": "dunno",
+      "name": "DoubleTree ",
       "lat": -33.9353866,
       "lng": 18.4550375,
       "center": true
@@ -777,7 +709,7 @@
   "locationMappings": [
     {
       "name": "Central",
-      "id": "central\n",
+      "id": "central",
       "color": "#188FAF"
     },
     {
