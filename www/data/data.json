@@ -402,10 +402,11 @@
   ],
   "speakers": [
     {
-      "about": "<p></p>",
-      "name": "Mike Burrows\t",
+      "about": "<p> </p>",
+      "name": "Mike Burrows",
       "priority": 1,
-      "profilePic": "img/speakers/Mike-Burrows.jpg"
+      "profilePic": "img/speakers/Mike-Burrows.jpg",
+      "twitter": "@sugsa"
     },
     {
       "name": "Kent Beck",
