@@ -402,6 +402,12 @@
   ],
   "speakers": [
     {
+      "about": "<p></p>",
+      "name": "Mike Burrows\t",
+      "priority": 1,
+      "profilePic": "img/speakers/Mike-Burrows.jpg"
+    },
+    {
       "name": "Kent Beck",
       "profilePic": "http://2017.agileafricaconf.com/wp-content/uploads/2017/06/kent-beck.jpg",
       "about": "<p>Programming coach at Facebook, singer/guitarist, peripatetic. Learning to be me.</p>",
