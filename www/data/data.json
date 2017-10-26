@@ -702,18 +702,18 @@
           ]
         },
         {
-          "time": "11:30 am",
+          "time": "11:00 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 
               ],
               "description": "<p></p>",
               "name": "Tea Break",
               "locationId": "foyer",
-              "timeStart": "11:30 am",
-              "timeEnd": "11:45 am",
+              "timeStart": "11:00 am",
+              "timeEnd": "11:15 am",
               "tracks": [
                 "foyer"
               ],
@@ -724,71 +724,79 @@
           ]
         },
         {
-          "time": "11:45 am",
+          "time": "11:15 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 {
-                  "about": "<p></p>",
-                  "name": "Mary Thorn",
+                  "about": "<p>Pavel Dabrytski is an agile coach and trainer from South Africa. He helps organizations implement Agile sustainably through mentoring, training, and coaching. Over the past years, Pavel worked with major financial organizations and retail giants improving their organisational processes. He also helped organise multiple international conferences in Cape Town and Johannesburg. Pavel is a seasoned presenter who spoke at events in Paris, Prague, Shanghai, Bangalore, Atlanta, New York, Singapore, Orlando as well as in South Africa. Currently, he explores topics on coaching psychology and financial models behind Agile projects.</p>",
+                  "name": "Pavel Dabrytski",
                   "priority": 1,
-                  "profilePic": "img/speakers/Mary-Thorn.jpg"
+                  "profilePic": "img/speakers/Pavel-Dabrytski.jpg"
                 }
               ],
-              "description": "<p></p>",
-              "name": "The T-Shaped Scrum Team: Get in Shape for Your Future",
+              "description": "<p>In October 2016 I received a call, \"Hey dude, I don’t know nothing about Agile, but I need to become an Agile coach a-s-a-p – my company just got a new contract.\" I laughed for a second, explained that it takes a bit longer than a week to learn to coach, and wished him luck. I also knew that, shortly, he would be walking into his customer's office in this new role.\n\nAgile Coach is the new black! But how can you, a good coach, stand out from the crowd of less competent peers? Let me offer you this workshop to explore the science of coaching and the ways in which it works. We start with concepts of neuroplasticity and the brain processes of creating new neuron pathways. Then we move to motivation and learn which type is the best. Finally, we finish with the discussion on brain activation states which we practice in a few short exercises. By understanding the new field of coaching psychology, you will become a better practitioner.\n\nI am an affiliate member of the Institute of Coaching at McLean Hospital, the Harvard Medical School affiliate. I studied coaching psychology at Harvard Extension School.</p>",
+              "name": "Psychology of Coaching: Understanding Science of Change",
               "locationId": "central",
-              "timeStart": "11:45 am",
-              "timeEnd": "12:30 pm",
+              "timeStart": "11:15 am",
+              "timeEnd": "12:45 pm",
               "tracks": [
                 "central"
               ],
               "speakerNames": [
-                "Mary Thorn"
+                "Pavel Dabrytski"
               ]
             },
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 {
-                  "about": "<p></p>",
-                  "name": "John Le Drew",
+                  "about": "<p>Alison Gitelson of CanBeeDone is a maximizer, facilitator and speaker. She combines her extensive, practical, business background with a deep understanding of human behaviour. This rare combination blends human needs with business needs. \nWhilst still studying Alison started her first business as a tutor & completed her first assignment as a project manager. During her careers in Optometry, ICT and Transformation she established a successful technical and management track record.\n\nAlison brings clarity and mastery to the art of effective people management. She focuses on the key areas of communication, individualized management, engagement, embracing diversity and conflict resolution. She enables Leader-managers to increase productivity, quality and profitability. Her customized workshops & talks are always well received as informative, engaging and practical.\n\nAlison has been interviewed on radio and appeared on TV, and has presented widely on the key components of the Leader – Management Framework. She has been a long time volunteer for Headway-Gauteng, an organisation that supports people with brain injuries, and in 2015 she cofounded Open Community Encounters, an initiative to improve tolerance, communication and healing amongst South Africans. \n</p>",
+                  "name": "Alison Gitelson",
                   "priority": 1,
-                  "profilePic": "img/speakers/John-Le-Drew.jpg"
+                  "profilePic": "img/speakers/Alison-Gitelson.jpg"
                 }
               ],
-              "description": "<p></p>",
-              "name": "Swearing, Nudity and Other Vulnerable Positions",
+              "description": "<p>We keep talking about self managing teams and high performing teams, but few teams are really there yet. To bridge the gap there must be trust, accountability and communication. As a Scrum Master (or Agile Coach) how do you help the team to develop these qualities? In this interactive workshop we will focus on how to develop accountability.</p>",
+              "name": "Accountable. Who me?",
               "locationId": "queens",
-              "timeStart": "11:45 am",
-              "timeEnd": "12:30 pm",
+              "timeStart": "11:15 am",
+              "timeEnd": "12:45 pm",
               "tracks": [
                 "queens"
               ],
               "speakerNames": [
-                "John Le Drew"
+                "Alison Gitelson"
               ]
             },
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 {
-                  "about": "<p></p>",
-                  "name": "Catherine Holland",
-                  "priority": 1
+                  "about": "<p>Justin used to be part of the SUGSA committee. He used to live and work in sunny Cape Town. Justin currently lives and works in snowy Stockholm. He is happy.\n\nJustin wants to live in a world filled with innovative businesses, happy teams, happy customers and a dancing squirrel. As an agile coach at Spotify, he often inspects & adapts. He also sings the Agile Manifesto song in a Stockholm shower to the beat of Mamma Mia. \nYou can reach him at @the_jus on twitter or listen to him talk about scrum at scrumand.co</p>",
+                  "name": "Justin Kotze",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Justin-Kotze.jpg"
+                },
+                {
+                  "about": "<p>Regina still lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers. \nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work. \nYou can reach her at regina.martins@agile42.com.</p>",
+                  "name": "Regina Martins",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Regina-Martins.jpg"
                 }
               ],
-              "description": "<p>I have been a Scrum master for over 3 years now and I do some agile coaching on the side. I have an Honours degree in Psychology and continue to be fascinated by people.  I was a Project manager and Business analyst in my previous life and am a born and bred Capetonian.  I enjoy running along the promenade or in the mountains and socialising with good friends and family amongst other things.</p>",
-              "name": "Continuous Improvement starts with YOU!",
+              "description": "<p>How do you make sense of all the different frameworks? \nDo other practitioners criticise your Scrum implementation?\nWondering about how others do it in their organisations?\n \nWe’ve seen many different implementations. Words like “Sprint zero”, “Project Management Office”, “Release train”, “Gantt charts” and many more comes to mind.\n \nYes, sometimes all of these are warning signs. And sometimes they are not. \n\n\nTake up this rare opportunity to get training from Justin(Spotify) and Regina(agile42) in a fun workshop where they will help you debunk many preconceived ideas about Scrum implementations. Learn about making sense of your entire process and how to validate it from an Agile view.</p>",
+              "name": "Sometimes Scrum seems strange",
               "locationId": "harlem",
-              "timeStart": "11:45 am\t",
-              "timeEnd": "12:30 pm",
+              "timeStart": "11:15 am\t",
+              "timeEnd": "12:45 pm",
               "tracks": [
                 "harlem"
               ],
               "speakerNames": [
-                "Catherine Holland"
+                "Justin Kotze",
+                "Regina Martins"
               ]
             }
           ]
