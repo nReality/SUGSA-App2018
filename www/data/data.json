@@ -6,7 +6,7 @@
     "heading": "Scrum Gathering South Africa 2017",
     "subHeading": "About the conference",
     "description": "Regional Scrum Gathering South Africa is an annual conference where software professionals and Agile enthusiasts meet to uncover better ways of working and developing software",
-    "website": "http://sugsa.org.za/",
+    "website": "http://sugsa.org.za/event/scrum-gathering-south-africa-2017/",
     "links": [
       {
         "linkText": "Give us feedback!",
@@ -41,7 +41,7 @@
                 "queens"
               ],
               "speakerNames": [
-                
+                "Joshua Lewis"
               ]
             }
           ]
@@ -210,6 +210,493 @@
               ],
               "speakerNames": [
                 "Gavin Stevens"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "11:30 am",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Tea Break",
+              "locationId": "foyer",
+              "timeStart": "11:30 am",
+              "timeEnd": "11:45 am",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "11:45 am",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p></p>",
+                  "name": "Mary Thorn",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Mary-Thorn.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "The T-Shaped Scrum Team: Get in Shape for Your Future",
+              "locationId": "central",
+              "timeStart": "11:45 am",
+              "timeEnd": "12:30 pm",
+              "tracks": [
+                "central"
+              ],
+              "speakerNames": [
+                "Mary Thorn"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p></p>",
+                  "name": "John Le Drew",
+                  "priority": 1,
+                  "profilePic": "img/speakers/John-Le-Drew.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Swearing, Nudity and Other Vulnerable Positions",
+              "locationId": "queens",
+              "timeStart": "11:45 am",
+              "timeEnd": "12:30 pm",
+              "tracks": [
+                "queens"
+              ],
+              "speakerNames": [
+                "John Le Drew"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p></p>",
+                  "name": "Catherine Holland",
+                  "priority": 1
+                }
+              ],
+              "description": "<p>I have been a Scrum master for over 3 years now and I do some agile coaching on the side. I have an Honours degree in Psychology and continue to be fascinated by people.  I was a Project manager and Business analyst in my previous life and am a born and bred Capetonian.  I enjoy running along the promenade or in the mountains and socialising with good friends and family amongst other things.</p>",
+              "name": "Continuous Improvement starts with YOU!",
+              "locationId": "harlem",
+              "timeStart": "11:45 am\t",
+              "timeEnd": "12:30 pm",
+              "tracks": [
+                "harlem"
+              ],
+              "speakerNames": [
+                "Catherine Holland"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:30 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Lunch (75 Minutes)",
+              "locationId": "foyer",
+              "timeStart": "12:30 pm",
+              "timeEnd": "1:45 pm",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "1:45 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>I (Jay) do not have any conference speaking experience. Sam Laing however is very seasoned which is why I accepted her help with open arms. Here is a list of places where she has spoken: https://www.growingagile.co.za/talks/ . Even though I don't have any conference experience, as a scrum master, I have to talk to large groups of people on a daily basis, the majority of that is facilitating workshops. Since the option I am proposing for Agile Africa is a workshop style I'm confident that I will be able to do it.</p>",
+                  "name": "Jay-allen Morris",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Jay-Allen-Morris.jpg"
+                },
+                {
+                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.</p>",
+                  "name": "Samantha Laing",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Samantha-Laing.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Building blocks for effective retrospectives",
+              "locationId": "central",
+              "timeStart": "1:45 pm",
+              "timeEnd": "3:15 pm",
+              "tracks": [
+                "central"
+              ],
+              "speakerNames": [
+                "Jay-allen Morris",
+                "Samantha Laing"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>Yogini is a scrum master, aspiring Agile Coach in Absa. Yogini first encountered Agile in 2014 and has been learning about and doing it ever since. She loves how simple it is to practice and the benefits can be seen immediately.</p>",
+                  "name": "Yogini Moodley",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Yogini-Moodley.jpg"
+                },
+                {
+                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
+                  "name": "Karen Greaves",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Karen-Greaves.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Your Agile Transformation Superpower – INFLUENCE",
+              "locationId": "queens",
+              "timeStart": "1:45 pm",
+              "timeEnd": "3:15 pm",
+              "tracks": [
+                "queens"
+              ],
+              "speakerNames": [
+                "Yogini Moodley",
+                "Karen Greaves"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.\n</p>",
+                  "name": "Joshua Lewis",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
+                },
+                {
+                  "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. \nThe learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.\nBuilding the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup. \nI am also a member of AST (Association for Software Testing). \nAs Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p>",
+                  "name": "Louise Perold",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Louise-Perold.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Collaborative Exploration and Specification",
+              "locationId": "harlem",
+              "timeStart": "1:45 pm",
+              "timeEnd": "3:15 pm",
+              "tracks": [
+                "harlem"
+              ],
+              "speakerNames": [
+                "Joshua Lewis",
+                "Louise Perold"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "3:15 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Tea Break",
+              "locationId": "foyer",
+              "timeStart": "3:15 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "3:30 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.\n</p>",
+                  "name": "Samantha Laing",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Samantha-Laing.jpg"
+                },
+                {
+                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
+                  "name": "Karen Greaves",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Karen-Greaves.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "The Agile Coaches Workshop",
+              "locationId": "central",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "central"
+              ],
+              "speakerNames": [
+                "Samantha Laing",
+                "Karen Greaves"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>I'm an agile Product Owner Coach, and and Agile Fluency™ Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
+                  "name": "Steve Holyer",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Steve-Holyer.jpg"
+                },
+                {
+                  "about": "<p></p>",
+                  "name": "Cara Turner",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Cara-Turner.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "5 Repeatable Steps to Meet Your Customer — Continuously",
+              "locationId": "queens",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "queens"
+              ],
+              "speakerNames": [
+                "Steve Holyer",
+                "Cara Turner"
+              ]
+            },
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>Regina works as an Agile Coach and loves what she does. She's worked in IT for most of her working career although she started off in the business. She's worked mainly in the financial services industry although she did spent 8 years managing projects at Dimension Data.\n\nFor fun she engages in blogging, public speaking, reading, photography and travel. She lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers.\n\nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work.\n\nYou can reach her at regina.martins@agile42.com.</p>",
+                  "name": "Regina Martins",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Regina-Martins.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Escape! The Curse Of The Temple – Learn How To Collaborate Like Indiana Jones",
+              "locationId": "harlem",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "harlem"
+              ],
+              "speakerNames": [
+                "Regina Martins"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "5:00 pm",
+          "sessions": [
+            {
+              "date": "9th November 2017",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Sponsored Drinks",
+              "locationId": "foyer",
+              "timeStart": "5:00 pm",
+              "timeEnd": "7:00 pm",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "10th November 2017",
+      "groups": [
+        {
+          "time": "7:30 am",
+          "sessions": [
+            {
+              "date": "10th November 2017",
+              "speakers": [
+                {
+                  "about": "<p></p>",
+                  "name": "Joshua Lewis",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Lean Coffee (Day 2)",
+              "locationId": "queens",
+              "timeStart": "7:30 am",
+              "timeEnd": "8:30 am",
+              "tracks": [
+                "queens"
+              ],
+              "speakerNames": [
+                "Joshua Lewis"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "9:00 am",
+          "sessions": [
+            {
+              "date": "10th November 2017",
+              "speakers": [
+                {
+                  "about": "<p></p>",
+                  "name": "Joanne Perold",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Joanne-Perold.jpg"
+                }
+              ],
+              "description": "<p>I have been thinking a great deal about human systems, what makes them tick, what helps them be better and what gets in their way. In this talk, I will dig into human systems, entropy and agile. I will explore the things that I believe can help human systems to be better and share the things that I have seen yield results.</p>",
+              "name": "Agile, Entropy and Human Systems",
+              "locationId": "central",
+              "timeStart": "9:00 am",
+              "timeEnd": "10:00 am",
+              "tracks": [
+                "central"
+              ],
+              "speakerNames": [
+                "Joanne Perold"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:00 am",
+          "sessions": [
+            {
+              "date": "10th November 2017",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Tea Break",
+              "locationId": "foyer",
+              "timeStart": "10:00 am",
+              "timeEnd": "10:15 am",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:15 am",
+          "sessions": [
+            {
+              "date": "10th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>Joakim Sundén is an agile coach at Spotify, making music available and accessible to the world. He helps people improve through mentoring and coaching at individual, team and organizational levels, often using Agile and Lean thinking and methods such as Kanban, Scrum and XP. He is an organizer of, and active participant in, conferences, networks and user groups in the Agile and Lean communities. Joakim is also author of Kanban in Action from Manning Publications. He currently lives and works in Boston, Massachusetts.</p>",
+                  "name": "Joakim Sundén",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Joakim-Sundén.jpg"
+                }
+              ],
+              "description": "<p>Let's put aside the \"bubblegum and unicorns\" of the Spotify Engineering Culture videos and talk about what doesn't quite work at Spotify and how we're trying to solve it. This is a failure / learning report intended for change agents who need encouragement that it's always hard AND it's always possible to improve.</p>",
+              "name": "You can do better than the Spotify Model",
+              "locationId": "central",
+              "timeStart": "10:15 am",
+              "timeEnd": "11:00 am",
+              "tracks": [
+                "central"
+              ],
+              "speakerNames": [
+                "Joakim Sundén"
+              ]
+            },
+            {
+              "date": "10th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>I am a professional trainer and consultant specialising in Agile practices. Over the last 20+ years I have worked in many different industries from the collar and tie of large corporates to the hard-hats and steel-caps of manufacturing. In these industries I have been responsible for building and leading teams in the delivery and support of large-scale software solutions primarily using Agile frameworks. \n\nI love helping organisations to adopt Agile thinking to improve their end to end software delivery, from initial scoping and business cases, through to final user acceptance testing. This has included training and mentoring teams across the entire product development lifecycle.\n\nI am a strong advocate of agility because of the focus and simplicity that it brings to an organisation. I enjoy being part of building cohesive and collaborative teams: Magic is formed when people are encouraged to be vocal, expressive and collectively responsible.\n\n“Make no little plans: they have no magic to stir men’s blood.” - Daniel Burnham</p>",
+                  "name": "Stephen de Villiers Graaff",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Stephen-de-Villiers-Graaff.jpg"
+                }
+              ],
+              "description": "<p>You've been working with Agile methods for while and things have been going well.  But now your organisation is growing and coordination is becoming more difficult.  You suddenly have more work that you realise and your teams seem overloaded.  Do you get more people?  Do you scale Agile?  Will SAFe work for you?  How about LeSS or DAD?  Or how about descaling your organisation?  Agility is absolutely about how you go about connecting the right people and the right time to deliver the right thing.  This talk is about how to do just that... Connecting people and teams, and ultimately achieving organisational simplicity!</p>",
+              "name": "Don’t Scale Agile… Descale your Organisation!",
+              "locationId": "queens",
+              "timeStart": "10:15 am",
+              "timeEnd": "11:00 am",
+              "tracks": [
+                "queens"
+              ],
+              "speakerNames": [
+                "Stephen de Villiers Graaff"
+              ]
+            },
+            {
+              "date": "10th November 2017",
+              "speakers": [
+                {
+                  "about": "<p>Professional bio: https://www.linkedin.com/in/pawelkaminski/\nLess professional: \n\nFather, friend, enthusiast of life and strong believer in:\n\"One, people are good.\" \nI build teams, manage them and lead them to be trusted, reliable and proud of their work. I helped multi-disciplines individuals become goal-oriented team-members, while still being creative, happy and recognized for their efforts.\n\n\"Two, every conflict can be removed.\" \nI see conflicts as wrong assumptions about particular points of view. Using theory of constraints, systems thinking and brainstorming almost any conflict can be resolved into a win-win situation.I use conflicts as a tool to generate the most creative and out-of-the box solutions, which not only resolve the initial issue but help teams and organizations move forward. I dislike compromise, where usually both sides are left unhappy.\n\n\"Three, every situation, no matter how complex it initially looks, is exceedingly simple.\" \nI am still sometimes guilty of building complicated solutions to problems. Learning and implementing lean customer development, experiments and measurements provide me with a platform to simplify solutions and focus on crucial, most-risky and most valuable options.\n\n\"Four, every situation can be substantially improved; even the sky is not the limit.\" \nI have never seen an organization, team or individual who could not improve, get better and achieve more. Continuous improvements, learning and constant search for another breakthrough solution are always parts of my \"daily job\". Searching for and exploiting bottlenecks are my favorite ways to initiate change.\n\n\"Five, every person can reach a full life \" I am a happy and proud dad, book lover, crossfitter, basketball player, keen traveler and first polish person to climb 3 highest peaks in Greenland. Fascinated with TEDx, work of Christopher Hitchens and Kanban. I try to make sure I work with smart and \"get things done\" people, in constantly learning environments. \n\nI can write sth shorter if/when required.</p>",
+                  "name": "Pawel Kaminski",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Pawel-Kaminski.jpg"
+                }
+              ],
+              "description": "<p>Everything we do, we believe in our startup founders and their new vision of the world. The way we show this belief is by joining them on the journey of challenging every assumption we know, making a difference for one individual person and always being focused on user, no matter the cost. Let me share with you my stories of how to build products by shifting the focus from scalable, technical solutions to addressing single user needs and challenges. How to impact culture and inspire a distributed, rapidly growing company and how to collaborate and treat your customers and your colleagues like “you believe in what they believe”. \n\nEverything we do starts with WHY and a single user need.\n\nThe session is for anyone who in their daily job needs a helping hand, a bit of inspiration and a useful set of practical experiments to challenge status quo, move the needle in their organisation and build delightful products that people really want. I also want to show they they are not alone in their failures and defeats.\n\nFor me this new talk is about constantly evolving set of ideas, thoughts and values that always puts the user first and allows our employees and founders to have the time of our life. \n\nI had a great pleasure to speak at SUGSA2016 about conflicts and never compromising, but this time I want to share our story and challenge “we have always done it that way!” point of view.\n\nMy objective is to shift the way you think about your current situation, your team, your organisation and your customers by refocusing you on user needs and always starting with “WHY?”. I am  going to show you how to apply design thinking, theory of constraints and cynefin framework to situations in your daily job and see how they could be improved.</p>",
+              "name": "“Believe in what your users believe” lessons learned from creating 20 delightful startups in one year",
+              "locationId": "harlem",
+              "timeStart": "10:15 am",
+              "timeEnd": "11:00 am",
+              "tracks": [
+                "harlem"
+              ],
+              "speakerNames": [
+                "Pawel Kaminski"
               ]
             }
           ]
