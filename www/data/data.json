@@ -802,17 +802,17 @@
           ]
         },
         {
-          "time": "12:30 pm",
+          "time": "12:45 pm",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 
               ],
               "description": "<p></p>",
-              "name": "Lunch (75 Minutes)",
+              "name": "Lunch (60 Minutes)",
               "locationId": "foyer",
-              "timeStart": "12:30 pm",
+              "timeStart": "12:45 pm",
               "timeEnd": "1:45 pm",
               "tracks": [
                 "foyer"
@@ -827,23 +827,17 @@
           "time": "1:45 pm",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 {
-                  "about": "<p>I (Jay) do not have any conference speaking experience. Sam Laing however is very seasoned which is why I accepted her help with open arms. Here is a list of places where she has spoken: https://www.growingagile.co.za/talks/ . Even though I don't have any conference experience, as a scrum master, I have to talk to large groups of people on a daily basis, the majority of that is facilitating workshops. Since the option I am proposing for Agile Africa is a workshop style I'm confident that I will be able to do it.</p>",
-                  "name": "Jay-allen Morris",
+                  "about": "<p>Alistair Sloley is an Agile consultant, specializing in Agile training, Agile coaching, and software development best practices training. Alistair is a fifteen-year veteran of Microsoft where he acted as a Program Manager, Software Test Engineer, and Software Design Engineer in Test. During his tenure at Microsoft, he shipped in over ten Microsoft products, worked with Microsoft Research on multiple high-profile projects, and helped lead his organization into enterprise-level implementation of Scrum. As an Agile consultant for Steve McConnell at Construx Software, he led Agile transformation efforts at a variety of clients, spanning industry verticals and incorporating a diverse range of Agile techniques.</p>",
+                  "name": "Alistair Sloley",
                   "priority": 1,
-                  "profilePic": "img/speakers/Jay-Allen-Morris.jpg"
-                },
-                {
-                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.</p>",
-                  "name": "Samantha Laing",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Samantha-Laing.jpg"
+                  "profilePic": "img/speakers/Alistair-Sloley.jpg"
                 }
               ],
-              "description": "<p></p>",
-              "name": "Building blocks for effective retrospectives",
+              "description": "<p>You will learn how to facilitate the discussions your org needs and your org will learn how to have constructive dialogs. I am going to demonstrate how to use these techniques in the workshop. And all the attendees are going to be fully immersed and ready to wield their new knowledge the very next day at work.\n\nCome learn how to help your team(s), org(s), and company(ies)!!!\n\nFor more information, watch my video at http://youtu.be/UNOjqMUv8h0\n\nA version of this workshop that was presented at Agile Tour Sydney 2016 is at http://bit.ly/2f4Bie8</p>",
+              "name": "Liberating Structures… 36 tried and true facilitation techniques to amp up your org’s collaboration",
               "locationId": "central",
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -851,28 +845,27 @@
                 "central"
               ],
               "speakerNames": [
-                "Jay-allen Morris",
-                "Samantha Laing"
+                "Alistair Sloley"
               ]
             },
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 {
-                  "about": "<p>Yogini is a scrum master, aspiring Agile Coach in Absa. Yogini first encountered Agile in 2014 and has been learning about and doing it ever since. She loves how simple it is to practice and the benefits can be seen immediately.</p>",
-                  "name": "Yogini Moodley",
+                  "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. \nThe learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.\nBuilding the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup. \nI am also a member of AST (Association for Software Testing). \nAs Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p>",
+                  "name": "Louise Perold",
                   "priority": 1,
-                  "profilePic": "img/speakers/Yogini-Moodley.jpg"
+                  "profilePic": "img/speakers/Louise-Perold.jpg"
                 },
                 {
-                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
-                  "name": "Karen Greaves",
+                  "about": "<p></p>",
+                  "name": "Ozwell Chihwayi",
                   "priority": 1,
-                  "profilePic": "img/speakers/Karen-Greaves.jpg"
+                  "profilePic": "img/speakers/Ozwell-Chihwayi.jpg"
                 }
               ],
-              "description": "<p></p>",
-              "name": "Your Agile Transformation Superpower – INFLUENCE",
+              "description": "<p>More and more, we are becoming aware of the complexity of building software and how having a critical thinking mindset, can help us to more clearly analyse and solve the right problems. As part of agile we want to inspect and adapt, but what does this practically mean? Are we challenging our assumptions in order to affect the right kind of change? \n \nSo, what prevents us from asking questions? \nHow can we create more and better feedback loops? \nWhat are the things that get in the way of critical thinking and what are some techniques we could use to think critically?\n \nComing from a testing mindset and background, this is something that comes more naturally to us but is often made difficult in certain contexts. We would like to share some of what we have learned and examine techniques we have up our sleeves to push through and make it part of the team culture. </p>",
+              "name": "Cultivating a critical thinking mindset",
               "locationId": "queens",
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -880,28 +873,22 @@
                 "queens"
               ],
               "speakerNames": [
-                "Yogini Moodley",
-                "Karen Greaves"
+                "Louise Perold",
+                "Ozwell Chihwayi"
               ]
             },
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 {
-                  "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.\n</p>",
-                  "name": "Joshua Lewis",
+                  "about": "<p>Dana is an Agile Coach, trainer, author and international speaker with over 17 years of diverse IT experience. Keen interest in DevOps culture and experience in Gamification all come together in Dana's game and book “Introduction to DevOps with Chocolate, LEGO and Scrum Game”. Dana is passionate about collaboration and helping the teams improve. She is a certified Training from the Back of the Room trainer, Open Space and Retrospectives facilitator, the founder of Big Apple Scrum Day conference and an active member of global agile community.</p>",
+                  "name": "Dana Pylayeva",
                   "priority": 1,
-                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
-                },
-                {
-                  "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. \nThe learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.\nBuilding the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup. \nI am also a member of AST (Association for Software Testing). \nAs Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p>",
-                  "name": "Louise Perold",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Louise-Perold.jpg"
+                  "profilePic": "img/speakers/Dana-Pylayeva.jpg"
                 }
               ],
-              "description": "<p></p>",
-              "name": "Collaborative Exploration and Specification",
+              "description": "<p>Join this workshop to experience one of the most unusual DevOps transformations – with Lego and Chocolate simulation game. Visualize common process bottlenecks and observe a “wall of confusion” between development teams and IT operations. Use LEGO blocks and chocolate candies to experiment with process improvements. Transition to continuous delivery of value, amplify feedback loop and build up T-shaped skills in your team. Inspired by ideas from “The Phoenix Project” and “The Goal\", this workshop helps participants at all levels to clearly experience the benefits of DevOps culture.</p>",
+              "name": "Gamifying DevOps with Lego and Chocolate Game",
               "locationId": "harlem",
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -909,8 +896,7 @@
                 "harlem"
               ],
               "speakerNames": [
-                "Joshua Lewis",
-                "Louise Perold"
+                "Dana Pylayeva"
               ]
             }
           ]
@@ -919,7 +905,7 @@
           "time": "3:15 pm",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 
               ],
@@ -941,105 +927,52 @@
           "time": "3:30 pm",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
                 {
-                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.\n</p>",
-                  "name": "Samantha Laing",
+                  "about": "<p>Klaus Leopold is computer scientist and Kanban pioneer with many years of experience in helping organizations from different industries on their improvement journey with Lean and Kanban. He is author of the book “Practical Kanban” (www.practicalkanban.com) and co-author of the book \"Kanban Change Leadership”. Klaus is one of the first Lean Kanban trainers and coaches worldwide. He was awarded with the Brickell Key Award for “outstanding achievement and leadership” within the Lean Kanban community in San Francisco, 2014. His main interest is establishing lean business agility by improving organizations beyond the team level, especially in large environments from 50 to 5000 people. Klaus publishes his current thoughts on his blog www.LEANability.com and you can follow him on Twitter at @klausleopold.</p>",
+                  "name": "Klaus Leopold",
                   "priority": 1,
-                  "profilePic": "img/speakers/Samantha-Laing.jpg"
-                },
-                {
-                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
-                  "name": "Karen Greaves",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Karen-Greaves.jpg"
+                  "profilePic": "img/speakers/Klaus-Leopold.jpg"
                 }
               ],
-              "description": "<p></p>",
-              "name": "The Agile Coaches Workshop",
+              "description": "<p>If you optimise for high team performance, you’ll get high team performance. Sounds great! However, simply having many high-performing teams doesn't lead to a high-performing organisation. In contrast, high team performance leads to low system performance. As a consequence, the services you offer to your customers get worse.\n\nTeam focus is also the reason why most agile initiatives fail to improve organisational agility and success. In the best case, you don’t see any organisational improvement - but in many cases, it gets worse. Local optimisation leads to global sub optimisation! But what does this mean? And how can you optimise organisations beyond the team?\n\nIn this session, Klaus will answer these questions and show how you can establish business agility in a lean way. He'll show how he improved organisational agility across about 400 people without bothering them in their daily work. As a first step, senior management became agile by running agile strategic portfolio management - and the rest followed step by step in a 'lead by example' manner.</p>",
+              "name": "Why Agile Teams Have Nothing to Do With Business Agility",
               "locationId": "central",
               "timeStart": "3:30 pm",
-              "timeEnd": "5:00 pm",
+              "timeEnd": "4:30 pm",
               "tracks": [
                 "central"
               ],
               "speakerNames": [
-                "Samantha Laing",
-                "Karen Greaves"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>I'm an agile Product Owner Coach, and and Agile Fluency™ Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
-                  "name": "Steve Holyer",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Steve-Holyer.jpg"
-                },
-                {
-                  "about": "<p></p>",
-                  "name": "Cara Turner",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Cara-Turner.jpg"
-                }
-              ],
-              "description": "<p></p>",
-              "name": "5 Repeatable Steps to Meet Your Customer — Continuously",
-              "locationId": "queens",
-              "timeStart": "3:30 pm",
-              "timeEnd": "5:00 pm",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "Steve Holyer",
-                "Cara Turner"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Regina works as an Agile Coach and loves what she does. She's worked in IT for most of her working career although she started off in the business. She's worked mainly in the financial services industry although she did spent 8 years managing projects at Dimension Data.\n\nFor fun she engages in blogging, public speaking, reading, photography and travel. She lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers.\n\nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work.\n\nYou can reach her at regina.martins@agile42.com.</p>",
-                  "name": "Regina Martins",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Regina-Martins.jpg"
-                }
-              ],
-              "description": "<p></p>",
-              "name": "Escape! The Curse Of The Temple – Learn How To Collaborate Like Indiana Jones",
-              "locationId": "harlem",
-              "timeStart": "3:30 pm",
-              "timeEnd": "5:00 pm",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Regina Martins"
+                "Klaus Leopold"
               ]
             }
           ]
         },
         {
-          "time": "5:00 pm",
+          "time": "4:30 pm",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "10th November 2017",
               "speakers": [
-                
+                {
+                  "about": "<p></p>",
+                  "name": "Kevin Pedersen",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Kevin-Pedersen.png"
+                }
               ],
               "description": "<p></p>",
-              "name": "Sponsored Drinks",
-              "locationId": "foyer",
-              "timeStart": "5:00 pm",
-              "timeEnd": "7:00 pm",
+              "name": "Closing & Thanks",
+              "locationId": "central",
+              "timeStart": "4:30 pm",
+              "timeEnd": "5:00 pm",
               "tracks": [
-                "foyer"
+                "central"
               ],
               "speakerNames": [
-                
+                "Kevin Pedersen"
               ]
             }
           ]
