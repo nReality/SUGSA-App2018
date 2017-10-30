@@ -78,7 +78,7 @@
                   "about": "<p></p>",
                   "name": "Kevin Pedersen",
                   "priority": 1,
-                  "profilePic": "img/speakers/Kevin-Pedersen.png"
+                  "profilePic": "img/speakers/Kevin-Pedersen.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -983,7 +983,7 @@
   ],
   "speakers": [
     {
-      "about": "<p></p>",
+      "about": "<p>Champion and enabler of outcome-oriented transformation & strategy, Agendashift founder, 2-time author (Agendashift, Kanban from the Inside), and creator (Featureban, Changeban, and more)\n\nConsultant, coach, trainer, and international keynote speaker. Former Executive Director, interim CTO, global development manager. Interim delivery manager for two UK government digital 'exemplar' projects. Winner, Brickell Key award, community contribution.</p>",
       "name": "Mike Burrows",
       "priority": 1,
       "profilePic": "img/speakers/Mike-Burrows.jpg"
@@ -1003,6 +1003,13 @@
       "profilePic": "img/speakers/Klaus-Leopold.jpg"
     },
     {
+      "about": "<p>Klaus Leopold is computer scientist and Kanban pioneer with many years of experience in helping organizations from different industries on their improvement journey with Lean and Kanban. He is author of the book “Practical Kanban” (www.practicalkanban.com) and co-author of the book \"Kanban Change Leadership”. Klaus is one of the first Lean Kanban trainers and coaches worldwide. He was awarded with the Brickell Key Award for “outstanding achievement and leadership” within the Lean Kanban community in San Francisco, 2014. His main interest is establishing lean business agility by improving organizations beyond the team level, especially in large environments from 50 to 5000 people. Klaus publishes his current thoughts on his blog www.LEANability.com and you can follow him on Twitter at @klausleopold.</p>",
+      "name": "Kevin Pedersen",
+      "priority": 1,
+      "twitter": "@KevinPedersen",
+      "profilePic": "img/speakers/Kevin-Pedersen.jpg"
+    },
+    {
       "about": "<p>A long time IT practitioner, I started focusing on new ways of work in 2014 when the bank started to focus on changing culture and shifting its processes. I started as a Lean Coach, shifted into Kanban and visualisation of flow (Presented a talk on Visualisation and Coaching as a way to create change at the Lean Summit 2016). \nI am a Servant Leadership facilitator for Standard Bank’s internal Agile Leadership Programme targeted at all 2000 IT employees (this has gone viral an is now spreading out across the bank as a whole) and am currently focused on embedding and strengthening this way of thinking and leading in one of the Core IT Transformation Programmes (200 people who have a strong Agile/ Scrum base).\n\nI am also an Ontological Transformation Coach and hold the Guinness World Record for the Deepest Dive by a Woman on Scuba. These last two are important pillars for my focus on changing mindsets and behaviours as I have lived through the impact of being embedded in unilateral control thinking - it was stopping me from seeing a way forward in my diving. It was only when I chose a new way of showing up that I was able to find my way forward and reach 221 meters and the Woman’s World Record.\n</p>",
       "name": "Verna van Schaik",
       "priority": 1,
@@ -1010,44 +1017,87 @@
       "twitter": "@VernaV"
     },
     {
-      "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. The learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.</p><br><p>I am at my happiest when I see a team able to do their best testing work and add valuable information into the system. One way I like to do this is to be part of the team. Mentoring and coaching the team from an external viewpoint is also something I am comfortable with. I realise that much of the work we do is heavily influenced by the greater system we are in. I have many years experience of making these things visible and coming up with practical ideas to maximize the value derived from the testing efforts.</p><br><p>Building the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup.</p><br><p>I enjoy speaking at conferences and have spoken at Let’s Test in Sweden, Copenhagen Context and CAST in North America and I was the co-program chair for CAST 2013.</p><br><p>As Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p><br><p></p>",
-      "name": "Louise Perold",
+      "about": "<p>Justin used to be part of the SUGSA committee. He used to live and work in sunny Cape Town. Justin currently lives and works in snowy Stockholm. He is happy.\n\nJustin wants to live in a world filled with innovative businesses, happy teams, happy customers and a dancing squirrel. As an agile coach at Spotify, he often inspects & adapts. He also sings the Agile Manifesto song in a Stockholm shower to the beat of Mamma Mia. \nYou can reach him at @the_jus on twitter or listen to him talk about scrum at scrumand.co</p>",
+      "name": "Justin Kotze",
       "priority": 1,
-      "twitter": "@lperold"
+      "twitter": "@the_jus",
+      "profilePic": "img/speakers/Justin-Kotze.jpg"
     },
     {
-      "about": "<p></p>",
-      "name": "Sam Laing",
+      "about": "<p>Gavin Stevens is currently a Product Owner at Prodigy Finance - an international fintech startup which provides loans to international students.  His PO journey began in e-commerce, but he has now been with Prodigy for the last 3 years.  In his time at Prodigy, he has worked with several scrum teams to implement various products and features across the business, although his focus is currently on risk assessment and verification.  He is passionate about figuring out ways to empower his team and not get involved unnecessarily.</p>",
+      "name": "Gavin Stevens",
       "priority": 1,
-      "profilePic": "img/speakers/Sam_ATD.jpg",
-      "twitter": "@samlaing"
+      "twitter": "@GavStevens",
+      "profilePic": "img/speakers/Gavin-Stevens.jpg"
+    },
+    {
+      "about": "<p>Chief storyteller of The Three Pillars of Agile Testing and Quality, Mary Thorn is Director of Agile Practices at Ipreo in Raleigh, NC. Mary has a broad agile and testing background that spans automation, data warehouses, and web-based systems in a wide variety of technologies and testing techniques. During her more than nineteen years of experience with healthcare, HR, financial, and SaaS-based products, Mary has held manager- and contributor-level positions in software development organizations. A strong leader in agile and testing methodologies, Mary has direct experience leading teams through agile adoption and beyond.</p>",
+      "name": "Mary Thorn",
+      "priority": 1,
+      "twitter": "@MaryHThorn",
+      "profilePic": "img/speakers/Mary-Thorn.jpg"
+    },
+    {
+      "about": "<p>Over almost 2 decades working in software engineering, John has worked as a system administrator, software engineer, technical lead, technical director, development manager and agile coach. He currently runs the consultancy firm Wise Noodles here he helps organisations solve tough technical problems by untangling their people problems. He is also host of The Agile Path Podcast which creates in-depth audio documentaries on the topics that most affect organisations transitioning to agile ways of working.</p>",
+      "name": "John Le Drew",
+      "priority": 1,
+      "twitter": "@antz29",
+      "profilePic": "img/speakers/John-Le-Drew.jpg"
+    },
+    {
+      "about": "<p>I have been a Scrum master for over 3 years now and I do some agile coaching on the side. I have an Honours degree in Psychology and continue to be fascinated by people.  I was a Project manager and Business analyst in my previous life and am a born and bred Capetonian.  I enjoy running along the promenade or in the mountains and socialising with good friends and family amongst other things.</p>",
+      "name": "Catherine Holland",
+      "priority": 1,
+      "profilePic": "img/speakers/Catherine-Holland.jpg"
     },
     {
       "about": "<p>I currently work at Jumo as an Agile Lead and as a volunteer committee member for Scrum User Group South Africa (SUGSA). I think the most amazing thing about me is that I became a scrum master by “accident” but now I can’t imagine doing anything else. I really love finding new ways to encourage collaboration and transparency and hope to always learn new things.</p><br><p></p>",
       "name": "Jay-Allen Morris",
       "priority": 1,
-      "profilePic": "img/speakers/JAY-ALLEN-MORRIS-1.jpg",
+      "profilePic": "img/speakers/Jay-Allen-Morris.jpg",
       "twitter": "@JayAllenM"
     },
     {
-      "about": "<p>Pavel Dabrytski is an agile coach and trainer from South Africa. He helps organizations implement Agile sustainably through mentoring, training, and coaching. Over the past years, Pavel worked with major financial organizations and retail giants improving their organisational processes. He also helped organise multiple international conferences in Cape Town and Johannesburg. Pavel is a seasoned presenter who spoke at events in Paris, Prague, Shanghai, Bangalore, Atlanta, New York, Singapore, Orlando as well as in South Africa. Currently, he explores topics on coaching psychology and financial models behind Agile projects.</p><br><p></p>",
-      "name": "Pavel Dabrytski",
+      "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.</p>",
+      "name": "Samantha Laing",
       "priority": 1,
-      "profilePic": "img/speakers/Pavel.jpg",
-      "twitter": "@PavelDabrytski"
+      "profilePic": "img/speakers/Samantha-Laing.jpg",
+      "twitter": "@samlaing"
     },
     {
-      "about": "<p>Joshua is an experienced Agile and Developer coach. He also lectures part-time at a post-graduate level.</p><br><p></p>",
+      "about": "<p>Yogini is a scrum master, aspiring Agile Coach in Absa. Yogini first heard about Agile in 2014 and has been learning about and practising ever since. She loves the simplicity and that benefits can be seen immediately.</p>",
+      "name": "Yogini Moodley",
+      "priority": 1,
+      "twitter": "@yogini_zn",
+      "profilePic": "img/speakers/Yogini-Moodley.jpg"
+    },
+    {
+      "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!\n</p>",
+      "name": "Karen Greaves",
+      "priority": 1,
+      "twitter": "@karen_greaves ",
+      "profilePic": "img/speakers/Karen-Greaves.jpg"
+    },
+    {
+      "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.</p>",
       "name": "Joshua Lewis",
       "priority": 1,
-      "profilePic": "img/speakers/Josh.jpg",
+      "profilePic": "img/speakers/Joshua-Lewis.jpg",
       "twitter": "@joshilewis"
     },
     {
-      "about": "<p>I was a PM, come BA and have since morphed myself into a Scrum master, doing some agile coaching on the side.  I have been a Scrum master for just over 3 years now. I have an Honours degree in Psychology and continue to be fascinated by what makes people tick and am myself on an ongoing journey of self improvement.</p><br><p></p>",
-      "name": "Catherine Holland",
+      "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. The learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.</p><br><p>I am at my happiest when I see a team able to do their best testing work and add valuable information into the system. One way I like to do this is to be part of the team. Mentoring and coaching the team from an external viewpoint is also something I am comfortable with. I realise that much of the work we do is heavily influenced by the greater system we are in. I have many years experience of making these things visible and coming up with practical ideas to maximize the value derived from the testing efforts.</p><br><p>Building the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup.</p><br><p>I enjoy speaking at conferences and have spoken at Let’s Test in Sweden, Copenhagen Context and CAST in North America and I was the co-program chair for CAST 2013.</p><br><p>As Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p><br><p></p>",
+      "name": "Louise Perold",
       "priority": 1,
-      "profilePic": "img/speakers/Catherine-Holland.jpg"
+      "twitter": "@lperold",
+      "profilePic": "img/speakers/Louise-Perold.jpg"
+    },
+    {
+      "about": "<p>I'm an agile Product Owner Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
+      "name": "Steve Holyer",
+      "priority": 1,
+      "twitter": "@zurcherart",
+      "profilePic": "img/speakers/Steve-Holyer.jpg"
     },
     {
       "about": "<p>Cara is the COO and Agile Coach at Project codeX, a disruptive education initiative that equips aspiring coders with high quality skills and experience, while bridging the digital divide.</p><br><p>Her ultimate goal is for us all to find the work we love doing, and build a better future doing it. Having spent years helping teams adopt agile practices that reduce risk and increase workplace happiness, she now helps aspiring coders to discover and follow their tech passions, on their journey to become agile software developers.</p><br><p>She has an insatiable love of learning, and cares deeply about sharing knowledge to build stronger communities and foster greater diversity in the software world.</p><br><p></p>",
@@ -1057,10 +1107,73 @@
       "twitter": "@Cara_Faye"
     },
     {
-      "about": "<p>Yogini is a Scrum Master, aspiring Agile Coach in Barclays Africa (South Africa).\nYogini first encountered Agile in 2014 and has been learning about and doing it\never since. She loves how simple in is to do and benefits can be seen\nimmediately.</p><br><p></p>",
-      "name": "Yogini Moodley",
+      "about": "<p>Regina works as an Agile Coach and loves what she does. She's worked in IT for most of her working career although she started off in the business. She's worked mainly in the financial services industry although she did spent 8 years managing projects at Dimension Data.\n\nFor fun she engages in blogging, public speaking, reading, photography and travel. She lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers.\n\nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work.\n\nYou can reach her at regina.martins@agile42.com.</p>",
+      "name": "Regina Martins",
       "priority": 1,
-      "twitter": "@yogini_zn"
+      "profilePic": "img/speakers/Regina-Martins.jpg",
+      "twitter": "@gianamar"
+    },
+    {
+      "about": "<p>Joakim Sundén is an agile coach at Spotify, making music available and accessible to the world. He helps people improve through mentoring and coaching at individual, team and organizational levels, often using Agile and Lean thinking and methods such as Kanban, Scrum and XP. He is an organizer of, and active participant in, conferences, networks and user groups in the Agile and Lean communities. Joakim is also author of Kanban in Action from Manning Publications. He currently lives and works in Boston, Massachusetts.</p>",
+      "name": "Joakim Sundén",
+      "priority": 1,
+      "profilePic": "img/speakers/Joakim-Sundén.jpg",
+      "twitter": "@joakimsunden"
+    },
+    {
+      "about": "<p>I am a professional trainer and consultant specialising in Agile practices. Over the last 20+ years I have worked in many different industries from the collar and tie of large corporates to the hard-hats and steel-caps of manufacturing. In these industries I have been responsible for building and leading teams in the delivery and support of large-scale software solutions primarily using Agile frameworks. \n\nI love helping organisations to adopt Agile thinking to improve their end to end software delivery, from initial scoping and business cases, through to final user acceptance testing. This has included training and mentoring teams across the entire product development lifecycle.\n\nI am a strong advocate of agility because of the focus and simplicity that it brings to an organisation. I enjoy being part of building cohesive and collaborative teams: Magic is formed when people are encouraged to be vocal, expressive and collectively responsible.\n\n“Make no little plans: they have no magic to stir men’s blood.” - Daniel Burnham</p>",
+      "name": "Stephen de Villiers Graaff",
+      "priority": 1,
+      "profilePic": "img/speakers/Stephen-de-Villiers-Graaff.jpg",
+      "twitter": "@gravworks"
+    },
+    {
+      "about": "<p>I am a professional trainer and consultant specialising in Agile practices. Over the last 20+ years I have worked in many different industries from the collar and tie of large corporates to the hard-hats and steel-caps of manufacturing. In these industries I have been responsible for building and leading teams in the delivery and support of large-scale software solutions primarily using Agile frameworks. \n\nI love helping organisations to adopt Agile thinking to improve their end to end software delivery, from initial scoping and business cases, through to final user acceptance testing. This has included training and mentoring teams across the entire product development lifecycle.\n\nI am a strong advocate of agility because of the focus and simplicity that it brings to an organisation. I enjoy being part of building cohesive and collaborative teams: Magic is formed when people are encouraged to be vocal, expressive and collectively responsible.\n\n“Make no little plans: they have no magic to stir men’s blood.” - Daniel Burnham</p>",
+      "name": "Pawel Kaminski",
+      "priority": 1,
+      "twitter": "@kaminskipawel"
+    },
+    {
+      "about": "<p>Pavel Dabrytski is an agile coach and trainer from South Africa. He helps organizations implement Agile sustainably through mentoring, training, and coaching. Over the past years, Pavel worked with major financial organizations and retail giants improving their organisational processes. He also helped organise multiple international conferences in Cape Town and Johannesburg. Pavel is a seasoned presenter who spoke at events in Paris, Prague, Shanghai, Bangalore, Atlanta, New York, Singapore, Orlando as well as in South Africa. Currently, he explores topics on coaching psychology and financial models behind Agile projects.</p>",
+      "name": "Pavel Dabrytski",
+      "priority": 1,
+      "profilePic": "img/speakers/Pavel-Dabrytski.jpg",
+      "twitter": "@PavelDabrytski"
+    },
+    {
+      "about": "<p>Alison Gitelson of CanBeeDone is a maximizer, facilitator and speaker. She combines her extensive, practical, business background with a deep understanding of human behaviour. This rare combination blends human needs with business needs. \nWhilst still studying Alison started her first business as a tutor & completed her first assignment as a project manager. During her careers in Optometry, ICT and Transformation she established a successful technical and management track record.\n\nAlison brings clarity and mastery to the art of effective people management. She focuses on the key areas of communication, individualized management, engagement, embracing diversity and conflict resolution. She enables Leader-managers to increase productivity, quality and profitability. Her customized workshops & talks are always well received as informative, engaging and practical.\n\nAlison has been interviewed on radio and appeared on TV, and has presented widely on the key components of the Leader – Management Framework. She has been a long time volunteer for Headway-Gauteng, an organisation that supports people with brain injuries, and in 2015 she cofounded Open Community Encounters, an initiative to improve tolerance, communication and healing amongst South Africans.</p>",
+      "name": "Alison Gitelson",
+      "priority": 1,
+      "profilePic": "img/speakers/Alison-Gitelson.jpg",
+      "twitter": "@AlisonGitelson"
+    },
+    {
+      "about": "<p>Alison Gitelson of CanBeeDone is a maximizer, facilitator and speaker. She combines her extensive, practical, business background with a deep understanding of human behaviour. This rare combination blends human needs with business needs. \nWhilst still studying Alison started her first business as a tutor & completed her first assignment as a project manager. During her careers in Optometry, ICT and Transformation she established a successful technical and management track record.\n\nAlison brings clarity and mastery to the art of effective people management. She focuses on the key areas of communication, individualized management, engagement, embracing diversity and conflict resolution. She enables Leader-managers to increase productivity, quality and profitability. Her customized workshops & talks are always well received as informative, engaging and practical.\n\nAlison has been interviewed on radio and appeared on TV, and has presented widely on the key components of the Leader – Management Framework. She has been a long time volunteer for Headway-Gauteng, an organisation that supports people with brain injuries, and in 2015 she cofounded Open Community Encounters, an initiative to improve tolerance, communication and healing amongst South Africans.</p>",
+      "name": "Alison Gitelson",
+      "priority": 1,
+      "profilePic": "img/speakers/Alison-Gitelson.jpg",
+      "twitter": "@AlisonGitelson"
+    },
+    {
+      "about": "<p>Alistair Sloley is an Agile consultant, specializing in Agile training, Agile coaching, and software development best practices training. Alistair is a fifteen-year veteran of Microsoft where he acted as a Program Manager, Software Test Engineer, and Software Design Engineer in Test. During his tenure at Microsoft, he shipped in over ten Microsoft products, worked with Microsoft Research on multiple high-profile projects, and helped lead his organization into enterprise-level implementation of Scrum. As an Agile consultant for Steve McConnell at Construx Software, he led Agile transformation efforts at a variety of clients, spanning industry verticals and incorporating a diverse range of Agile techniques.</p>",
+      "name": "Alistair Sloley",
+      "priority": 1,
+      "profilePic": "img/speakers/Alistair-Sloley.jpg",
+      "twitter": "@axs666"
+    },
+    {
+      "about": "<p></p>",
+      "name": "Ozwell Chihwayi",
+      "priority": 1,
+      "profilePic": "img/speakers/Ozwell-Chihwayi.jpg",
+      "twitter": "@ozchihwayi"
+    },
+    {
+      "about": "<p>Dana is an Agile Coach, trainer, author and international speaker with over 17 years of diverse IT experience. Keen interest in DevOps culture and experience in Gamification all come together in Dana's game and book “Introduction to DevOps with Chocolate, LEGO and Scrum Game”. Dana is passionate about collaboration and helping the teams improve. She is a certified Training from the Back of the Room trainer, Open Space and Retrospectives facilitator, the founder of Big Apple Scrum Day conference and an active member of global agile community.</p>",
+      "name": "Dana Pylayeva",
+      "priority": 1,
+      "profilePic": "img/speakers/Dana-Pylayeva.jpg",
+      "twitter": "@DanaPylayeva"
     }
   ],
   "sponsors": [
@@ -1068,7 +1181,7 @@
       "groupName": "Title Sponsor",
       "sponsors": [
         {
-          "name": "JCSE",
+          "name": "Scrum Alliance",
           "imageSrc": "img/sponsors/jcse_logo_rgb-280.gif",
           "url": "http://www.jcse.org.za/"
         }
