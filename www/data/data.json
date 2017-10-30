@@ -1182,33 +1182,8 @@
       "sponsors": [
         {
           "name": "Scrum Alliance",
-          "imageSrc": "img/sponsors/jcse_logo_rgb-280.gif",
-          "url": "http://www.jcse.org.za/"
-        }
-      ]
-    },
-    {
-      "groupName": "Diamond Sponsor",
-      "sponsors": [
-        {
-          "name": "IQ Business",
-          "imageSrc": "img/sponsors/IQBusiness-Logo.png",
-          "url": "http://www.iqbusiness.net/"
-        }
-      ]
-    },
-    {
-      "groupName": "Gold Sponsors",
-      "sponsors": [
-        {
-          "name": "Prodigy Finance",
-          "imageSrc": "img/sponsors/Prodigy_LandscapeLogo.jpg",
-          "url": "http://www.prodigyfinance.com/"
-        },
-        {
-          "name": "Liberty",
-          "imageSrc": "img/sponsors/Liberty.png",
-          "url": "http://www.liberty.co.za/"
+          "imageSrc": "img/sponsors/Scrum-Alliance.jpg",
+          "url": "https://www.scrumalliance.org/"
         }
       ]
     },
@@ -1216,21 +1191,56 @@
       "groupName": "Silver Sponsors",
       "sponsors": [
         {
-          "name": "nReality",
-          "imageSrc": "img/sponsors/nReality-dark-300x79.png",
-          "url": "http://www.nreality.com/"
+          "name": "OfferZen",
+          "imageSrc": "img/sponsors/OfferZen.png",
+          "url": "https://www.offerzen.com/"
         },
         {
+          "name": "Allan Gray",
+          "imageSrc": "img/sponsors/AllanGray.gif",
+          "url": "https://www.allangray.co.za/"
+        },
+        {
+          "name": "Steve Holyer",
+          "imageSrc": "img/sponsors/POByDesign.jpg",
+          "url": "http://pobydesign.com/"
+        }
+      ]
+    },
+    {
+      "groupName": "Bag Sponsors",
+      "sponsors": [
+        {
           "name": "Agile 42",
-          "imageSrc": "img/sponsors/Agile42-e1497864739541.png",
+          "imageSrc": "img/sponsors/Agile42.png",
           "url": "http://www.agile42.com/"
+        }
+      ]
+    },
+    {
+      "groupName": "App Sponsors",
+      "sponsors": [
+        {
+          "name": "nReality",
+          "imageSrc": "img/sponsors/nReality.png",
+          "url": "http://www.nreality.com/"
+        }
+      ]
+    },
+    {
+      "groupName": "Coffee Sponsors",
+      "sponsors": [
+        {
+          "name": "Ipren",
+          "imageSrc": "img/sponsors/Ipreo.gif",
+          "url": "https://ipreo.com/"
         }
       ]
     }
   ],
   "map": [
     {
-      "name": "DoubleTree ",
+      "name": "DoubleTree by Hilton",
       "lat": -33.9353866,
       "lng": 18.4550375,
       "center": true
