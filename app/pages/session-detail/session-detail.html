@@ -7,7 +7,7 @@
 <ion-content padding>
   <h3 class="session-header" [innerHTML]="session.name"></h3>
 
-
+  <ion-card>
     <ion-item no-lines>
       <div class="stars">
         <star *ngFor="let star of stars" [active]="star <= _rating" (rate)="onRate($event)" [position]="star">
@@ -15,14 +15,22 @@
       </div>
     </ion-item>
     <ion-item>
-      <ion-label floating>Write a comment...</ion-label>
+      <ion-label floating>Write a comment here and rate...</ion-label>
       <ion-textarea type="text" [(ngModel)]="comment"></ion-textarea>\
     </ion-item>
-    <button padding start margin ion-button small (click)="postRating(session)" [disabled]="_rating === 0 && comment === ''">Submit Rating</button>
-    <ion-divider>
-  </ion-divider>
+    <button padding start margin ion-button outline large (click)="postRating(session)" [disabled]="_rating === 0 && comment === ''">Submit Rating</button>
+  </ion-card>
 
+  <ion-divider>
+    </ion-divider>
+    <br/>
     <center>
+
+
+        <h4 text-center>{{session.date}}</h4>
+        <h4 text-center>{{session.timeStart}} - {{session.timeEnd}}</h4>
+        <h4 text-center>{{session.locationName}} room</h4>
+
       <button ion-button large outline *ngFor="let speaker of session.speakers" (click)="goToSpeakerDetail(speaker)">
         <ion-avatar item-left>
           <img [src]="getSpeakerImage(speaker)">
@@ -30,13 +38,9 @@
         {{speaker.name}}
       </button>
       <br/>
-      <button  ion-button outline (click)="goToTwitter(session.speakers)" *ngIf="hasTwitterAccounts(session.speakers)">
+      <button  ion-button outline large (click)="goToTwitter(session.speakers)" *ngIf="hasTwitterAccounts(session.speakers)">
         <ion-icon name="logo-twitter"></ion-icon>Tweet</button>
     </center>
-
-    <h2 text-center>{{session.locationName}} room</h2>
-    <h5 text-center>{{session.date}}</h5>
-    <h5 text-center>{{session.timeStart}} - {{session.timeEnd}}</h5>
     
 
   <ion-card>
