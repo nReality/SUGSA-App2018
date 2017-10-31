@@ -30,10 +30,11 @@ export class TweetShare {
         try {
           SocialSharing.shareViaTwitter(message, image, link)
             .then(() => {})
-            .catch((err) => 
-          {
+            .catch((err) =>{
             console.error(err);
-            window.open(`https://twitter.com/intent/tweet?text=` + message);
+            if (err !== 'cancelled'){
+              window.open(`https://twitter.com/intent/tweet?text=` + message);
+            }
           });;
         } catch(error) {
           console.error(error);
