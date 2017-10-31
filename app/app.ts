@@ -15,6 +15,7 @@ import { SpeakerListPage } from './pages/speaker-list/speaker-list';
 import { AboutPage } from './pages/about/about';
 import {SponsorsPage} from './pages/sponsors/sponsors';
 import { InAppBrowser} from 'ionic-native';
+import { SocialSharing } from 'ionic-native';
 
 import * as firebase from 'firebase';
 
@@ -105,7 +106,7 @@ class ConferenceApp {
 // See the theming docs for the default values:
 // http://ionicframework.com/docs/v2/theming/platform-specific-styles/
 
-ionicBootstrap(ConferenceApp, [ConferenceData, UserData, TweetShare], {
+ionicBootstrap(ConferenceApp, [ConferenceData, UserData, TweetShare, SocialSharing], {
   tabbarPlacement: 'bottom',
   prodMode : true
 });

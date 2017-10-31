@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Platform }   from 'ionic-angular';
+import { SocialSharing } from 'ionic-native';
 
 @Injectable()
 export class TweetShare {
-  constructor(private platform: Platform) {
+  constructor(private platform: Platform, private socialSharing: SocialSharing) {
     this.platform = platform;
   }
 
@@ -20,20 +21,20 @@ export class TweetShare {
   }
 
   shareViaTwitterWithConference(message) {
-    this.shareViaTwitter(message + ' @SAAFOSTofficial', null, null)
+    this.shareViaTwitter(message + ' @SUGSA', null, null)
   }
 
   shareViaTwitter(message, image, link) {
-    var pl = (<any>window).plugins
-    if (pl == null) {
-      window.open(`https://twitter.com/intent/tweet?text=` + message);
-      return;
-    }
-
     this.platform.ready().then(() => {
-      if (pl.socialsharing) {
+      if (SocialSharing) {
         try {
-          pl.socialsharing.shareViaTwitter(message, image, link);
+          SocialSharing.shareViaTwitter(message, image, link)
+            .then(() => {})
+            .catch((err) => 
+          {
+            console.error(err);
+            window.open(`https://twitter.com/intent/tweet?text=` + message);
+          });;
         } catch(error) {
           console.error(error);
         }

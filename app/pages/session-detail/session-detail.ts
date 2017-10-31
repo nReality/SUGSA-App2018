@@ -77,7 +77,7 @@ export class SessionDetailPage {
   goToTwitter(speakers) {
       let speakerstring = this.getTwitterString(speakers);
     //window.open(`https://twitter.com/share?text=` + sessionName);
-      this.tweetShare.shareViaTwitter("." + speakerstring+" @sgsouthafrica",null,null)
+      this.tweetShare.shareViaTwitter("." + speakerstring+" @SUGSA",null,null)
   }
 
   hasTwitterAccounts(speakers) {
