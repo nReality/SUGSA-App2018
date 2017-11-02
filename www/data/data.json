@@ -348,7 +348,7 @@
                   "profilePic": "img/speakers/Samantha-Laing.jpg"
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>Sometimes it can feel as if we do retrospectives just because it's \"the agile thing to do\" and occasionally, feel as if they have lost their value and purpose or have become boring. This is a 90 minute interactive session where we will explore together the importance of the 5 phases of retrospectives by participating in one. Instead of learning how to do a retrospective through theory, participants will learn by doing. This session is aimed and inexperienced and experienced scrum masters, facilitators or anyone involved in facilitating retrospectives. You're welcome to join even if you just want to play with lego and learn something new.</p>",
               "name": "Building blocks for effective retrospectives",
               "locationId": "central",
               "timeStart": "1:45 pm",
@@ -377,7 +377,7 @@
                   "profilePic": "img/speakers/Karen-Greaves.jpg"
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>Your large company has decided to go agile! YAY. Now what?\nHow do you get thousands of people to start thinking and working in a different way, without being controlling? \n\nIt turns out the only person you can change, is yourself. This makes YOU the key to your company’s agile Transformation. The skill you need to master to have an impact is influence.\n\n“Think twice before you speak, because your words and influence will plant the seed of either success or failure in the mind of another.” Napoleon Hill\n\nJoin us for an interactive workshop to learn why influence is so critical in agile transformations, and to practice this important skill! We will share examples how we used this skill helping ABSA in their Agile Transition as both an internal employee (Yogini) and an external coach (Karen).</p>",
               "name": "Your Agile Transformation Superpower – INFLUENCE",
               "locationId": "queens",
               "timeStart": "1:45 pm",
@@ -406,7 +406,7 @@
                   "profilePic": "img/speakers/Louise-Perold.jpg"
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>Do your product managers, developers and testers have different interpretations and understanding of the requirements of your software systems? Many organisations struggle to achieve a single, shared understanding of what problem they're trying to solve with their software, and how they actually expect their software systems to behave. This leads to much wasted time and effort in the software development process. During my coaching and training I have developed a practice designed for whole-team collaborative exploration and specification of expected system behaviour. The practice leads to shared understanding across entire teams, as well as lightweight documentation which can be easily turned into automated tests.</p>",
               "name": "Collaborative Exploration and Specification",
               "locationId": "harlem",
               "timeStart": "1:45 pm",
@@ -462,7 +462,7 @@
                   "profilePic": "img/speakers/Karen-Greaves.jpg"
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>What is an agile coach? What do they need to pay attention to? How is it different to a Scrum Master? What skills do they need?\nIn this workshop we will cover these questions and spend some time growing your skills. If you would like to be an agile coach then come along and learn.</p>",
               "name": "The Agile Coaches Workshop",
               "locationId": "central",
               "timeStart": "3:30 pm",
@@ -488,10 +488,10 @@
                   "about": "<p> Cara is the COO and Agile Coach at Project codeX, a disruptive education initiative that equips aspiring coders with high quality skills and experience, while bridging the digital divide.\n \nHer ultimate goal is for us all to find the work we love doing, and build a better future doing it. Having spent years helping teams adopt agile practices that reduce risk and increase workplace happiness, she now helps aspiring coders to discover and follow their tech passions, on their journey to become agile software developers. \n \nShe has an insatiable love of learning, and cares deeply about sharing knowledge to build stronger communities and foster greater diversity in the software world.</p>",
                   "name": "Cara Turner",
                   "priority": 1,
-                  "profilePic": "img/speakers/cara-turner.jpg"
+                  "profilePic": "img/speakers/Cara-Turner.jpg"
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>When do you do customer discovery and product design? Do you do it early in your Agile product development cycle (maybe during Sprint 1 & 2 or even during Sprint 5 - 7)? And then never really do it again? If so, you can get much better results with this repeating 5 Step design thinking process. \n\nSuccessful Lean and Agile Product Ownership requires an agile mindset that is driven by value to your customers and stakeholders. So how do you develop this mindset? Practice. Lots of practice.\n\nThis is not a talk where you will sit and listen. In this session you will  participate fully (and almost effortlessly) in a complete design thinking sprint. You will experience design thinking as a repeatable approach to product development that occurs continuously. You will learn a 5 step design thinking process which allows you to repeat practices that make you more fluent in the Agile mindset.\n\nThis design sprint session is not just for POs. In the final minutes you will apply the design thinking process to your own role whether you are a Product Manager, a Product Owners, an Agile leader, coach, Scrum Master, or developer. </p>",
               "name": "5 Repeatable Steps to Meet Your Customer — Continuously",
               "locationId": "queens",
               "timeStart": "3:30 pm",
@@ -514,7 +514,7 @@
                   "profilePic": "img/speakers/Regina-Martins.jpg"
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>Collaboration is a team sport - no one is as smart as all of us. This is easy to conceptualise yet not so easy to do. The objective of this workshop is provide a game space where participants will learn about collaborating as a team with a board game as the centre-piece of the learning.\n\nIn fact, it is through the experiential nature of play that adults learn abstract concepts or things that previously was difficult to achieve, but in the game space they are able to get some significant ah-ha moments.\n\nThis workshop revolves around teaching participants about team collaboration and how to scale that to external stakeholders using an adventure board game as the centre piece. Teams will be formed and each will have their own board game. There are curses and gems, and the ultimate treasure is the team learning to collaborate to escape the curse of the temple.\n\nThere’s adventure and music - the purpose is to show people that either the whole team wins or the whole team loses - there is no winner takes all.</p>",
               "name": "Escape! The Curse Of The Temple – Learn How To Collaborate Like Indiana Jones",
               "locationId": "harlem",
               "timeStart": "3:30 pm",
@@ -859,7 +859,7 @@
                   "profilePic": "img/speakers/Louise-Perold.jpg"
                 },
                 {
-                  "about": "<p></p>",
+                  "about": "<p>With over 15 years of working in the delivery, testing and maintenance of systems, Oz seeks to identify and solve the right problems, while realising value. Oz loves to share experiences and is an advocate for collaboration in teams and organisations. He currently works as a Tester Coach at House of Test South Africa and is a co-organiser of the Joburg Software Testers meetup. He is active in building a community of super testers. A life learner and explorer; he believes thinking is his strongest skill in his bag of many varied tricks. Oz became an accidental runner who enjoys long runs and has completed the Comrades marathon.</p>",
                   "name": "Ozwell Chihwayi",
                   "priority": 1,
                   "profilePic": "img/speakers/Ozwell-Chihwayi.jpg"
@@ -1155,7 +1155,7 @@
       "twitter": "@axs666"
     },
     {
-      "about": "<p></p>",
+      "about": "<p>With over 15 years of working in the delivery, testing and maintenance of systems, Oz seeks to identify and solve the right problems, while realising value. Oz loves to share experiences and is an advocate for collaboration in teams and organisations. He currently works as a Tester Coach at House of Test South Africa and is a co-organiser of the Joburg Software Testers meetup. He is active in building a community of super testers. A life learner and explorer; he believes thinking is his strongest skill in his bag of many varied tricks. Oz became an accidental runner who enjoys long runs and has completed the Comrades marathon.</p>",
       "name": "Ozwell Chihwayi",
       "priority": 1,
       "profilePic": "img/speakers/Ozwell-Chihwayi.jpg",
