@@ -1,6 +1,6 @@
 {
   "name": "ScrumGathering2017",
-  "app_id": "",
+  "integrations": {},
   "type": "ionic-angular",
   "watchPatterns": []
 }
