@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { PopoverController, ViewController } from 'ionic-angular';
-import {ConferenceData} from '../../providers/conference-data';
+import { ConferenceData } from '../../providers/conference-data';
 
 class PopoverPage {
   constructor(public viewCtrl: ViewController) { }
@@ -27,7 +27,16 @@ export class SponsorsPage {
   }
 
   openPagInNewWindow(link) {
-      window.open(link, "_system", "location=yes");
-      return false;
+    window.open(link, "_system", "location=yes");
+    return false;
   }
+
+  getSponsorGroupSymbol(group) {
+    return group.groupName.split(' ')[0];
+  }
+
+  getGroupBadgeColor(group) {
+    return group.color;
+  }
+
 }

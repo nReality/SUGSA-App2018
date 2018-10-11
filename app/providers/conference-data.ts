@@ -44,21 +44,26 @@ export class ConferenceData {
           });
       }
 
-      this.http.get('https://api.github.com/repos/nreality/SUGSA-App2017/git/refs/heads/master')
-      .subscribe(res => {
-        let result = res.json();
-        console.log(result);
-        let latestCommit = result.object.sha;
+      console.log('loading failed, loading local data');
+          this.http.get('data/data.json').subscribe(res => {
+              this.processResponse(res, 'offline', resolve);
+          });
 
-        if (oldConferenceData && latestCommit === oldConferenceData.version) {
-            console.log('data still fine, using saved data');
-        } else {
-            console.log('data outdated, loading new');
-            this.http.get('https://raw.githubusercontent.com/nReality/SUGSA-App2017/' + latestCommit +'/www/data/data.json').subscribe(res => {
-              this.processResponse(res, latestCommit, resolve);
-          }, fallback);
-        }
-    }, fallback);
+    //   this.http.get('https://api.github.com/repos/nreality/SUGSA-App2017/git/refs/heads/master')
+    //   .subscribe(res => {
+    //     let result = res.json();
+    //     console.log(result);
+    //     let latestCommit = result.object.sha;
+
+    //     if (oldConferenceData && latestCommit === oldConferenceData.version) {
+    //         console.log('data still fine, using saved data');
+    //     } else {
+    //         console.log('data outdated, loading new');
+    //         this.http.get('https://raw.githubusercontent.com/nReality/SUGSA-App2017/' + latestCommit +'/www/data/data.json').subscribe(res => {
+    //           this.processResponse(res, latestCommit, resolve);
+    //       }, fallback);
+    //     }
+    // }, fallback);
   }
 
 

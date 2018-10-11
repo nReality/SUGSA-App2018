@@ -7,6 +7,30 @@
     "subHeading": "About the conference",
     "description": "Regional Scrum Gathering South Africa is an annual conference where software professionals and Agile enthusiasts meet to uncover better ways of working and developing software",
     "website": "http://sugsa.org.za/event/scrum-gathering-south-africa-2017/",
+    "feedbackHeading": "Feedback for the conference",
+        "feedbackDescription": "Please answer a collection of questions about the conference which will be used to improve your experience next year. This should take around 1-2 minutes of your time. Your feedback will remain anonymous.",
+        "questions": [
+            {   
+                "name": "satisfaction",
+                "text": "How satisfied were you with the conference?"
+            },
+            {   
+                "name": "objective",
+                "text": "In your opinion, did the conference meet its objectives?"
+            },
+            {
+                "name":"structure",
+                "text": "How well was the conference structured?"
+            },
+            {
+                "name":"discussion",
+                "text": "Was there enough time for discussion?"
+            },
+            {
+                "name": "topics",
+                "text": "Which topics would you like to see covered at future conferences?"
+            }
+        ],
     "links": [
       {
         "linkText": "Give us feedback!",
