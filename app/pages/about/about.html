@@ -1,10 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
     <ion-title>About {{name}}</ion-title>
-
   </ion-navbar>
 </ion-header>
 
@@ -16,17 +12,13 @@
 </ion-navbar>
 
 <ion-content>
-
   <div padding class="about-info">
     <img [src]="about.imageSrc" width="250">
     <h2>{{about.heading}}</h2>
+    <h4>{{about.feedbackHeading}}</h4>
+    <p>{{about.feedbackDescription}}</p>
+    <button padding start margin ion-button small (click)="goToFeedbackPage()">Submit Feedback</button>
     <h4>{{about.subHeading}}</h4>
-
-    <p>
-      {{about.description}}
-    </p>
-    <h4 *ngFor="let link of about.links">
-      <a href="#" target="_system" (click)="openPagInNewWindow(link.link)">{{link.linkText}}</a> {{link.text}}
-    </h4>
+    <p>{{about.description}}</p>
   </div>
 </ion-content>

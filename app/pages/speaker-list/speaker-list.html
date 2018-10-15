@@ -1,39 +1,44 @@
 <ion-header>
   <ion-navbar>
-    <button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
     <ion-title>Speakers</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content center class="outer-content speaker-list">
-
-  <ion-list no-lines center>
-  <ion-item class="speaker" center wrap *ngFor="let speaker of speakers">
-
-
-    <ion-item-content >
-      <button ion-item (click)="goToSpeakerDetail(speaker)">
-
-        <ion-avatar item-left>
-          <img [src]="getSpeakerImage(speaker)">
-        </ion-avatar>
-        <h2> {{speaker.name}}</h2>
-
-        <button twitter (click)="goToSpeakerTwitter(speaker)" clear item-right *ngIf="speaker.twitter">
-          <ion-icon name="logo-twitter"></ion-icon>
-          Tweet
-        </button>
-      </button>
-      <ion-list >
+  <ion-list no-lines center *ngFor="let speaker of speakers">
+    <ion-card>
+        <img [src]="getSpeakerImage(speaker)" *ngIf="speaker.profilePic"/>
+      <ion-card-content>
+        <ion-card-title>
+          {{speaker.name}}
+        </ion-card-title>
         <button text-wrap wrap ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
           <h3 wrap [innerHTML]="session.name"></h3>
         </button>
-
-      </ion-list>
-    </ion-item-content>
-
-</ion-item>
-</ion-list>
+      </ion-card-content>
+      <hr>
+      <ion-grid>
+      <ion-row no-padding>
+        <ion-col text-center>
+          <button small clear color="dark" (click)="goToSpeakerDetail(speaker)">
+            <ion-icon name="contact"></ion-icon>
+            Profile
+          </button>    
+        </ion-col>
+        <ion-col text-center *ngIf="speaker.contentLink">
+        <button small clear (click)="openPagInNewWindow(speaker.contentLink)">
+          <ion-icon name="download"></ion-icon>
+            Slides
+          </button>    
+        </ion-col>
+        <ion-col text-center *ngIf="speaker.twitter">
+          <button small clear twitter (click)="goToSpeakerTwitter(speaker)">
+            <ion-icon name="logo-twitter"></ion-icon>
+            Tweet
+          </button>  
+        </ion-col>
+      </ion-row>
+      </ion-grid>
+    </ion-card>
+  </ion-list>
 </ion-content>
