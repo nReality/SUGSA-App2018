@@ -8,29 +8,29 @@
     "description": "Regional Scrum Gathering® Durban 2018 is an annual conference where software professionals and Agile enthusiasts meet to uncover better ways of working and developing software",
     "website": "http://sugsa.org.za/event/scrum-gathering-south-africa-2018/",
     "feedbackHeading": "Feedback for the conference",
-        "feedbackDescription": "Please answer a collection of questions about the conference which will be used to improve your experience next year. This should take around 1-2 minutes of your time. Your feedback will remain anonymous.",
-        "questions": [
-            {   
-                "name": "satisfaction",
-                "text": "How satisfied were you with the conference?"
-            },
-            {   
-                "name": "objective",
-                "text": "In your opinion, did the conference meet its objectives?"
-            },
-            {
-                "name":"structure",
-                "text": "How well was the conference structured?"
-            },
-            {
-                "name":"discussion",
-                "text": "Was there enough time for discussion?"
-            },
-            {
-                "name": "topics",
-                "text": "Which topics would you like to see covered at future conferences?"
-            }
-        ],
+    "feedbackDescription": "Please answer a collection of questions about the conference which will be used to improve your experience next year. This should take around 1-2 minutes of your time. Your feedback will remain anonymous.",
+    "questions": [
+      {
+        "name": "satisfaction",
+        "text": "How satisfied were you with the conference?"
+      },
+      {
+        "name": "objective",
+        "text": "In your opinion, did the conference meet its objectives?"
+      },
+      {
+        "name": "structure",
+        "text": "How well was the conference structured?"
+      },
+      {
+        "name": "discussion",
+        "text": "Was there enough time for discussion?"
+      },
+      {
+        "name": "topics",
+        "text": "Which topics would you like to see covered at future conferences?"
+      }
+    ],
     "links": [
       {
         "linkText": "Give us feedback!",
@@ -58,11 +58,11 @@
               ],
               "description": "<p></p>",
               "name": "Open Space",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "7:00 am",
               "timeEnd": "8:45 am",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "SUGSA"
@@ -183,11 +183,11 @@
               ],
               "description": "<p>Whereas output metrics (such as stories completed per week) measure aspects of a team’s localized productivity, outcome metrics (such as how much these features increase customer productivity) measure the difference the teams’ work makes in the world. \n\nFocus on output metrics can lead to increased waste and unnecessary stress, and distracts the organization from achieving more valuable outcomes. \n\nIn this talk, through stories and group exercises, you’ll see how you can better measure and improve your organization’s effectiveness.</p>",
               "name": "Outcome metrics lead to valuable practices",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "11:00 am",
               "timeEnd": "11:45 am",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "Skylar Watson"
@@ -205,11 +205,11 @@
               ],
               "description": "<p>Imagine you are a Mad Agile Scientist and have a diabolical experiment to conduct – what would happen if you exchanged the brains of a Product Owner and Scrum Master? Mwuhahahaha!!! How would the body of a Product Owner with the brain of a Scrum Master act? And vice versa?\n\nPerhaps the Scrum Master would now treat the team like a backlog? This Scrum Master would be focused on value and maintaining a coaching backlog of team and person improvements. This Scrum Master is refining the team, crafting a group that delivers value.\n\nAnd perhaps the Product Owner might treat the backlog like a team? Rather than backlog refining, they coach the backlog. They would be focused on nurturing, protecting, and empowering the backlog. The backlog might transform from an irritation into a labor of love.\n\nAlthough this experiment sounds terrible, this change of perspective might be what you need to reanimate your dead team or backlog.</p>",
               "name": "The Scrum brain transplant",
-              "locationId": "African Fire 3 & 4",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "11:00 am",
               "timeEnd": "11:45 am",
               "tracks": [
-                "African Fire 3 & 4"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
                 "Alex Sloley"
@@ -227,11 +227,11 @@
               ],
               "description": "<p>In April 2018, due to a change in company strategy and priorities, it became necessary to change the number and make up of our teams. As Agile Coach I suggested the possibility of allowing the teams to choose themselves having seen previous presentations and articles by Sandy Mamoli and David Mole.\n\nIn the case studies found online, there is a general assumption that all team members make themselves available to take part physically in the exercises. Having a development team containing team members based in Cape Town as well as Taiwan this would prove to be difficult for us.\n\nThis talk will be about how we adapted the process set out in Sandy and David’s book, as well as the various case studies done by others, to accommodate our team members who were not able to join the exercise in-person. I will share the outcome of the exercise, the feedback received during and after the exercise, and finally some important lessons we learned along the way.\n\nBy sharing our experience I hope to encourage more companies to give their teams the freedom of self-selection even when considering remote employees.</p>",
               "name": "A practical look into self-selecting teams",
-              "locationId": "African Fire 5 & 6",
+              "locationId": "African Fire 5 - 6",
               "timeStart": "11:00 am",
               "timeEnd": "11:45 am",
               "tracks": [
-                "African Fire 5 & 6"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
                 "Bevan Williams"
@@ -276,11 +276,11 @@
               ],
               "description": "<p>Imagine you’re the development manager; it’s performance review season; and it’s your task to do them. You care. You want to do this performance review with commitment, courage, focus, openness and respect. This challenges you – to rate a human in the organisation’s well-intentioned but potentially threatening KPI boxes. The job market seems often to put the scrum master mask on traditional line management functions, so your reviewee isn’t likely to be excited by transparency, inspection, and adaptation when money and personal growth are on the line. But what if your reviewee loves adding value and uncovering better ways to do it? What could you make of this opportunity? This is my story of my conversations with my supervisors in performance reviews to frame them as leaders I want to follow who want to lead me.</p>",
               "name": "Performance reviews: show me the carrots not the sticks!",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "12:00 pm",
               "timeEnd": "12:15 pm",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "Sintu Tonjeni"
@@ -298,11 +298,11 @@
               ],
               "description": "<p>Ever wondered why some people get defensive or just shut down when you talk about agile? Based on neuroscience findings, the SCARF model elaborates on why people shut down and the triggers that cause them to go into fight or flight mode. For an agilist, the SCARF model can be very handy.\n\nThe SCARF model was developed by David Rock based on key discoveries from neuroscience and provides an insightful framework around what triggers people to shut down when engaging with others. Once understood, the SCARF model can be applied to many situations that are commonly faced by agilists, such as giving and receiving feedback. In this lightning talk, I will go through how understanding the SCARF model can help you engage with others better as an agilist.</p>",
               "name": "Using Neuroscience to engage with others",
-              "locationId": "African Fire 3 & 4",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "12:00 am",
               "timeEnd": "12:15 pm",
               "tracks": [
-                "African Fire 3 & 4"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
                 "Mispah Carelsen"
@@ -320,11 +320,11 @@
               ],
               "description": "<p>This is my story on how I became a scrum master from just learning the word Agile to hosting a scrum master community. I share some tips on what I’ve discovered worked for me and could work for you too.</p>",
               "name": "How to be a scrum master",
-              "locationId": "African Fire 5 & 6",
+              "locationId": "African Fire 5 - 6",
               "timeStart": "12:00 pm",
               "timeEnd": "12:15 pm",
               "tracks": [
-                "African Fire 5 & 6"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
                 "Yogini Moodley"
@@ -375,11 +375,11 @@
               ],
               "description": "<p>We live in a world characterized by uncertainty, volatility, chaos,and ambiguity. What tools do we need to shift a system? How can we use the system’s inherent properties to shift patterns of behavior to a more suitable fit for function? Join us in this workshop and experience the answers!\n\nCanceled software projects litter the landscape like the galleons in the Graveyard of ships. Projects escaping the graveyard resemble Frankenstein. They lurch, not quite dead, but not that useful. Wrecks happen not to lack of will, character or effort, but due to insufficient skill in quickly changing conditions.\n\nAs a leader in today’s complex, fast-paced development environment, leaders need different tools to shift the systems where they work. In this workshop, we use the ABIDE mnemonic to navigate the system properties. We look at how these properties have an influence on the system and how we can start to use them to shift behaviours, and create new patterns.</p>",
               "name": "Leading in Complexity",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "1:30 pm",
               "timeEnd": "3:00 pm",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "Joanne Perold",
@@ -398,18 +398,18 @@
               ],
               "description": "<p>A fundamental ingredient for high-performing teams is self-organisation. Join me as we walk through a practical application of how to recognise the importance of clarity, boundaries & practices necessary for high-performing teams. Are you ready to become a Servant Leader Navy SEAL style? HOOYAH</p>",
               "name": "Agile Armies – self-organisation as a supporting model in the military",
-              "locationId": "African Fire 3 & 4",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "1:30 pm",
               "timeEnd": "3:00 pm",
               "tracks": [
-                "African Fire 3 & 4"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
                 "Biase de Gregorio"
               ]
             },
             {
-              "date": "9th November 2017",
+              "date": "9th November 2018",
               "speakers": [
                 {
                   "about": "<p>Malene Jacobsen is one of the few people that have never done a Waterfall project. She was taught Agile/Scrum from the first day of her education in Advanced Computer Science and since then it became a natural way of thinking both in her work and private life. Malene fully lives up to the saying: you don’t do agile, you become agile!\n\nMalene started her professional career as a Developer. In her career, she has fulfilled all scrum roles: Developer, Product Owner and Scrum Master and she realized that her passion is to teach other people in the understanding of the Scrum framework and getting everybody to feel the same passion and joy for agile as she does. She is doing this as an Agile coach and trainer at Agile of Course in Cape Town.</p>",
@@ -420,11 +420,11 @@
               ],
               "description": "<p>Do you want to become a significantly better SM? Through this fun workshop, you will gain knowledge of 6 powerful learning principles based on the best of brain science, which will enable you to create outstanding sessions that people will remember. Plus 7 exercises that you can immediately apply.\n\nIn this fun and interactive workshop, we will come to understand how our brains learn and how we as SM, teachers, facilitators or coaches can use simple learning principles to create outstanding interactive sessions that people will remember. The learning principles are based on Sharon Bowman’s “Training from the back of the room” concept which is based on the best from brain science. Furthermore, the participant will be learning 7 different active exercises based on this concept that they can immediately apply in their daily work functions.</p>",
               "name": "Tips and tricks for SM, facilitators and coaches on how to create outstanding sessions",
-              "locationId": "African Fire 5 & 6",
+              "locationId": "African Fire 5 - 6",
               "timeStart": "1:30 pm",
               "timeEnd": "3:00 pm",
               "tracks": [
-                "African Fire 5 & 6"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
                 "Malene Bendixen"
@@ -469,11 +469,11 @@
               ],
               "description": "<p>Agile coaches blame failed Agile adoption on people’s resistance to change. But two Harvard professors showed that people do not necessarily resist change. They often have a hidden competing commitment. The result is a stalled effort, which looks like resistance. We call it immunity to change.\n\nA medical study showed that when doctors tell their seriously ill heart patients that they will die if they do not make changes to their lifestyle, only one in seven patients is able to make a change. Crazy! According to Harvard professors, Robert Kegan and Lisa Lahey, people do not resist change. Even when people are genuinely committed to change, they subconsciously apply effort toward a hidden competing commitment. It is like shoveling sand against the tide.\n\nIn this workshop, I want to demonstrate the power of the Immunity to Change framework developed by Kegan and Lahey and share my practical experience overcoming this immunity when implementing Agile.</p>",
               "name": "Immunity to change",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "3:30 pm",
               "timeEnd": "5:00 pm",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "Pavel Dabrytski"
@@ -497,11 +497,11 @@
               ],
               "description": "<p>Our failure to create safety for all voices—to be simple and blunt—is keeping us from discovering the true future and abundance of Agile. Shifting diversity into inclusion is difficult. The work is hard to navigate. What if we say, or do, the wrong thing? This workshop starts with your story… \n\nWe, the facilitators, come from a privileged space in our communities. We invite other allies to join us in this participatory, fully hands-on, safe-to-fail workshop. We will each explore and practice ways to use the privilege available to us when we try to ally with those with less privilege. \n\nWe will ask you to leave your comfort zone in this session. This workshop will include an active, introspective look at intersectional privilege and white fragility. \n\nIf you come from a space with less privilege, we imagine you may be called by this invitation to join this workshop to observe, to monitor, or to share your lived experience. We welcome you. We will do our best to create a space that is safe enough for you.\n\n<strong>We ask this of all allies:</strong>\n\n- Don’t tolerate hate regardless of who is—or isn’t—in the room.\n- Get OK with getting uncomfortable.\n- Accept the knowledge that you’ve messed up in the past and will mess up in the future.</p>",
               "name": "Shifting Diversity into Inclusion - and Navigating the Difference",
-              "locationId": "African Fire 3 & 4",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "3:30 pm",
               "timeEnd": "5:00 pm",
               "tracks": [
-                "African Fire 3 & 4"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
                 "Steve Holyer",
@@ -509,7 +509,7 @@
               ]
             },
             {
-              "date": "8th November 2017",
+              "date": "8th November 2018",
               "speakers": [
                 {
                   "about": "<p>I currently work at Jumo as an Agile Lead and as a volunteer committee member for Scrum User Group South Africa (SUGSA). I think the most amazing thing about me is that I became a scrum master by “accident” but now I can’t imagine doing anything else. I really love finding new ways to encourage collaboration and transparency and connecting with other communities. My favourite things are building lego and playing games.</p>",
@@ -526,11 +526,11 @@
               ],
               "description": "<p>Remote working is becoming increasingly popular. We feel it is important to develop practical skills to enable more effective remote collaboration regardless of one’s role. We’ve developed an interactive session around the facilitation of collaborative remote team sessions with the simplest tools.\n\nWe hope to give people the chance to explore the mechanics that support and hinder collaboration in remote environments, allowing them to come to their own conclusions about what might enable more effective remote meetings.</p>",
               "name": "Hacking Remote Facilitation",
-              "locationId": "African Fire 5 & 6",
+              "locationId": "African Fire 5 - 6",
               "timeStart": "3:30 pm",
               "timeEnd": "5:00 pm",
               "tracks": [
-                "African Fire 5 & 6"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
                 "Jay-Allen Morris",
@@ -581,11 +581,11 @@
               ],
               "description": "<p></p>",
               "name": "Open Space",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "7:00 am",
               "timeEnd": "8:45 am",
               "tracks": [
-                "Africna Fire 1 & 2"
+                "Africna Fire 1 - 2"
               ],
               "speakerNames": [
                 "SUGSA"
@@ -602,7 +602,7 @@
                 
               ],
               "description": "<p>Please visit the Welcome Desk on the conference level to register.</p><br><p></p>",
-              "name": "Registration & Networking",
+              "name": "Registration and Networking",
               "locationId": "foyer",
               "timeStart": "7:30 am",
               "timeEnd": "8:45 am",
@@ -630,11 +630,11 @@
               ],
               "description": "<p>Have you ever spent too long building a feature only to find out that it did not contribute to the business goals? Have your team members been fighting tech debt and thought there must be a better way to manage it? Let me talk to you about how my team built revenue-generating features in hours with zero tech debt.\n\nEvery development team has suffered from Technical Debt, and most developers love refactoring these issues into the early hours, like an accountant making sure the books balance on Christmas Eve.\n\nSometimes, though, software teams can focus too much on technical debt rather than key business metrics, or sometimes we focus too much on features and not enough on software architecture, which will come back to bite the business later on. When thousands are trying to build startups, and businesses are trying to move rapidly, how can we balance acquiring technical debt and feature delivery. Simple! Stop seeing it as debt.\n\nWhat I am going to propose goes hand-in-hand with Eric Ries’ The Lean Startup (2011). One of the key takeaways from Lean Startup was to validate your hypothesis by using minimum value products (I know this is 2018, and here I am still talking about MVPs). As a development team, you could build software as if you were running an experiment, have a clear hypothesis and measure to see if your assertions were correct.</p>",
               "name": "Develop rapidly by adopting a Lean mindset to Technical Debt",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "9:00 am",
               "timeEnd": "9:45 am",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "Michael Carr"
@@ -658,11 +658,11 @@
               ],
               "description": "<p></p>",
               "name": "Breaking Bad Scrum",
-              "locationId": "African Fire 3 & 4",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "9:00 am",
               "timeEnd": "9:45 am",
               "tracks": [
-                "African Fire 3 & 4"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
                 "Joanne Perold",
@@ -670,7 +670,7 @@
               ]
             },
             {
-              "date": "10th November 2017",
+              "date": "9th November 2018",
               "speakers": [
                 {
                   "about": "<p>John has spent most of the last 2 decades working in the software industry, with a focus on web technologies. After 10 years as a software engineer John moved into consultancy where he quickly learned the value of team dynamics and how most technical challenges are projecting underlying issues with collaboration. So his focus shifted, while still being very involved technically, his first focus is on facilitating a safe, creative, collaborative environment.</p>",
@@ -681,11 +681,11 @@
               ],
               "description": "<p>Diversity: It’s the topic of the hour. But what’s the goal? Are we hiring minorities to keep up with quotas or our competition?\n\nOrganisations are all putting ‘diversity’ and ‘equal opportunities’ on every job ad. For some organisations it still seems to be a struggle.\n\nDo we want diverse teams because it’s the “right thing to do” or is it “good for our teams and organisations”?\n\nThis talk will engage the audience in frank discussion on what diversity is, why we need it, and how we might achieve it.</p>",
               "name": "Diversity, chocolate and safe cracking",
-              "locationId": "African Fire 5 & 6",
+              "locationId": "African Fire 5 - 6",
               "timeStart": "9:00 am",
               "timeEnd": "9:45 am",
               "tracks": [
-                "African Fire 5 & 6"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
                 "John Le Drew"
@@ -730,11 +730,11 @@
               ],
               "description": "<p>In most environments, a production deployment is synonymous with product release. Almost always linked – a big deployment day with great effort dedicated to testing pre- and post-deployment.\n\nThis means; the trusted, tested and working software becomes available to the users. For the development team; it might mean a weekend in the office, a week of regression testing, a lack of environments for integrating new software currently being worked on, and a complicated process of emergency deployments to fix any production issues identified after the release.\n\nIs this by design within the team? Or are there certain improvements we can make?\n\nI’m convinced the way that we couple these slows us down and it’s time we put more focus on measures that can improve our cycle and that it starts with decoupling our production deployments from the product release.</p>",
               "name": "Can decoupling production deployment and product release make us more agile?",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "10:00 am",
               "timeEnd": "10:15 am",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "Nkululeko Masondo"
@@ -752,11 +752,11 @@
               ],
               "description": "<p>Your team can get better and better despite corporate culture and unsupportive management. In the early 2000s we created a high performing, largely self-organising team in the midst of government bureaucracy. A team that outperformed all others. Let me share the story with you in 15 minutes.\n\nAt World Retrospective Day in February a question was posed, “What are some of the reasons why things don’t get better Sprint after Sprint, retro after retro?”. I was saddened to hear one reason repeated in a few guises, “management won’t let us”, “management won’t support us”, “the culture doesn’t allow it”.\n\nHaving non-Agile culture and / or non-Agile management does not need to stop any team from continuously improving. I know that, because I assembled a group of people and grew them into a high performing team. The culture in which we operated at SARS was a cross between corporate and government, and was highly unionised. And management was mostly bureaucratic.\n\nBy the time I left in 2005 I had managers from other departments coming to me saying, “I’ve noticed how effective your team is and I’m trying to copy you. Please help me with the things I haven’t quite got right yet.\n\nI would like to share the story of how we “started where we were, used what we had, and did what we could”, to inspire coaches, scrum masters, leaders, and team members, to change things from the inside, in spite of the outside.</p>",
               "name": "Change and Influence from the Inside",
-              "locationId": "African Fire 3 & 4",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "10:00 am",
               "timeEnd": "10:15 am",
               "tracks": [
-                "African Fire 3 & 4"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
                 "Alison Gitelson"
@@ -774,11 +774,11 @@
               ],
               "description": "<p>Relevant to all ages and levels in organisations and life in general. You will be reminded that you can influence your peers, teams, and family members to be the best they can be. We can up our game and grow in character, become better listeners, be more supporting, and hold each other accountable.\n\nWhere 2 or more people get together for a purpose, there is an opportunity to be a Servant Leader, an opportunity to influence a person for good.\n\nThis means that each and every one one of us can make our mark. We often need to be reminded of the things we already know!</p>",
               "name": "Servant Leaders – Are they born or made?",
-              "locationId": "African Fire 5 & 6",
+              "locationId": "African Fire 5 - 6",
               "timeStart": "10:00 am",
               "timeEnd": "10:15 am",
               "tracks": [
-                "African Fire 5 & 6"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
                 "Charmaine van Bavel"
@@ -829,11 +829,11 @@
               ],
               "description": "<p>Human Resources! The very nature of this term gets any Scrum Master or Agile Coach hot under the collar. Calling humans “resources” is the same as calling them a capital asset – like a vehicle or building. It’s not surprising that the term annoys us. After all, the term was first coined in 1893 by John R. Commons – around the same time that child labour was still legal! Sadly, many organisations still refer to people as “resources” today…\n\nLuckily, Human Resources has started making huge strides since those dark days. They now focus on the things people care about – like hiring, compensation, performance management, and training. But they are still playing “catch-up” with our new agile ways of working. They are often blamed for not making changes needed to support an Agile culture, but Human Resources can’t change the company culture on their own! They often do not know where to start…\n\nWe have found a great approach to help Human Resources find the humans behind the “resources” – using Agile values and principles as a guide. Join us as we go through these techniques to help Human Resources (and other support functions).</p>",
               "name": "How human are your resources?",
-              "locationId": "African Fire 1 & 2",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "10:45 am",
               "timeEnd": "12:15 pm",
               "tracks": [
-                "African Fire 1 & 2"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
                 "Angie Doyle",
@@ -852,11 +852,11 @@
               ],
               "description": "<p>We still rely on outdated notions of how learning in the workplace works. We will discuss creating psychologically safe spaces where teams can question, experiment, and explore. Together, we will experiment with designing environments that support learning and continuous improvement.\n\nOur understanding of how humans learn has grown tremendously in the last 20 years. Providing an environment in which people have room to think, and the safety to experiment and adapt is key. We will review fundamental concepts of neuroscience and how they intersect with organizational behavior. We will also review how the agile mindset takes advantage of these concepts. From there, we can begin to envision the conditions that will provide the greatest opportunity for learning and continuous improvement. Together, we will share ideas on how we can start to transform our environments into safe spaces where teams can grow and thrive.</p>",
               "name": "Cultivating space for Learning",
-              "locationId": "African Fire 3 & 4",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "10:45 am",
               "timeEnd": "12:15 pm",
               "tracks": [
-                "African Fire 3 & 4"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
                 "Faye Thompson"
@@ -874,11 +874,11 @@
               ],
               "description": "<p></p>",
               "name": "Fishbowl",
-              "locationId": "African Fire 5 & 6",
+              "locationId": "African Fire 5 - 6",
               "timeStart": "10:45 am",
               "timeEnd": "12:15 pm",
               "tracks": [
-                "African Fire 5 & 6"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
                 "SUGSA"
@@ -1188,17 +1188,17 @@
       "color": "#188FAF"
     },
     {
-      "name": "African Fire 1 & 2",
+      "name": "African Fire 1 - 2",
       "id": "africanfire12",
       "color": "#866686"
     },
     {
-      "name": "African Fire 3 & 4",
+      "name": "African Fire 3 - 4",
       "id": "africanfire34",
       "color": "#D95F62"
     },
     {
-      "name": "African Fire 5 & 6",
+      "name": "African Fire 5 - 6",
       "id": "africanfire56",
       "color": "#D95F62"
     },
