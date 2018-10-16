@@ -1,88 +1,88 @@
 {
-  "name": "Scrum Gathering South Africa 2017",
-  "description": "Scrum Gathering South Africa 2017",
+  "name": "Regional Scrum Gathering® Durban 2018",
+  "description": "Regional Scrum Gathering® Durban 2018",
   "about": {
     "imageSrc": "img/icon.png",
-    "heading": "Scrum Gathering South Africa 2017",
+    "heading": "Regional Scrum Gathering® Durban 2018",
     "subHeading": "About the conference",
-    "description": "Regional Scrum Gathering South Africa is an annual conference where software professionals and Agile enthusiasts meet to uncover better ways of working and developing software",
-    "website": "http://sugsa.org.za/event/scrum-gathering-south-africa-2017/",
+    "description": "Regional Scrum Gathering® Durban 2018 is an annual conference where software professionals and Agile enthusiasts meet to uncover better ways of working and developing software",
+    "website": "http://sugsa.org.za/event/scrum-gathering-south-africa-2018/",
     "feedbackHeading": "Feedback for the conference",
-        "feedbackDescription": "Please answer a collection of questions about the conference which will be used to improve your experience next year. This should take around 1-2 minutes of your time. Your feedback will remain anonymous.",
-        "questions": [
-            {   
-                "name": "satisfaction",
-                "text": "How satisfied were you with the conference?"
-            },
-            {   
-                "name": "objective",
-                "text": "In your opinion, did the conference meet its objectives?"
-            },
-            {
-                "name":"structure",
-                "text": "How well was the conference structured?"
-            },
-            {
-                "name":"discussion",
-                "text": "Was there enough time for discussion?"
-            },
-            {
-                "name": "topics",
-                "text": "Which topics would you like to see covered at future conferences?"
-            }
-        ],
+    "feedbackDescription": "Please answer a collection of questions about the conference which will be used to improve your experience next year. This should take around 1-2 minutes of your time. Your feedback will remain anonymous.",
+    "questions": [
+      {
+        "name": "satisfaction",
+        "text": "How satisfied were you with the conference?"
+      },
+      {
+        "name": "objective",
+        "text": "In your opinion, did the conference meet its objectives?"
+      },
+      {
+        "name": "structure",
+        "text": "How well was the conference structured?"
+      },
+      {
+        "name": "discussion",
+        "text": "Was there enough time for discussion?"
+      },
+      {
+        "name": "topics",
+        "text": "Which topics would you like to see covered at future conferences?"
+      }
+    ],
     "links": [
       {
         "linkText": "Give us feedback!",
         "text": "",
-        "link": "https://cloudcallio.typeform.com/to/g0CBpd"
+        "link": "#"
       }
     ]
   },
   "schedule": [
     {
-      "date": "9th November 2017",
+      "date": "8th November 2018",
       "groups": [
         {
-          "time": "7:30 am",
+          "time": "7:00 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "8th November 2018",
               "speakers": [
                 {
-                  "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.</p>",
-                  "name": "Joshua Lewis",
+                  "about": "<p>Open Space</p>",
+                  "name": "SUGSA",
                   "priority": 1,
-                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
+                  "profilePic": "img/icon.png"
                 }
               ],
               "description": "<p></p>",
-              "name": "Lean Coffee (Day 1)",
-              "locationId": "queens",
-              "timeStart": "7:30 am",
-              "timeEnd": "8:30 am",
+              "name": "Open Space",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "7:00 am",
+              "timeEnd": "8:45 am",
               "tracks": [
-                "queens"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
-                "Joshua Lewis"
+                "SUGSA"
               ]
             }
           ]
         },
         {
-          "time": "8:00 am",
+          "time": "7:30 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "8th November 2018",
               "speakers": [
                 
               ],
-              "description": "<p>Please visit the Welcome Desk in the Foyer to register.</p><br><p></p>",
-              "name": "Registration",
+              "description": "<p>Please visit the Welcome Desk on the conference level to register.</p><br><p></p>",
+              "name": "Registration & Networking",
               "locationId": "foyer",
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
+              "timeStart": "7:30 am",
+              "timeEnd": "8:45 am",
               "tracks": [
                 "foyer"
               ],
@@ -96,51 +96,52 @@
           "time": "9:00 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "8th November 2018",
               "speakers": [
                 {
                   "about": "<p></p>",
-                  "name": "Kevin Pedersen",
+                  "name": "Barry Tandy & Elizabeth Marinakis",
                   "priority": 1,
-                  "profilePic": "img/speakers/Kevin-Pedersen.jpg"
+                  "profilePic": "img/icon.png"
                 }
               ],
               "description": "<p></p>",
               "name": "Welcome",
-              "locationId": "central",
+              "locationId": "African Fire 1 - 4",
               "timeStart": "9:00 am",
-              "timeEnd": "9:20 am",
+              "timeEnd": "9:15 am",
               "tracks": [
-                "central"
+                "African Fire 1 - 4"
               ],
               "speakerNames": [
-                "Kevin Pedersen"
+                "Barry Tandy & Elizabeth Marinakis"
               ]
             }
           ]
         },
         {
-          "time": "9:20 am",
+          "time": "9:15 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "8th November 2018",
               "speakers": [
                 {
                   "about": "<p></p>",
-                  "name": "Mike Burrows\t",
-                  "priority": 1
+                  "name": "Esther Derby",
+                  "priority": 1,
+                  "profilePic": "img/speakers/EstherDerby.jpg"
                 }
               ],
-              "description": "<p>Which is better: \"top down\", with the challenge of overcoming resistance to change, or \"bottom up\", perhaps never gathering momentum? Is it indeed a dichotomy, or can organisational transformation find a third way that is simultaneously respectful, ambitious, and sustainable? We'll explore a synthesis of ideas old and new, organised by a five-stage process of Discovery, Exploration, Mapping, Elaboration, and Operation.</p>",
-              "name": "Managing change in the 21st century: what we know & where we must do better",
-              "locationId": "central",
-              "timeStart": "9:20 am",
+              "description": "<p>Change is often much slower than hoped for, and more painful than anticipated. In the end, you may be left with feelings of frustration and dismay rather than the benefits you hoped for. How can we make change–whether it’s adopting Scrum at the team level, or agile at the enterprise level–more successful, and more enlivening?\n\nThrough my work with many organizations, I’ve distilled a set of heuristics to guide successful transformations. In this talk, we’ll explore these heuristics and how they support profound change.</p>",
+              "name": "Change by Attraction",
+              "locationId": "African Fire 1 - 4",
+              "timeStart": "9:15 am",
               "timeEnd": "10:30 am",
               "tracks": [
-                "central"
+                "African Fire 1 - 4"
               ],
               "speakerNames": [
-                "Mike Burrows"
+                "Esther Derby"
               ]
             }
           ]
@@ -149,14 +150,654 @@
           "time": "10:30 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "8th November 2018",
               "speakers": [
                 
               ],
               "description": "<p></p>",
-              "name": "Tea Break",
+              "name": "Tea Break & Interact",
               "locationId": "foyer",
               "timeStart": "10:30 am",
+              "timeEnd": "11:00 am",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "11:00 am",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Skylar Watson is a software consultant and owner of SkyNet software solutions where he coaches and implements high-value software to satisfy customers needs. Skylar works with companies both domestically and internationally assisting in adopting agile practices.</p>",
+                  "name": "Skylar Watson",
+                  "priority": 1,
+                  "profilePic": "img/speakers/SkylarWatson.jpg"
+                }
+              ],
+              "description": "<p>Whereas output metrics (such as stories completed per week) measure aspects of a team’s localized productivity, outcome metrics (such as how much these features increase customer productivity) measure the difference the teams’ work makes in the world. \n\nFocus on output metrics can lead to increased waste and unnecessary stress, and distracts the organization from achieving more valuable outcomes. \n\nIn this talk, through stories and group exercises, you’ll see how you can better measure and improve your organization’s effectiveness.</p>",
+              "name": "Outcome metrics lead to valuable practices",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "11:00 am",
+              "timeEnd": "11:45 am",
+              "tracks": [
+                "African Fire 1 - 2"
+              ],
+              "speakerNames": [
+                "Skylar Watson"
+              ]
+            },
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Alex Sloley is an Agile consultant, specializing in Agile training, Agile coaching, and software development best practices. Alex is a fifteen-year veteran of Microsoft where he acted as a Program Manager, Software Test Engineer, and Software Design Engineer in Test. At Microsoft, he shipped in over ten products, worked with Microsoft Research on multiple high-profile projects, and helped lead his organization into enterprise-level implementation of Scrum. As an Agile consultant, he has led Agile transformation efforts at a variety of clients, spanning industries and incorporating a diverse range of Agile practices.</p>",
+                  "name": "Alex Sloley",
+                  "priority": 1,
+                  "profilePic": "img/speakers/AlexSloley.jpg"
+                }
+              ],
+              "description": "<p>Imagine you are a Mad Agile Scientist and have a diabolical experiment to conduct – what would happen if you exchanged the brains of a Product Owner and Scrum Master? Mwuhahahaha!!! How would the body of a Product Owner with the brain of a Scrum Master act? And vice versa?\n\nPerhaps the Scrum Master would now treat the team like a backlog? This Scrum Master would be focused on value and maintaining a coaching backlog of team and person improvements. This Scrum Master is refining the team, crafting a group that delivers value.\n\nAnd perhaps the Product Owner might treat the backlog like a team? Rather than backlog refining, they coach the backlog. They would be focused on nurturing, protecting, and empowering the backlog. The backlog might transform from an irritation into a labor of love.\n\nAlthough this experiment sounds terrible, this change of perspective might be what you need to reanimate your dead team or backlog.</p>",
+              "name": "The Scrum brain transplant",
+              "locationId": "African Fire 3 - 4",
+              "timeStart": "11:00 am",
+              "timeEnd": "11:45 am",
+              "tracks": [
+                "African Fire 3 - 4"
+              ],
+              "speakerNames": [
+                "Alex Sloley"
+              ]
+            },
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Bevan has been an IT professional since 2009 and is currently the Agile Coach at Travelstart. He has previously worked as a Software Engineer, Scrum Master and Manager for a team of developers in Taipei. His passion is coaching, enabling and leading people to do their best work, focussing on personal, career and organizational growth.</p>",
+                  "name": "Bevan Williams",
+                  "priority": 1,
+                  "profilePic": "img/speakers/BevanWilliams.jpg"
+                }
+              ],
+              "description": "<p>In April 2018, due to a change in company strategy and priorities, it became necessary to change the number and make up of our teams. As Agile Coach I suggested the possibility of allowing the teams to choose themselves having seen previous presentations and articles by Sandy Mamoli and David Mole.\n\nIn the case studies found online, there is a general assumption that all team members make themselves available to take part physically in the exercises. Having a development team containing team members based in Cape Town as well as Taiwan this would prove to be difficult for us.\n\nThis talk will be about how we adapted the process set out in Sandy and David’s book, as well as the various case studies done by others, to accommodate our team members who were not able to join the exercise in-person. I will share the outcome of the exercise, the feedback received during and after the exercise, and finally some important lessons we learned along the way.\n\nBy sharing our experience I hope to encourage more companies to give their teams the freedom of self-selection even when considering remote employees.</p>",
+              "name": "A practical look into self-selecting teams",
+              "locationId": "African Fire 5 - 6",
+              "timeStart": "11:00 am",
+              "timeEnd": "11:45 am",
+              "tracks": [
+                "African Fire 5 - 6"
+              ],
+              "speakerNames": [
+                "Bevan Williams"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "11:45 am",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Move",
+              "locationId": "foyer",
+              "timeStart": "11:45 am",
+              "timeEnd": "12:00 pm",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:00 pm",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Sintu Tonjeni tests software. His career started in a professional services firm with many clients and is now at home in a managed services team. He cares more about doing the right thing more than doing the thing right, so unusually, instead of gaining certifications in testing he gained certification in SCRUM because he hates doing the wrong thing really efficiently. It's all about value! If you see him looking aimlessly at any time, he's probably deeply engaged in audiobooks where a character's having a hard time:)</p>",
+                  "name": "Sintu Tonjeni",
+                  "priority": 1,
+                  "profilePic": "img/speakers/SintuTonjeni.jpg"
+                }
+              ],
+              "description": "<p>Imagine you’re the development manager; it’s performance review season; and it’s your task to do them. You care. You want to do this performance review with commitment, courage, focus, openness and respect. This challenges you – to rate a human in the organisation’s well-intentioned but potentially threatening KPI boxes. The job market seems often to put the scrum master mask on traditional line management functions, so your reviewee isn’t likely to be excited by transparency, inspection, and adaptation when money and personal growth are on the line. But what if your reviewee loves adding value and uncovering better ways to do it? What could you make of this opportunity? This is my story of my conversations with my supervisors in performance reviews to frame them as leaders I want to follow who want to lead me.</p>",
+              "name": "Performance reviews: show me the carrots not the sticks!",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "12:00 pm",
+              "timeEnd": "12:15 pm",
+              "tracks": [
+                "African Fire 1 - 2"
+              ],
+              "speakerNames": [
+                "Sintu Tonjeni"
+              ]
+            },
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>I'm an agile coach at Absa and the co-lead of the central agile adoption team. I am a passionate agilist that is committed to shifting mindsets with the belief  that change begins within. I see my purpose as being to create workplaces conducive to higher consciousness through a new era of leaders.</p>",
+                  "name": "Mispah Carelsen",
+                  "priority": 1,
+                  "profilePic": "img/speakers/MispahCarelsen.jpg"
+                }
+              ],
+              "description": "<p>Ever wondered why some people get defensive or just shut down when you talk about agile? Based on neuroscience findings, the SCARF model elaborates on why people shut down and the triggers that cause them to go into fight or flight mode. For an agilist, the SCARF model can be very handy.\n\nThe SCARF model was developed by David Rock based on key discoveries from neuroscience and provides an insightful framework around what triggers people to shut down when engaging with others. Once understood, the SCARF model can be applied to many situations that are commonly faced by agilists, such as giving and receiving feedback. In this lightning talk, I will go through how understanding the SCARF model can help you engage with others better as an agilist.</p>",
+              "name": "Using Neuroscience to engage with others",
+              "locationId": "African Fire 3 - 4",
+              "timeStart": "12:00 am",
+              "timeEnd": "12:15 pm",
+              "tracks": [
+                "African Fire 3 - 4"
+              ],
+              "speakerNames": [
+                "Mispah Carelsen"
+              ]
+            },
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>I am an Agile Coache in Absa in Johannesburg. I started learning about Agile in 2014 and have been to every scrum gathering in South Africa since. I am passionate about the learning from the agile community and growing the community. I host Agile Coffees and a Scrum Master Community internally at Absa. I've spoken at Agile Africa and Scrum Gathering last year.</p>",
+                  "name": "Yogini Moodley",
+                  "priority": 1,
+                  "profilePic": "img/speakers/YoginiMoodley.jpg"
+                }
+              ],
+              "description": "<p>This is my story on how I became a scrum master from just learning the word Agile to hosting a scrum master community. I share some tips on what I’ve discovered worked for me and could work for you too.</p>",
+              "name": "How to be a scrum master",
+              "locationId": "African Fire 5 - 6",
+              "timeStart": "12:00 pm",
+              "timeEnd": "12:15 pm",
+              "tracks": [
+                "African Fire 5 - 6"
+              ],
+              "speakerNames": [
+                "Yogini Moodley"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:15 pm",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Lunch (75 Minutes)",
+              "locationId": "African Heritage",
+              "timeStart": "12:15 pm",
+              "timeEnd": "1:30 pm",
+              "tracks": [
+                "African Heritage"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "1:30 pm",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>I am passionate about helping teams and people grow and improve, I enjoy helping teams and organizations implement and improve their agile practices. I am a graduate of Jerry Weinberg, Esther Derby and Johanna Rothman’s PSL (Problem solving leadership) and I have worked for more than a decade in the software industry in all areas of software development. I am interested in both people and process improvement and continuously learning and finding better ways to solve problems. I have worked as a product owner, scrum master and team member. I have worked with different types and sizes of teams, some starting out their Agile journey and some having been on that path for long. I have learned from these teams and helped them learn from me. I love what I do and I like to have fun while working. Outside of all of this I enjoy reading, good food, good wine and the occasional good whiskey.</p>",
+                  "name": "Joanne Perold",
+                  "priority": 1,
+                  "profilePic": "img/speakers/JoannePerold.jpg"
+                },
+                {
+                  "about": "<p>Having worked in software for 30 years I focus my energy and efforts working with executives to create the conditions where teams can flourish developing business value. This includes assessments, focused coaching, public and private workshops.\n\nI currently co-facilitate the well-known Coaching Beyond the Team and Problem Solving Leadership workshops. With Andy Hunt and Tony Brill I’m co-creating the GROWS Method of software development that focuses on individual, team and organizational learning.\n\nI co-wrote two books with Jerry Weinberg, Esther Derby and Johanna Rothman: “Center Enter Turn Sustain: Essays on Change Artistry”  and “Readings for Problems-Solving Leadership”.  You can find the articles I've written for free at http://www.donaldegray.com</p>",
+                  "name": "Don Gray",
+                  "priority": 1,
+                  "profilePic": "img/speakers/DonGray.jpg"
+                }
+              ],
+              "description": "<p>We live in a world characterized by uncertainty, volatility, chaos,and ambiguity. What tools do we need to shift a system? How can we use the system’s inherent properties to shift patterns of behavior to a more suitable fit for function? Join us in this workshop and experience the answers!\n\nCanceled software projects litter the landscape like the galleons in the Graveyard of ships. Projects escaping the graveyard resemble Frankenstein. They lurch, not quite dead, but not that useful. Wrecks happen not to lack of will, character or effort, but due to insufficient skill in quickly changing conditions.\n\nAs a leader in today’s complex, fast-paced development environment, leaders need different tools to shift the systems where they work. In this workshop, we use the ABIDE mnemonic to navigate the system properties. We look at how these properties have an influence on the system and how we can start to use them to shift behaviours, and create new patterns.</p>",
+              "name": "Leading in Complexity",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "1:30 pm",
+              "timeEnd": "3:00 pm",
+              "tracks": [
+                "African Fire 1 - 2"
+              ],
+              "speakerNames": [
+                "Joanne Perold",
+                "Don Gray"
+              ]
+            },
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>As the head of the agility@IQbusiness offering at IQbusiness since 2012, he has built an amazing team of Agile consultants (arguably the largest in South Africa) that share a common purpose of continuous learning, team and organisational improvement. Together with his team, Biase has trained over 6 000 people on Agile and has been involved in some of the largest Agile transformations in various industries. He has recently been appointed as the Practice lead of Human Performance which includes Change management, Organisational Design, Learning, Strategic Human Capital and now Agile consulting</p>",
+                  "name": "Biase de Gregorio",
+                  "priority": 1,
+                  "profilePic": "img/speakers/BiaseDeGregorio.jpg"
+                }
+              ],
+              "description": "<p>A fundamental ingredient for high-performing teams is self-organisation. Join me as we walk through a practical application of how to recognise the importance of clarity, boundaries & practices necessary for high-performing teams. Are you ready to become a Servant Leader Navy SEAL style? HOOYAH</p>",
+              "name": "Agile Armies – self-organisation as a supporting model in the military",
+              "locationId": "African Fire 3 - 4",
+              "timeStart": "1:30 pm",
+              "timeEnd": "3:00 pm",
+              "tracks": [
+                "African Fire 3 - 4"
+              ],
+              "speakerNames": [
+                "Biase de Gregorio"
+              ]
+            },
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Malene Jacobsen is one of the few people that have never done a Waterfall project. She was taught Agile/Scrum from the first day of her education in Advanced Computer Science and since then it became a natural way of thinking both in her work and private life. Malene fully lives up to the saying: you don’t do agile, you become agile!\n\nMalene started her professional career as a Developer. In her career, she has fulfilled all scrum roles: Developer, Product Owner and Scrum Master and she realized that her passion is to teach other people in the understanding of the Scrum framework and getting everybody to feel the same passion and joy for agile as she does. She is doing this as an Agile coach and trainer at Agile of Course in Cape Town.</p>",
+                  "name": "Malene Bendixen",
+                  "priority": 1,
+                  "profilePic": "img/speakers/MaleneBendixen.jpg"
+                }
+              ],
+              "description": "<p>Do you want to become a significantly better SM? Through this fun workshop, you will gain knowledge of 6 powerful learning principles based on the best of brain science, which will enable you to create outstanding sessions that people will remember. Plus 7 exercises that you can immediately apply.\n\nIn this fun and interactive workshop, we will come to understand how our brains learn and how we as SM, teachers, facilitators or coaches can use simple learning principles to create outstanding interactive sessions that people will remember. The learning principles are based on Sharon Bowman’s “Training from the back of the room” concept which is based on the best from brain science. Furthermore, the participant will be learning 7 different active exercises based on this concept that they can immediately apply in their daily work functions.</p>",
+              "name": "Tips and tricks for SM, facilitators and coaches on how to create outstanding sessions",
+              "locationId": "African Fire 5 - 6",
+              "timeStart": "1:30 pm",
+              "timeEnd": "3:00 pm",
+              "tracks": [
+                "African Fire 5 - 6"
+              ],
+              "speakerNames": [
+                "Malene Bendixen"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "3:00 pm",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Tea Break & Interact",
+              "locationId": "foyer",
+              "timeStart": "3:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "3:30 pm",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Pavel is a Certified Scrum Trainer (CST©) based in Johannesburg, South Africa. He was born in Belarus but in 2009, dislike of harsh winters and an adventurous spirit brought him first to Cape Town then to Johannesburg. He helps organizations implement Agile sustainably through mentoring, training, and coaching. Over the past several years, Pavel has worked with major financial organizations, retail giants, and telecommunication companies to improve their organizational processes. He also helped organize multiple Regional Scrum Gatherings in Cape Town and Johannesburg. Pavel is a seasoned presenter who has spoken at events in Paris, Prague, Shanghai, Bangalore, Atlanta, New York, Singapore, New Jersey and Orlando, as well as in South Africa. Currently, he explores topics on coaching psychology and financial models behind Agile projects.</p>",
+                  "name": "Pavel Dabrytski",
+                  "priority": 1,
+                  "profilePic": "img/speakers/PavelDabrytski.jpg"
+                }
+              ],
+              "description": "<p>Agile coaches blame failed Agile adoption on people’s resistance to change. But two Harvard professors showed that people do not necessarily resist change. They often have a hidden competing commitment. The result is a stalled effort, which looks like resistance. We call it immunity to change.\n\nA medical study showed that when doctors tell their seriously ill heart patients that they will die if they do not make changes to their lifestyle, only one in seven patients is able to make a change. Crazy! According to Harvard professors, Robert Kegan and Lisa Lahey, people do not resist change. Even when people are genuinely committed to change, they subconsciously apply effort toward a hidden competing commitment. It is like shoveling sand against the tide.\n\nIn this workshop, I want to demonstrate the power of the Immunity to Change framework developed by Kegan and Lahey and share my practical experience overcoming this immunity when implementing Agile.</p>",
+              "name": "Immunity to change",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "African Fire 1 - 2"
+              ],
+              "speakerNames": [
+                "Pavel Dabrytski"
+              ]
+            },
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>I'm an agile Product Owner Coach, and and Agile Fluency™ Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
+                  "name": "Steve Holyer",
+                  "priority": 1,
+                  "profilePic": "img/speakers/SteveHolyer.jpg"
+                },
+                {
+                  "about": "<p>Cara is the COO and Agile Coach at Project codeX, a disruptive education initiative that equips aspiring coders with high quality skills and experience, while bridging the digital divide.\n \nHer ultimate goal is for us all to find the work we love doing, and build a better future doing it. Having spent years helping teams adopt agile practices that reduce risk and increase workplace happiness, she now helps aspiring coders to discover and follow their tech passions, on their journey to become agile software developers. \n \nShe has an insatiable love of learning, and cares deeply about sharing knowledge to build stronger communities and foster greater diversity in the software world.</p>",
+                  "name": "Cara Turner",
+                  "priority": 1,
+                  "profilePic": "img/speakers/CaraTurner.jpg"
+                }
+              ],
+              "description": "<p>Our failure to create safety for all voices—to be simple and blunt—is keeping us from discovering the true future and abundance of Agile. Shifting diversity into inclusion is difficult. The work is hard to navigate. What if we say, or do, the wrong thing? This workshop starts with your story… \n\nWe, the facilitators, come from a privileged space in our communities. We invite other allies to join us in this participatory, fully hands-on, safe-to-fail workshop. We will each explore and practice ways to use the privilege available to us when we try to ally with those with less privilege. \n\nWe will ask you to leave your comfort zone in this session. This workshop will include an active, introspective look at intersectional privilege and white fragility. \n\nIf you come from a space with less privilege, we imagine you may be called by this invitation to join this workshop to observe, to monitor, or to share your lived experience. We welcome you. We will do our best to create a space that is safe enough for you.\n\n<strong>We ask this of all allies:</strong>\n\n- Don’t tolerate hate regardless of who is—or isn’t—in the room.\n- Get OK with getting uncomfortable.\n- Accept the knowledge that you’ve messed up in the past and will mess up in the future.</p>",
+              "name": "Shifting Diversity into Inclusion - and Navigating the Difference",
+              "locationId": "African Fire 3 - 4",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "African Fire 3 - 4"
+              ],
+              "speakerNames": [
+                "Steve Holyer",
+                "Cara Turner"
+              ]
+            },
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>I currently work at Jumo as an Agile Lead and as a volunteer committee member for Scrum User Group South Africa (SUGSA). I think the most amazing thing about me is that I became a scrum master by “accident” but now I can’t imagine doing anything else. I really love finding new ways to encourage collaboration and transparency and connecting with other communities. My favourite things are building lego and playing games.</p>",
+                  "name": "Jay-Allen Morris",
+                  "priority": 1,
+                  "profilePic": "img/speakers/Jay-AllenMorris.jpg"
+                },
+                {
+                  "about": "<p>Kirsten began her career in counselling and psychology and moved into software about 4 years ago. In the last 3-4 years she has found facilitating and coaching Agile teams deeply rewarding as the role allows her to bring a lot of the things she cares deeply about together. She is currently working at Jumo as a Scrum Master and Facilitator. Prior to this she worked at 22seven as an Agile Facilitator.</p>",
+                  "name": "Kirsten Clacey",
+                  "priority": 1,
+                  "profilePic": "img/speakers/KirstenClacey.jpg"
+                }
+              ],
+              "description": "<p>Remote working is becoming increasingly popular. We feel it is important to develop practical skills to enable more effective remote collaboration regardless of one’s role. We’ve developed an interactive session around the facilitation of collaborative remote team sessions with the simplest tools.\n\nWe hope to give people the chance to explore the mechanics that support and hinder collaboration in remote environments, allowing them to come to their own conclusions about what might enable more effective remote meetings.</p>",
+              "name": "Hacking Remote Facilitation",
+              "locationId": "African Fire 5 - 6",
+              "timeStart": "3:30 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": [
+                "African Fire 5 - 6"
+              ],
+              "speakerNames": [
+                "Jay-Allen Morris",
+                "Kirsten Clacey"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "5:00 pm",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Sponsored Drinks",
+              "locationId": "African Heritage",
+              "timeStart": "5:00 pm",
+              "timeEnd": "7:00 pm",
+              "tracks": [
+                "African Heritage"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "9th November 2018",
+      "groups": [
+        {
+          "time": "7:00 am",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p></p>",
+                  "name": "SUGSA",
+                  "priority": 1,
+                  "profilePic": "img/icon.png"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Open Space",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "7:00 am",
+              "timeEnd": "8:45 am",
+              "tracks": [
+                "Africna Fire 1 - 2"
+              ],
+              "speakerNames": [
+                "SUGSA"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "7:30 am",
+          "sessions": [
+            {
+              "date": "8th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p>Please visit the Welcome Desk on the conference level to register.</p><br><p></p>",
+              "name": "Registration and Networking",
+              "locationId": "foyer",
+              "timeStart": "7:30 am",
+              "timeEnd": "8:45 am",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "9:00 am",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>I'm Michael Carr, software developer, manager and a co-founder of UK startup. I have built software for multinational countries and currently managing a team at Amazon in Edinburgh. I am passionate about being agile and deliver value to the customer as quickly as possible. </p>",
+                  "name": "Michael Carr",
+                  "priority": 1,
+                  "profilePic": "img/speakers/MichaelCarr.jpg"
+                }
+              ],
+              "description": "<p>Have you ever spent too long building a feature only to find out that it did not contribute to the business goals? Have your team members been fighting tech debt and thought there must be a better way to manage it? Let me talk to you about how my team built revenue-generating features in hours with zero tech debt.\n\nEvery development team has suffered from Technical Debt, and most developers love refactoring these issues into the early hours, like an accountant making sure the books balance on Christmas Eve.\n\nSometimes, though, software teams can focus too much on technical debt rather than key business metrics, or sometimes we focus too much on features and not enough on software architecture, which will come back to bite the business later on. When thousands are trying to build startups, and businesses are trying to move rapidly, how can we balance acquiring technical debt and feature delivery. Simple! Stop seeing it as debt.\n\nWhat I am going to propose goes hand-in-hand with Eric Ries’ The Lean Startup (2011). One of the key takeaways from Lean Startup was to validate your hypothesis by using minimum value products (I know this is 2018, and here I am still talking about MVPs). As a development team, you could build software as if you were running an experiment, have a clear hypothesis and measure to see if your assertions were correct.</p>",
+              "name": "Develop rapidly by adopting a Lean mindset to Technical Debt",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "9:00 am",
+              "timeEnd": "9:45 am",
+              "tracks": [
+                "African Fire 1 - 2"
+              ],
+              "speakerNames": [
+                "Michael Carr"
+              ]
+            },
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>I am passionate about helping teams and people grow and improve, I enjoy helping teams and organizations implement and improve their agile practices. I am a graduate of Jerry Weinberg, Esther Derby and Johanna Rothman’s PSL (Problem solving leadership) and I have worked for more than a decade in the software industry in all areas of software development. I am interested in both people and process improvement and continuously learning and finding better ways to solve problems. I have worked as a product owner, scrum master and team member. I have worked with different types and sizes of teams, some starting out their Agile journey and some having been on that path for long. I have learned from these teams and helped them learn from me. I love what I do and I like to have fun while working. Outside of all of this I enjoy reading, good food, good wine and the occasional good whiskey.</p>",
+                  "name": "Joanne Perold",
+                  "priority": 1,
+                  "profilePic": "img/speakers/JoannePerold.jpg"
+                },
+                {
+                  "about": "<p>With more than twenty years of project delivery experience, Faye Thompson is a consultant, coach, and ScrumMaster. With a focus on agile methodologies and continuous improvement, Faye has had a positive impact in the financial services, health care, advertising, automotive, aviation and utility industries. Passionate about using innovative solutions to drive business value, she helps workgroups transform themselves into highly engaged and energized teams. Faye enjoys serving on the board of directors for the Central Ohio Agile Association and as president of the Women in STEMM Alumni Society of The Ohio State University. She spends her free time volunteering as an emergency medical responder and public affairs coordinator for the American Red Cross, and hanging out with her husband and dog.</p>",
+                  "name": "Faye Thompson",
+                  "priority": 1,
+                  "profilePic": "img/speakers/FayeThompson.jpg"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Breaking Bad Scrum",
+              "locationId": "African Fire 3 - 4",
+              "timeStart": "9:00 am",
+              "timeEnd": "9:45 am",
+              "tracks": [
+                "African Fire 3 - 4"
+              ],
+              "speakerNames": [
+                "Joanne Perold",
+                "Faye Thompson"
+              ]
+            },
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>John has spent most of the last 2 decades working in the software industry, with a focus on web technologies. After 10 years as a software engineer John moved into consultancy where he quickly learned the value of team dynamics and how most technical challenges are projecting underlying issues with collaboration. So his focus shifted, while still being very involved technically, his first focus is on facilitating a safe, creative, collaborative environment.</p>",
+                  "name": "John Le Drew",
+                  "priority": 1,
+                  "profilePic": "img/speakers/JohnLeDrew.jpg"
+                }
+              ],
+              "description": "<p>Diversity: It’s the topic of the hour. But what’s the goal? Are we hiring minorities to keep up with quotas or our competition?\n\nOrganisations are all putting ‘diversity’ and ‘equal opportunities’ on every job ad. For some organisations it still seems to be a struggle.\n\nDo we want diverse teams because it’s the “right thing to do” or is it “good for our teams and organisations”?\n\nThis talk will engage the audience in frank discussion on what diversity is, why we need it, and how we might achieve it.</p>",
+              "name": "Diversity, chocolate and safe cracking",
+              "locationId": "African Fire 5 - 6",
+              "timeStart": "9:00 am",
+              "timeEnd": "9:45 am",
+              "tracks": [
+                "African Fire 5 - 6"
+              ],
+              "speakerNames": [
+                "John Le Drew"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "9:45 am",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Move",
+              "locationId": "foyer",
+              "timeStart": "9:45 am",
+              "timeEnd": "10:00 am",
+              "tracks": [
+                "foyer"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:00 am",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Passionate about agile and fascinated with the changing world, Nkululeko Masondo has journeyed with teams within Discovery, WesBank, NedBank and currently Absa in discovering their new ways of working. Nkululeko has a Management Consulting background aligned to Financial Services and was first introduced to Scrum in 2012. Originally from Durban, minus the dance moves; Nkululeko is also a current affairs junkie, music lover, and a law enthusiast.</p>",
+                  "name": "Nkululeko Masondo",
+                  "priority": 1,
+                  "profilePic": "img/speakers/NkululekoMasondo.jpg"
+                }
+              ],
+              "description": "<p>In most environments, a production deployment is synonymous with product release. Almost always linked – a big deployment day with great effort dedicated to testing pre- and post-deployment.\n\nThis means; the trusted, tested and working software becomes available to the users. For the development team; it might mean a weekend in the office, a week of regression testing, a lack of environments for integrating new software currently being worked on, and a complicated process of emergency deployments to fix any production issues identified after the release.\n\nIs this by design within the team? Or are there certain improvements we can make?\n\nI’m convinced the way that we couple these slows us down and it’s time we put more focus on measures that can improve our cycle and that it starts with decoupling our production deployments from the product release.</p>",
+              "name": "Can decoupling production deployment and product release make us more agile?",
+              "locationId": "African Fire 1 - 2",
+              "timeStart": "10:00 am",
+              "timeEnd": "10:15 am",
+              "tracks": [
+                "African Fire 1 - 2"
+              ],
+              "speakerNames": [
+                "Nkululeko Masondo"
+              ]
+            },
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Alison Gitelson of CanBeeDone is a maximizer, facilitator and growth enabler.\n\nShe combines over thirty years of technical and management experience (in healthcare, ICT, engineering, education, government and NGO sectors) with a deep understanding of human behaviour.\n\nHating to see time and effort wasted she helps leader-managers to bring out the best in themselves and the people they work with, so the people and the business can thrive.\n\nAlison has successfully led teams through transformation and change, and mentored other leader managers to do the same.\n\nHer workshops consistently receive high ratings and are received as informative, engaging, practical and transformative by clients from a broad spectrum of businesses. She is a popular presenter at Agile and Lean conferences and events.</p>",
+                  "name": "Alison Gitelson",
+                  "priority": 1,
+                  "profilePic": "img/speakers/AlisonGitelson.jpg"
+                }
+              ],
+              "description": "<p>Your team can get better and better despite corporate culture and unsupportive management. In the early 2000s we created a high performing, largely self-organising team in the midst of government bureaucracy. A team that outperformed all others. Let me share the story with you in 15 minutes.\n\nAt World Retrospective Day in February a question was posed, “What are some of the reasons why things don’t get better Sprint after Sprint, retro after retro?”. I was saddened to hear one reason repeated in a few guises, “management won’t let us”, “management won’t support us”, “the culture doesn’t allow it”.\n\nHaving non-Agile culture and / or non-Agile management does not need to stop any team from continuously improving. I know that, because I assembled a group of people and grew them into a high performing team. The culture in which we operated at SARS was a cross between corporate and government, and was highly unionised. And management was mostly bureaucratic.\n\nBy the time I left in 2005 I had managers from other departments coming to me saying, “I’ve noticed how effective your team is and I’m trying to copy you. Please help me with the things I haven’t quite got right yet.\n\nI would like to share the story of how we “started where we were, used what we had, and did what we could”, to inspire coaches, scrum masters, leaders, and team members, to change things from the inside, in spite of the outside.</p>",
+              "name": "Change and Influence from the Inside",
+              "locationId": "African Fire 3 - 4",
+              "timeStart": "10:00 am",
+              "timeEnd": "10:15 am",
+              "tracks": [
+                "African Fire 3 - 4"
+              ],
+              "speakerNames": [
+                "Alison Gitelson"
+              ]
+            },
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Charmaine started her IT career in 1986 as a COBOL programmer.  She has been in the role of Programmer, System Analyst an BA and team lead for many years.  Her Agile journey started at ABSA in 2015 where she certified as a scrum master in the first Scrum Master Academy that was presented in ABSA by Just Plain Agile, Agile 42 and IQ. Charmaine is currently an Agile Coach and Trainer in the Agile Transformation Team at ABSA.</p>",
+                  "name": "Charmaine van Bavel",
+                  "priority": 1,
+                  "profilePic": "img/speakers/CharmainevanBavel.jpg"
+                }
+              ],
+              "description": "<p>Relevant to all ages and levels in organisations and life in general. You will be reminded that you can influence your peers, teams, and family members to be the best they can be. We can up our game and grow in character, become better listeners, be more supporting, and hold each other accountable.\n\nWhere 2 or more people get together for a purpose, there is an opportunity to be a Servant Leader, an opportunity to influence a person for good.\n\nThis means that each and every one one of us can make our mark. We often need to be reminded of the things we already know!</p>",
+              "name": "Servant Leaders – Are they born or made?",
+              "locationId": "African Fire 5 - 6",
+              "timeStart": "10:00 am",
+              "timeEnd": "10:15 am",
+              "tracks": [
+                "African Fire 5 - 6"
+              ],
+              "speakerNames": [
+                "Charmaine van Bavel"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:15 am",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Tea Break & Interact",
+              "locationId": "foyer",
+              "timeStart": "10:15 am",
               "timeEnd": "10:45 am",
               "tracks": [
                 "foyer"
@@ -171,833 +812,152 @@
           "time": "10:45 am",
           "sessions": [
             {
-              "date": "9th November 2017",
+              "date": "9th November 2018",
               "speakers": [
                 {
-                  "about": "<p>A long time IT practitioner, I started focusing on new ways of work in 2014 when the bank started to focus on changing culture and shifting its processes. I started as a Lean Coach, shifted into Kanban and visualisation of flow (Presented a talk on Visualisation and Coaching as a way to create change at the Lean Summit 2016). \nI am a Servant Leadership facilitator for Standard Bank’s internal Agile Leadership Programme targeted at all 2000 IT employees (this has gone viral an is now spreading out across the bank as a whole) and am currently focused on embedding and strengthening this way of thinking and leading in one of the Core IT Transformation Programmes (200 people who have a strong Agile/ Scrum base).\n\nI am also an Ontological Transformation Coach and hold the Guinness World Record for the Deepest Dive by a Woman on Scuba. These last two are important pillars for my focus on changing mindsets and behaviours as I have lived through the impact of being embedded in unilateral control thinking - it was stopping me from seeing a way forward in my diving. It was only when I chose a new way of showing up that I was able to find my way forward and reach 221 meters and the Woman’s World Record.\n</p>",
-                  "name": "Verna van Schaik",
+                  "about": "<p>Over the course of my career, I have shifted from working face-to-face with customers, to articulating what customers need, to working with teams delivering the solution, to evolving ways to deliver the solution, to improving collaboration of teams working together. This was driven by my obsession to deliver high-quality solutions that people need... faster!\n\nThrough all this, I have come to value working with people the most. I love that human beings are complex creatures and none of us come with the same operating manual! Sometimes we work well together, sometimes we don’t. And that is where true creative potential lies.</p>",
+                  "name": "Angie Doyle",
                   "priority": 1,
-                  "profilePic": "img/speakers/Verna-van-Schaik.jpg"
+                  "profilePic": "img/speakers/AngieDoyle.jpg"
+                },
+                {
+                  "about": "<p>As the head of the agility@IQbusiness offering at IQbusiness since 2012, he has built an amazing team of Agile consultants (arguably the largest in South Africa) that share a common purpose of continuous learning, team and organisational improvement. Together with his team, Biase has trained over 6 000 people on Agile and has been involved in some of the largest Agile transformations in various industries. He has recently been appointed as the Practice lead of Human Performance which includes Change management, Organisational Design, Learning, Strategic Human Capital and now Agile consulting</p>",
+                  "name": "Biase de Gregorio",
+                  "priority": 1,
+                  "profilePic": "img/speakers/BiaseDeGregorio.jpg"
                 }
               ],
-              "description": "<p>This session is targeted at Coaches & Scrum Masters who are struggling with getting people to think Agile and so behave in a more Agile manner.  In particular, how do you get managers at all levels to shift out of the old waterfall way of thinking and behaving and really adopt Agile ? How do you get feature teams to be autonomous and self-managing? \nWe know we need to address the behaviour and cultures that are thwarting Agility, but are stuck on the ‘how ? ’ As individuals in the thick of it, it is easy to coach only at a process level in the hope that by focusing people on ‘doing’ Agile they will start to ‘think’ Agile. In so doing, we often actively avoid focusing on the people and how they are engaging with Agile, believing that this is a specialized field outside of our scope and limited to people like therapists & professional coaches. This often results in a high demand and dependence on Agile coaches to ensure people stick to the processes and principles. \nAt its core, Agile is a shift away from unilateral control. Only unilateral control is a way of being that is deeply embedded within us (leaders and followers alike) and so hard to shift without a conscious intervention.\nWithin Standard Bank we have been implementing a Behaviour Laboratory run internally by IT resources that focuses on a new style of leadership - the mutual learning model. Introduced by Roger Schwartz in his book  “The Skilled Facilitator”, mutual learning and its ground rules for collaboration create strong support for Agile and SAFE implementation at an individual level and in so doing, allows us to create and actively support an environment and behaviours that sustain  the agile culture shift. \n</p>",
-              "name": "Shifting into an Agile Mindset – Practical Tools for Scrum Masters & Coaches",
-              "locationId": "central",
+              "description": "<p>Human Resources! The very nature of this term gets any Scrum Master or Agile Coach hot under the collar. Calling humans “resources” is the same as calling them a capital asset – like a vehicle or building. It’s not surprising that the term annoys us. After all, the term was first coined in 1893 by John R. Commons – around the same time that child labour was still legal! Sadly, many organisations still refer to people as “resources” today…\n\nLuckily, Human Resources has started making huge strides since those dark days. They now focus on the things people care about – like hiring, compensation, performance management, and training. But they are still playing “catch-up” with our new agile ways of working. They are often blamed for not making changes needed to support an Agile culture, but Human Resources can’t change the company culture on their own! They often do not know where to start…\n\nWe have found a great approach to help Human Resources find the humans behind the “resources” – using Agile values and principles as a guide. Join us as we go through these techniques to help Human Resources (and other support functions).</p>",
+              "name": "How human are your resources?",
+              "locationId": "African Fire 1 - 2",
               "timeStart": "10:45 am",
-              "timeEnd": "11:30 am",
+              "timeEnd": "12:15 pm",
               "tracks": [
-                "central"
+                "African Fire 1 - 2"
               ],
               "speakerNames": [
-                "Verna van Schaik"
+                "Angie Doyle",
+                "Biase de Gregorio"
               ]
             },
             {
-              "date": "9th November 2017",
+              "date": "9th November 2018",
               "speakers": [
                 {
-                  "about": "<p>Justin used to be part of the SUGSA committee. He used to live and work in sunny Cape Town. Justin currently lives and works in snowy Stockholm. He is happy.\n\nJustin wants to live in a world filled with innovative businesses, happy teams, happy customers and a dancing squirrel. As an agile coach at Spotify, he often inspects & adapts. He also sings the Agile Manifesto song in a Stockholm shower to the beat of Mamma Mia. \nYou can reach him at @the_jus on twitter or listen to him talk about scrum at scrumand.co/p>",
-                  "name": "Justin Kotze",
+                  "about": "<p>With more than twenty years of project delivery experience, Faye Thompson is a consultant, coach, and ScrumMaster. With a focus on agile methodologies and continuous improvement, Faye has had a positive impact in the financial services, health care, advertising, automotive, aviation and utility industries. Passionate about using innovative solutions to drive business value, she helps workgroups transform themselves into highly engaged and energized teams. Faye enjoys serving on the board of directors for the Central Ohio Agile Association and as president of the Women in STEMM Alumni Society of The Ohio State University. She spends her free time volunteering as an emergency medical responder and public affairs coordinator for the American Red Cross, and hanging out with her husband and dog.</p>",
+                  "name": "Faye Thompson",
                   "priority": 1,
-                  "profilePic": "img/speakers/Justin-Kotze.jpg"
+                  "profilePic": "img/speakers/FayeThompson.jpg"
                 }
               ],
-              "description": "<p>\"All you need is love.\nAll you need is love, love.\nLove is all you need.\"\n \nThe Beatles say it best. All you need is to love your Product Owners.\n \nI used to not like Product Owners. In my journey there’s always been this subtle undertone when I’ve spoken to ScrumMasters about Product Owners, about how difficult they are. Heck, I’ve even attended a session with ScrumMasters called: “How to deal with difficult Product Owners”.\n \nThis thinking changed drastically when I moved to Spotify and saw what can happen if you love your Product Owner.\n \nThis session will be valuable for ScrumMasters, development managers, agile coaches, product owners and anyone who cares about better Product Ownership</p>",
-              "name": "Love your Product Owner",
-              "locationId": "queens",
+              "description": "<p>We still rely on outdated notions of how learning in the workplace works. We will discuss creating psychologically safe spaces where teams can question, experiment, and explore. Together, we will experiment with designing environments that support learning and continuous improvement.\n\nOur understanding of how humans learn has grown tremendously in the last 20 years. Providing an environment in which people have room to think, and the safety to experiment and adapt is key. We will review fundamental concepts of neuroscience and how they intersect with organizational behavior. We will also review how the agile mindset takes advantage of these concepts. From there, we can begin to envision the conditions that will provide the greatest opportunity for learning and continuous improvement. Together, we will share ideas on how we can start to transform our environments into safe spaces where teams can grow and thrive.</p>",
+              "name": "Cultivating space for Learning",
+              "locationId": "African Fire 3 - 4",
               "timeStart": "10:45 am",
-              "timeEnd": "11:30 am",
+              "timeEnd": "12:15 pm",
               "tracks": [
-                "queens"
+                "African Fire 3 - 4"
               ],
               "speakerNames": [
-                "Justin Kotze"
+                "Faye Thompson"
               ]
             },
             {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Gavin Stevens is currently a Product Owner at Prodigy Finance - an international fintech startup which provides loans to international students.  His PO journey began in e-commerce, but he has now been with Prodigy for the last 3 years.  In his time at Prodigy, he has worked with several scrum teams to implement various products and features across the business, although his focus is currently on risk assessment and verification.  He is passionate about figuring out ways to empower his team and not get involved unnecessarily.</p>",
-                  "name": "Gavin Stevens",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Gavin-Stevens.jpg"
-                }
-              ],
-              "description": "<p>In my role as a product owner, I’ve noticed how it is all too easy to get pulled into processes and tightly defined roles in a scrum team that don’t necessarily provide value and make sense.  I’ve noticed inefficiencies that are often overlooked and I’ve seen some of the effects that these can have on a team.\n\nI will be sharing some stories and analogies of how these issues can impact on your team and how you could look to improve the way you interact with your team as a PO and become a more effective scrum team.</p>",
-              "name": "7 ways to help your scrum team – a PO perspective",
-              "locationId": "harlem",
-              "timeStart": "10:45 am",
-              "timeEnd": "11:30 am",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Gavin Stevens"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "11:30 am",
-          "sessions": [
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Tea Break",
-              "locationId": "foyer",
-              "timeStart": "11:30 am",
-              "timeEnd": "11:45 am",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "time": "11:45 am",
-          "sessions": [
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Chief storyteller of The Three Pillars of Agile Testing and Quality, Mary Thorn is Director of Agile Practices at Ipreo in Raleigh, NC. Mary has a broad agile and testing background that spans automation, data warehouses, and web-based systems in a wide variety of technologies and testing techniques. During her more than nineteen years of experience with healthcare, HR, financial, and SaaS-based products, Mary has held manager- and contributor-level positions in software development organizations. A strong leader in agile and testing methodologies, Mary has direct experience leading teams through agile adoption and beyond.</p>",
-                  "name": "Mary Thorn",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Mary-Thorn.jpg"
-                }
-              ],
-              "description": "<p>Today, agile teams are being asked to do more than ever before. The notion of a T-shaped person, created by Tim Brown (CEO of IDEO) in the 1990s, describes a new breed of worker—one who goes beyond the standard, assigned role. Mary Thorn believes that the roles of team members can stretch to include other aspects that intrigue them and keep them interested. Mary’s team members are writing product documentation, are ScrumMasters, are building infrastructure to support rapid release, are taking ownership for security and compliance to standards, are presenting the development process to customers, are visiting customer sites to research how people are using the product, are devising internal communication strategies, and are using their natural skills and abilities where they are best suited to help move the business forward. Through mentoring, coaching, teaching, and upskilling, Mary has taught many different ways to get into T-shape. Join Mary and learn from her experience to increase the value to your agile teams with T-shaped people.</p>",
-              "name": "The T-Shaped Scrum Team: Get in Shape for Your Future",
-              "locationId": "central",
-              "timeStart": "11:45 am",
-              "timeEnd": "12:30 pm",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Mary Thorn"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Over almost 2 decades working in software engineering, John has worked as a system administrator, software engineer, technical lead, technical director, development manager and agile coach. He currently runs the consultancy firm Wise Noodles here he helps organisations solve tough technical problems by untangling their people problems. He is also host of The Agile Path Podcast which creates in-depth audio documentaries on the topics that most affect organisations transitioning to agile ways of working.</p>",
-                  "name": "John Le Drew",
-                  "priority": 1,
-                  "profilePic": "img/speakers/John-Le-Drew.jpg"
-                }
-              ],
-              "description": "<p>Over 3 months John recorded over 75 hours of interviews and spoke to some of the most respected people in the industry to produce an audio documentary that attempts to answer the question “What is safety? And why is it important anyway?”. This highly interactive talk will present the findings and guide and challenge you through a journey to understanding safety.\n\nJohn has interviewed world renowned specialists in the field; Christopher Avery, David Marquet, Jerry Weinberg, Esther Derby, Johanna Rothman, Linda Rising and many more in over 75 hours of audio. This has been a fascinating deep dive learning experience for John and he hopes to explore these insights with the audience.</p>",
-              "name": "Swearing, Nudity and Other Vulnerable Positions",
-              "locationId": "queens",
-              "timeStart": "11:45 am",
-              "timeEnd": "12:30 pm",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "John Le Drew"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>I have been a Scrum master for over 3 years now and I do some agile coaching on the side. I have an Honours degree in Psychology and continue to be fascinated by people.  I was a Project manager and Business analyst in my previous life and am a born and bred Capetonian.  I enjoy running along the promenade or in the mountains and socialising with good friends and family amongst other things.</p>",
-                  "name": "Catherine Holland",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Catherine-Holland.jpg"
-                }
-              ],
-              "description": "<p>I would like to share with you what I’ve learnt from world class leaders by applying these tools and tactics to my own life and I would like to encourage you to try some of these at home.  Wouldn’t you like to know more about what makes these leaders so successful and start applying their habits and routines yourself? Well you can start today, right now if you attend my talk.\n \nLearn more about practising micro bravery and how to increase your productivity.  Take on the coffee challenge and I’m not just talking about drinking more coffee. Motivate yourself so that you can motivate others.\n \nWe hear so much about Continuous improvement being core to applying Agile in a useful manner so I would like to encourage all of you to self-reflect regularly on how to become more effective.  Focus is not just a value, it’s a practise.  Courage is not taught, it is tried and tried again and being happy and healthy takes some effort.</p>",
-              "name": "Continuous Improvement starts with YOU!",
-              "locationId": "harlem",
-              "timeStart": "11:45 am\t",
-              "timeEnd": "12:30 pm",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Catherine Holland"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "12:30 pm",
-          "sessions": [
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Lunch (75 Minutes)",
-              "locationId": "foyer",
-              "timeStart": "12:30 pm",
-              "timeEnd": "1:45 pm",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "time": "1:45 pm",
-          "sessions": [
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>I (Jay) do not have any conference speaking experience. Sam Laing however is very seasoned which is why I accepted her help with open arms. Here is a list of places where she has spoken: https://www.growingagile.co.za/talks/ . Even though I don't have any conference experience, as a scrum master, I have to talk to large groups of people on a daily basis, the majority of that is facilitating workshops. Since the option I am proposing for Agile Africa is a workshop style I'm confident that I will be able to do it.</p>",
-                  "name": "Jay-Allen Morris",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Jay-Allen-Morris.jpg"
-                },
-                {
-                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.</p>",
-                  "name": "Samantha Laing",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Samantha-Laing.jpg"
-                }
-              ],
-              "description": "<p>Sometimes it can feel as if we do retrospectives just because it's \"the agile thing to do\" and occasionally, feel as if they have lost their value and purpose or have become boring. This is a 90 minute interactive session where we will explore together the importance of the 5 phases of retrospectives by participating in one. Instead of learning how to do a retrospective through theory, participants will learn by doing. This session is aimed and inexperienced and experienced scrum masters, facilitators or anyone involved in facilitating retrospectives. You're welcome to join even if you just want to play with lego and learn something new.</p>",
-              "name": "Building blocks for effective retrospectives",
-              "locationId": "central",
-              "timeStart": "1:45 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Jay-Allen Morris",
-                "Samantha Laing"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Yogini is a scrum master, aspiring Agile Coach in Absa. Yogini first encountered Agile in 2014 and has been learning about and doing it ever since. She loves how simple it is to practice and the benefits can be seen immediately.</p>",
-                  "name": "Yogini Moodley",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Yogini-Moodley.jpg"
-                },
-                {
-                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
-                  "name": "Karen Greaves",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Karen-Greaves.jpg"
-                }
-              ],
-              "description": "<p>Your large company has decided to go agile! YAY. Now what?\nHow do you get thousands of people to start thinking and working in a different way, without being controlling? \n\nIt turns out the only person you can change, is yourself. This makes YOU the key to your company’s agile Transformation. The skill you need to master to have an impact is influence.\n\n“Think twice before you speak, because your words and influence will plant the seed of either success or failure in the mind of another.” Napoleon Hill\n\nJoin us for an interactive workshop to learn why influence is so critical in agile transformations, and to practice this important skill! We will share examples how we used this skill helping ABSA in their Agile Transition as both an internal employee (Yogini) and an external coach (Karen).</p>",
-              "name": "Your Agile Transformation Superpower – INFLUENCE",
-              "locationId": "queens",
-              "timeStart": "1:45 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "Yogini Moodley",
-                "Karen Greaves"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.\n</p>",
-                  "name": "Joshua Lewis",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
-                },
-                {
-                  "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. \nThe learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.\nBuilding the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup. \nI am also a member of AST (Association for Software Testing). \nAs Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p>",
-                  "name": "Louise Perold",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Louise-Perold.jpg"
-                }
-              ],
-              "description": "<p>Do your product managers, developers and testers have different interpretations and understanding of the requirements of your software systems? Many organisations struggle to achieve a single, shared understanding of what problem they're trying to solve with their software, and how they actually expect their software systems to behave. This leads to much wasted time and effort in the software development process. During my coaching and training I have developed a practice designed for whole-team collaborative exploration and specification of expected system behaviour. The practice leads to shared understanding across entire teams, as well as lightweight documentation which can be easily turned into automated tests.</p>",
-              "name": "Collaborative Exploration and Specification",
-              "locationId": "harlem",
-              "timeStart": "1:45 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Joshua Lewis",
-                "Louise Perold"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "3:15 pm",
-          "sessions": [
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Tea Break",
-              "locationId": "foyer",
-              "timeStart": "3:15 pm",
-              "timeEnd": "3:30 pm",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "time": "3:30 pm",
-          "sessions": [
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.\n</p>",
-                  "name": "Samantha Laing",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Samantha-Laing.jpg"
-                },
-                {
-                  "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!</p>",
-                  "name": "Karen Greaves",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Karen-Greaves.jpg"
-                }
-              ],
-              "description": "<p>What is an agile coach? What do they need to pay attention to? How is it different to a Scrum Master? What skills do they need?\nIn this workshop we will cover these questions and spend some time growing your skills. If you would like to be an agile coach then come along and learn.</p>",
-              "name": "The Agile Coaches Workshop",
-              "locationId": "central",
-              "timeStart": "3:30 pm",
-              "timeEnd": "5:00 pm",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Samantha Laing",
-                "Karen Greaves"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>I'm an agile Product Owner Coach, and and Agile Fluency™ Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
-                  "name": "Steve Holyer",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Steve-Holyer.jpg"
-                },
-                {
-                  "about": "<p> Cara is the COO and Agile Coach at Project codeX, a disruptive education initiative that equips aspiring coders with high quality skills and experience, while bridging the digital divide.\n \nHer ultimate goal is for us all to find the work we love doing, and build a better future doing it. Having spent years helping teams adopt agile practices that reduce risk and increase workplace happiness, she now helps aspiring coders to discover and follow their tech passions, on their journey to become agile software developers. \n \nShe has an insatiable love of learning, and cares deeply about sharing knowledge to build stronger communities and foster greater diversity in the software world.</p>",
-                  "name": "Cara Turner",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Cara-Turner.jpg"
-                }
-              ],
-              "description": "<p>When do you do customer discovery and product design? Do you do it early in your Agile product development cycle (maybe during Sprint 1 & 2 or even during Sprint 5 - 7)? And then never really do it again? If so, you can get much better results with this repeating 5 Step design thinking process. \n\nSuccessful Lean and Agile Product Ownership requires an agile mindset that is driven by value to your customers and stakeholders. So how do you develop this mindset? Practice. Lots of practice.\n\nThis is not a talk where you will sit and listen. In this session you will  participate fully (and almost effortlessly) in a complete design thinking sprint. You will experience design thinking as a repeatable approach to product development that occurs continuously. You will learn a 5 step design thinking process which allows you to repeat practices that make you more fluent in the Agile mindset.\n\nThis design sprint session is not just for POs. In the final minutes you will apply the design thinking process to your own role whether you are a Product Manager, a Product Owners, an Agile leader, coach, Scrum Master, or developer. </p>",
-              "name": "5 Repeatable Steps to Meet Your Customer — Continuously",
-              "locationId": "queens",
-              "timeStart": "3:30 pm",
-              "timeEnd": "5:00 pm",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "Steve Holyer",
-                "Cara Turner"
-              ]
-            },
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Regina works as an Agile Coach and loves what she does. She's worked in IT for most of her working career although she started off in the business. She's worked mainly in the financial services industry although she did spent 8 years managing projects at Dimension Data.\n\nFor fun she engages in blogging, public speaking, reading, photography and travel. She lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers.\n\nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work.\n\nYou can reach her at regina.martins@agile42.com.</p>",
-                  "name": "Regina Martins",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Regina-Martins.jpg"
-                }
-              ],
-              "description": "<p>Collaboration is a team sport - no one is as smart as all of us. This is easy to conceptualise yet not so easy to do. The objective of this workshop is provide a game space where participants will learn about collaborating as a team with a board game as the centre-piece of the learning.\n\nIn fact, it is through the experiential nature of play that adults learn abstract concepts or things that previously was difficult to achieve, but in the game space they are able to get some significant ah-ha moments.\n\nThis workshop revolves around teaching participants about team collaboration and how to scale that to external stakeholders using an adventure board game as the centre piece. Teams will be formed and each will have their own board game. There are curses and gems, and the ultimate treasure is the team learning to collaborate to escape the curse of the temple.\n\nThere’s adventure and music - the purpose is to show people that either the whole team wins or the whole team loses - there is no winner takes all.</p>",
-              "name": "Escape! The Curse Of The Temple – Learn How To Collaborate Like Indiana Jones",
-              "locationId": "harlem",
-              "timeStart": "3:30 pm",
-              "timeEnd": "5:00 pm",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Regina Martins"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "5:00 pm",
-          "sessions": [
-            {
-              "date": "9th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Sponsored Drinks",
-              "locationId": "foyer",
-              "timeStart": "5:00 pm",
-              "timeEnd": "7:00 pm",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "10th November 2017",
-      "groups": [
-        {
-          "time": "7:30 am",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.\n</p>",
-                  "name": "Joshua Lewis",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Joshua-Lewis.jpg"
-                }
-              ],
-              "description": "<p></p>",
-              "name": "Lean Coffee (Day 2)",
-              "locationId": "queens",
-              "timeStart": "7:30 am",
-              "timeEnd": "8:30 am",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "Joshua Lewis"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "9:00 am",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Joanne is passionate about helping teams and people grow and improve.\nShe is a graduate of PSL (Problem Solving Leadership) and has worked for more than a decade in the software industry in all areas of software development. She is a Certified Scrum Trainer, and has participated in both Kanban training and coaching on Kanban initiatives. She recently attended the Cognitive Edge training from Dave Snowdon on complexity thinking and sensemaking.\nInterested in both people and process improvement, she is continuously learning and finding better ways to solve problems.\nJoanne has been a Scrum Master and Agile coach since 2009. She has spoken at Let’s Test Australia and Let’s test Sweden. She has given workshops at both local and international Scrum Gatherings</p>",
-                  "name": "Joanne Perold",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Joanne-Perold.jpg"
-                }
-              ],
-              "description": "<p>I have been thinking a great deal about human systems, what makes them tick, what helps them be better and what gets in their way. In this talk, I will dig into human systems, entropy and agile. I will explore the things that I believe can help human systems to be better and share the things that I have seen yield results.</p>",
-              "name": "Agile, Entropy and Human Systems",
-              "locationId": "central",
-              "timeStart": "9:00 am",
-              "timeEnd": "10:00 am",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Joanne Perold"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "10:00 am",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Tea Break",
-              "locationId": "foyer",
-              "timeStart": "10:00 am",
-              "timeEnd": "10:15 am",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "time": "10:15 am",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Joakim Sundén is an agile coach at Spotify, making music available and accessible to the world. He helps people improve through mentoring and coaching at individual, team and organizational levels, often using Agile and Lean thinking and methods such as Kanban, Scrum and XP. He is an organizer of, and active participant in, conferences, networks and user groups in the Agile and Lean communities. Joakim is also author of Kanban in Action from Manning Publications. He currently lives and works in Boston, Massachusetts.</p>",
-                  "name": "Joakim Sundén",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Joakim-Sundén.jpg"
-                }
-              ],
-              "description": "<p>Let's put aside the \"bubblegum and unicorns\" of the Spotify Engineering Culture videos and talk about what doesn't quite work at Spotify and how we're trying to solve it. This is a failure / learning report intended for change agents who need encouragement that it's always hard AND it's always possible to improve.</p>",
-              "name": "You can do better than the Spotify Model",
-              "locationId": "central",
-              "timeStart": "10:15 am",
-              "timeEnd": "11:00 am",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Joakim Sundén"
-              ]
-            },
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>I am a professional trainer and consultant specialising in Agile practices. Over the last 20+ years I have worked in many different industries from the collar and tie of large corporates to the hard-hats and steel-caps of manufacturing. In these industries I have been responsible for building and leading teams in the delivery and support of large-scale software solutions primarily using Agile frameworks. \n\nI love helping organisations to adopt Agile thinking to improve their end to end software delivery, from initial scoping and business cases, through to final user acceptance testing. This has included training and mentoring teams across the entire product development lifecycle.\n\nI am a strong advocate of agility because of the focus and simplicity that it brings to an organisation. I enjoy being part of building cohesive and collaborative teams: Magic is formed when people are encouraged to be vocal, expressive and collectively responsible.\n\n“Make no little plans: they have no magic to stir men’s blood.” - Daniel Burnham</p>",
-                  "name": "Stephen de Villiers Graaff",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Stephen-de-Villiers-Graaff.jpg"
-                }
-              ],
-              "description": "<p>You've been working with Agile methods for while and things have been going well.  But now your organisation is growing and coordination is becoming more difficult.  You suddenly have more work that you realise and your teams seem overloaded.  Do you get more people?  Do you scale Agile?  Will SAFe work for you?  How about LeSS or DAD?  Or how about descaling your organisation?  Agility is absolutely about how you go about connecting the right people and the right time to deliver the right thing.  This talk is about how to do just that... Connecting people and teams, and ultimately achieving organisational simplicity!</p>",
-              "name": "Don’t Scale Agile… Descale your Organisation!",
-              "locationId": "queens",
-              "timeStart": "10:15 am",
-              "timeEnd": "11:00 am",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "Stephen de Villiers Graaff"
-              ]
-            },
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Professional bio: https://www.linkedin.com/in/pawelkaminski/\nLess professional: \n\nFather, friend, enthusiast of life and strong believer in:\n\"One, people are good.\" \nI build teams, manage them and lead them to be trusted, reliable and proud of their work. I helped multi-disciplines individuals become goal-oriented team-members, while still being creative, happy and recognized for their efforts.\n\n\"Two, every conflict can be removed.\" \nI see conflicts as wrong assumptions about particular points of view. Using theory of constraints, systems thinking and brainstorming almost any conflict can be resolved into a win-win situation.I use conflicts as a tool to generate the most creative and out-of-the box solutions, which not only resolve the initial issue but help teams and organizations move forward. I dislike compromise, where usually both sides are left unhappy.\n\n\"Three, every situation, no matter how complex it initially looks, is exceedingly simple.\" \nI am still sometimes guilty of building complicated solutions to problems. Learning and implementing lean customer development, experiments and measurements provide me with a platform to simplify solutions and focus on crucial, most-risky and most valuable options.\n\n\"Four, every situation can be substantially improved; even the sky is not the limit.\" \nI have never seen an organization, team or individual who could not improve, get better and achieve more. Continuous improvements, learning and constant search for another breakthrough solution are always parts of my \"daily job\". Searching for and exploiting bottlenecks are my favorite ways to initiate change.\n\n\"Five, every person can reach a full life \" I am a happy and proud dad, book lover, crossfitter, basketball player, keen traveler and first polish person to climb 3 highest peaks in Greenland. Fascinated with TEDx, work of Christopher Hitchens and Kanban. I try to make sure I work with smart and \"get things done\" people, in constantly learning environments. \n\nI can write sth shorter if/when required.</p>",
-                  "name": "Pawel Kaminski",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Pawel-Kaminski.jpg"
-                }
-              ],
-              "description": "<p>Everything we do, we believe in our startup founders and their new vision of the world. The way we show this belief is by joining them on the journey of challenging every assumption we know, making a difference for one individual person and always being focused on user, no matter the cost. Let me share with you my stories of how to build products by shifting the focus from scalable, technical solutions to addressing single user needs and challenges. How to impact culture and inspire a distributed, rapidly growing company and how to collaborate and treat your customers and your colleagues like “you believe in what they believe”. \n\nEverything we do starts with WHY and a single user need.\n\nThe session is for anyone who in their daily job needs a helping hand, a bit of inspiration and a useful set of practical experiments to challenge status quo, move the needle in their organisation and build delightful products that people really want. I also want to show they they are not alone in their failures and defeats.\n\nFor me this new talk is about constantly evolving set of ideas, thoughts and values that always puts the user first and allows our employees and founders to have the time of our life. \n\nI had a great pleasure to speak at SUGSA2016 about conflicts and never compromising, but this time I want to share our story and challenge “we have always done it that way!” point of view.\n\nMy objective is to shift the way you think about your current situation, your team, your organisation and your customers by refocusing you on user needs and always starting with “WHY?”. I am  going to show you how to apply design thinking, theory of constraints and cynefin framework to situations in your daily job and see how they could be improved.</p>",
-              "name": "“Believe in what your users believe” lessons learned from creating 20 delightful startups in one year",
-              "locationId": "harlem",
-              "timeStart": "10:15 am",
-              "timeEnd": "11:00 am",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Pawel Kaminski"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "11:00 am",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Tea Break",
-              "locationId": "foyer",
-              "timeStart": "11:00 am",
-              "timeEnd": "11:15 am",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "time": "11:15 am",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Pavel Dabrytski is an agile coach and trainer from South Africa. He helps organizations implement Agile sustainably through mentoring, training, and coaching. Over the past years, Pavel worked with major financial organizations and retail giants improving their organisational processes. He also helped organise multiple international conferences in Cape Town and Johannesburg. Pavel is a seasoned presenter who spoke at events in Paris, Prague, Shanghai, Bangalore, Atlanta, New York, Singapore, Orlando as well as in South Africa. Currently, he explores topics on coaching psychology and financial models behind Agile projects.</p>",
-                  "name": "Pavel Dabrytski",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Pavel-Dabrytski.jpg"
-                }
-              ],
-              "description": "<p>In October 2016 I received a call, \"Hey dude, I don’t know nothing about Agile, but I need to become an Agile coach a-s-a-p – my company just got a new contract.\" I laughed for a second, explained that it takes a bit longer than a week to learn to coach, and wished him luck. I also knew that, shortly, he would be walking into his customer's office in this new role.\n\nAgile Coach is the new black! But how can you, a good coach, stand out from the crowd of less competent peers? Let me offer you this workshop to explore the science of coaching and the ways in which it works. We start with concepts of neuroplasticity and the brain processes of creating new neuron pathways. Then we move to motivation and learn which type is the best. Finally, we finish with the discussion on brain activation states which we practice in a few short exercises. By understanding the new field of coaching psychology, you will become a better practitioner.\n\nI am an affiliate member of the Institute of Coaching at McLean Hospital, the Harvard Medical School affiliate. I studied coaching psychology at Harvard Extension School.</p>",
-              "name": "Psychology of Coaching: Understanding Science of Change",
-              "locationId": "central",
-              "timeStart": "11:15 am",
-              "timeEnd": "12:45 pm",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Pavel Dabrytski"
-              ]
-            },
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Alison Gitelson of CanBeeDone is a maximizer, facilitator and speaker. She combines her extensive, practical, business background with a deep understanding of human behaviour. This rare combination blends human needs with business needs. \nWhilst still studying Alison started her first business as a tutor & completed her first assignment as a project manager. During her careers in Optometry, ICT and Transformation she established a successful technical and management track record.\n\nAlison brings clarity and mastery to the art of effective people management. She focuses on the key areas of communication, individualized management, engagement, embracing diversity and conflict resolution. She enables Leader-managers to increase productivity, quality and profitability. Her customized workshops & talks are always well received as informative, engaging and practical.\n\nAlison has been interviewed on radio and appeared on TV, and has presented widely on the key components of the Leader – Management Framework. She has been a long time volunteer for Headway-Gauteng, an organisation that supports people with brain injuries, and in 2015 she cofounded Open Community Encounters, an initiative to improve tolerance, communication and healing amongst South Africans. \n</p>",
-                  "name": "Alison Gitelson",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Alison-Gitelson.jpg"
-                }
-              ],
-              "description": "<p>We keep talking about self managing teams and high performing teams, but few teams are really there yet. To bridge the gap there must be trust, accountability and communication. As a Scrum Master (or Agile Coach) how do you help the team to develop these qualities? In this interactive workshop we will focus on how to develop accountability.</p>",
-              "name": "Accountable. Who me?",
-              "locationId": "queens",
-              "timeStart": "11:15 am",
-              "timeEnd": "12:45 pm",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "Alison Gitelson"
-              ]
-            },
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Justin used to be part of the SUGSA committee. He used to live and work in sunny Cape Town. Justin currently lives and works in snowy Stockholm. He is happy.\n\nJustin wants to live in a world filled with innovative businesses, happy teams, happy customers and a dancing squirrel. As an agile coach at Spotify, he often inspects & adapts. He also sings the Agile Manifesto song in a Stockholm shower to the beat of Mamma Mia. \nYou can reach him at @the_jus on twitter or listen to him talk about scrum at scrumand.co</p>",
-                  "name": "Justin Kotze",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Justin-Kotze.jpg"
-                },
-                {
-                  "about": "<p>Regina still lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers. \nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work. \nYou can reach her at regina.martins@agile42.com.</p>",
-                  "name": "Regina Martins",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Regina-Martins.jpg"
-                }
-              ],
-              "description": "<p>How do you make sense of all the different frameworks? \nDo other practitioners criticise your Scrum implementation?\nWondering about how others do it in their organisations?\n \nWe’ve seen many different implementations. Words like “Sprint zero”, “Project Management Office”, “Release train”, “Gantt charts” and many more comes to mind.\n \nYes, sometimes all of these are warning signs. And sometimes they are not. \n\n\nTake up this rare opportunity to get training from Justin(Spotify) and Regina(agile42) in a fun workshop where they will help you debunk many preconceived ideas about Scrum implementations. Learn about making sense of your entire process and how to validate it from an Agile view.</p>",
-              "name": "Sometimes Scrum seems strange",
-              "locationId": "harlem",
-              "timeStart": "11:15 am\t",
-              "timeEnd": "12:45 pm",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Justin Kotze",
-                "Regina Martins"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "12:45 pm",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Lunch (60 Minutes)",
-              "locationId": "foyer",
-              "timeStart": "12:45 pm",
-              "timeEnd": "1:45 pm",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "time": "1:45 pm",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Alistair Sloley is an Agile consultant, specializing in Agile training, Agile coaching, and software development best practices training. Alistair is a fifteen-year veteran of Microsoft where he acted as a Program Manager, Software Test Engineer, and Software Design Engineer in Test. During his tenure at Microsoft, he shipped in over ten Microsoft products, worked with Microsoft Research on multiple high-profile projects, and helped lead his organization into enterprise-level implementation of Scrum. As an Agile consultant for Steve McConnell at Construx Software, he led Agile transformation efforts at a variety of clients, spanning industry verticals and incorporating a diverse range of Agile techniques.</p>",
-                  "name": "Alistair Sloley",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Alistair-Sloley.jpg"
-                }
-              ],
-              "description": "<p>You will learn how to facilitate the discussions your org needs and your org will learn how to have constructive dialogs. I am going to demonstrate how to use these techniques in the workshop. And all the attendees are going to be fully immersed and ready to wield their new knowledge the very next day at work.\n\nCome learn how to help your team(s), org(s), and company(ies)!!!\n\nFor more information, watch my video at http://youtu.be/UNOjqMUv8h0\n\nA version of this workshop that was presented at Agile Tour Sydney 2016 is at http://bit.ly/2f4Bie8</p>",
-              "name": "Liberating Structures… 36 tried and true facilitation techniques to amp up your org’s collaboration",
-              "locationId": "central",
-              "timeStart": "1:45 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Alistair Sloley"
-              ]
-            },
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. \nThe learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.\nBuilding the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup. \nI am also a member of AST (Association for Software Testing). \nAs Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p>",
-                  "name": "Louise Perold",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Louise-Perold.jpg"
-                },
-                {
-                  "about": "<p>With over 15 years of working in the delivery, testing and maintenance of systems, Oz seeks to identify and solve the right problems, while realising value. Oz loves to share experiences and is an advocate for collaboration in teams and organisations. He currently works as a Tester Coach at House of Test South Africa and is a co-organiser of the Joburg Software Testers meetup. He is active in building a community of super testers. A life learner and explorer; he believes thinking is his strongest skill in his bag of many varied tricks. Oz became an accidental runner who enjoys long runs and has completed the Comrades marathon.</p>",
-                  "name": "Ozwell Chihwayi",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Ozwell-Chihwayi.jpg"
-                }
-              ],
-              "description": "<p>More and more, we are becoming aware of the complexity of building software and how having a critical thinking mindset, can help us to more clearly analyse and solve the right problems. As part of agile we want to inspect and adapt, but what does this practically mean? Are we challenging our assumptions in order to affect the right kind of change? \n \nSo, what prevents us from asking questions? \nHow can we create more and better feedback loops? \nWhat are the things that get in the way of critical thinking and what are some techniques we could use to think critically?\n \nComing from a testing mindset and background, this is something that comes more naturally to us but is often made difficult in certain contexts. We would like to share some of what we have learned and examine techniques we have up our sleeves to push through and make it part of the team culture. </p>",
-              "name": "Cultivating a critical thinking mindset",
-              "locationId": "queens",
-              "timeStart": "1:45 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": [
-                "queens"
-              ],
-              "speakerNames": [
-                "Louise Perold",
-                "Ozwell Chihwayi"
-              ]
-            },
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Dana is an Agile Coach, trainer, author and international speaker with over 17 years of diverse IT experience. Keen interest in DevOps culture and experience in Gamification all come together in Dana's game and book “Introduction to DevOps with Chocolate, LEGO and Scrum Game”. Dana is passionate about collaboration and helping the teams improve. She is a certified Training from the Back of the Room trainer, Open Space and Retrospectives facilitator, the founder of Big Apple Scrum Day conference and an active member of global agile community.</p>",
-                  "name": "Dana Pylayeva",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Dana-Pylayeva.jpg"
-                }
-              ],
-              "description": "<p>Join this workshop to experience one of the most unusual DevOps transformations – with Lego and Chocolate simulation game. Visualize common process bottlenecks and observe a “wall of confusion” between development teams and IT operations. Use LEGO blocks and chocolate candies to experiment with process improvements. Transition to continuous delivery of value, amplify feedback loop and build up T-shaped skills in your team. Inspired by ideas from “The Phoenix Project” and “The Goal\", this workshop helps participants at all levels to clearly experience the benefits of DevOps culture.</p>",
-              "name": "Gamifying DevOps with Lego and Chocolate Game",
-              "locationId": "harlem",
-              "timeStart": "1:45 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": [
-                "harlem"
-              ],
-              "speakerNames": [
-                "Dana Pylayeva"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "3:15 pm",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                
-              ],
-              "description": "<p></p>",
-              "name": "Tea Break",
-              "locationId": "foyer",
-              "timeStart": "3:15 pm",
-              "timeEnd": "3:30 pm",
-              "tracks": [
-                "foyer"
-              ],
-              "speakerNames": [
-                
-              ]
-            }
-          ]
-        },
-        {
-          "time": "3:30 pm",
-          "sessions": [
-            {
-              "date": "10th November 2017",
-              "speakers": [
-                {
-                  "about": "<p>Klaus Leopold is computer scientist and Kanban pioneer with many years of experience in helping organizations from different industries on their improvement journey with Lean and Kanban. He is author of the book “Practical Kanban” (www.practicalkanban.com) and co-author of the book \"Kanban Change Leadership”. Klaus is one of the first Lean Kanban trainers and coaches worldwide. He was awarded with the Brickell Key Award for “outstanding achievement and leadership” within the Lean Kanban community in San Francisco, 2014. His main interest is establishing lean business agility by improving organizations beyond the team level, especially in large environments from 50 to 5000 people. Klaus publishes his current thoughts on his blog www.LEANability.com and you can follow him on Twitter at @klausleopold.</p>",
-                  "name": "Klaus Leopold",
-                  "priority": 1,
-                  "profilePic": "img/speakers/Klaus-Leopold.jpg"
-                }
-              ],
-              "description": "<p>If you optimise for high team performance, you’ll get high team performance. Sounds great! However, simply having many high-performing teams doesn't lead to a high-performing organisation. In contrast, high team performance leads to low system performance. As a consequence, the services you offer to your customers get worse.\n\nTeam focus is also the reason why most agile initiatives fail to improve organisational agility and success. In the best case, you don’t see any organisational improvement - but in many cases, it gets worse. Local optimisation leads to global sub optimisation! But what does this mean? And how can you optimise organisations beyond the team?\n\nIn this session, Klaus will answer these questions and show how you can establish business agility in a lean way. He'll show how he improved organisational agility across about 400 people without bothering them in their daily work. As a first step, senior management became agile by running agile strategic portfolio management - and the rest followed step by step in a 'lead by example' manner.</p>",
-              "name": "Why Agile Teams Have Nothing to Do With Business Agility",
-              "locationId": "central",
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:30 pm",
-              "tracks": [
-                "central"
-              ],
-              "speakerNames": [
-                "Klaus Leopold"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "4:30 pm",
-          "sessions": [
-            {
-              "date": "10th November 2017",
+              "date": "9th November 2018",
               "speakers": [
                 {
                   "about": "<p></p>",
-                  "name": "Kevin Pedersen",
+                  "name": "SUGSA",
                   "priority": 1,
-                  "profilePic": "img/speakers/Kevin-Pedersen.png"
+                  "profilePic": "img/icon.png"
                 }
               ],
               "description": "<p></p>",
-              "name": "Closing & Thanks",
-              "locationId": "central",
-              "timeStart": "4:30 pm",
-              "timeEnd": "5:00 pm",
+              "name": "Fishbowl",
+              "locationId": "African Fire 5 - 6",
+              "timeStart": "10:45 am",
+              "timeEnd": "12:15 pm",
               "tracks": [
-                "central"
+                "African Fire 5 - 6"
               ],
               "speakerNames": [
-                "Kevin Pedersen"
+                "SUGSA"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:15 pm",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                
+              ],
+              "description": "<p></p>",
+              "name": "Lunch",
+              "locationId": "African Heritage",
+              "timeStart": "12:15 pm",
+              "timeEnd": "1:30 pm",
+              "tracks": [
+                "African Heritage"
+              ],
+              "speakerNames": [
+                
+              ]
+            }
+          ]
+        },
+        {
+          "time": "1:30 pm",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p></p>",
+                  "name": "SUGSA",
+                  "priority": 1,
+                  "profilePic": "img/icon.png"
+                }
+              ],
+              "description": "<p></p>",
+              "name": "Conference Activity",
+              "locationId": "African Fire 1 - 4",
+              "timeStart": "1:30 pm",
+              "timeEnd": "2:15 pm",
+              "tracks": [
+                "African Fire 1 - 4"
+              ],
+              "speakerNames": [
+                "SUGSA"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "2:15 pm",
+          "sessions": [
+            {
+              "date": "9th November 2018",
+              "speakers": [
+                {
+                  "about": "<p>Having worked in software for 30 years I focus my energy and efforts working with executives to create the conditions where teams can flourish developing business value. This includes assessments, focused coaching, public and private workshops.\n\nI currently co-facilitate the well-known Coaching Beyond the Team and Problem Solving Leadership workshops. With Andy Hunt and Tony Brill I’m co-creating the GROWS Method of software development that focuses on individual, team and organizational learning.\n\nI co-wrote two books with Jerry Weinberg, Esther Derby and Johanna Rothman: “Center Enter Turn Sustain: Essays on Change Artistry”  and “Readings for Problems-Solving Leadership”.  You can find the articles I've written for free at http://www.donaldegray.com</p>",
+                  "name": "Don Gray",
+                  "priority": 1,
+                  "profilePic": "img/speakers/DonGray.jpg"
+                }
+              ],
+              "description": "<p>My dad looked at me and said, “Son, it’s not amazing the pig sings badly. It’s amazing the pig sings at all!” As I look back at 35 years in software development, boy was he right. In spite of the trials, tribulations, and frustrations involved with software development, companies keep investing.\n\nSoftware development is the single most difficult undertaking we attempt. The work itself is non-compressible, brain intensive and prone to errors of understanding and construction. The problems we work on get larger and ever more complex. Teams, organization structure and culture come into play. This sucks in differing goals and creates diverging activities.\n\nIn this session we'll explore software development and discuss what goes wrong, and how to mitigate and possibly improve the practice and art of software development.</p>",
+              "name": "Understanding Software Development",
+              "locationId": "African Fire 1 - 4",
+              "timeStart": "2:15 pm",
+              "timeEnd": "3:45 pm",
+              "tracks": [
+                "African Fire 1 - 4"
+              ],
+              "speakerNames": [
+                "Don Gray"
               ]
             }
           ]
@@ -1007,190 +967,163 @@
   ],
   "speakers": [
     {
-      "about": "<p>Champion and enabler of outcome-oriented transformation & strategy, Agendashift founder, 2-time author (Agendashift, Kanban from the Inside), and creator (Featureban, Changeban, and more)\n\nConsultant, coach, trainer, and international keynote speaker. Former Executive Director, interim CTO, global development manager. Interim delivery manager for two UK government digital 'exemplar' projects. Winner, Brickell Key award, community contribution.</p>",
-      "name": "Mike Burrows",
+      "about": "<p></p>",
+      "name": "Esther Derby",
       "priority": 1,
-      "profilePic": "img/speakers/Mike-Burrows.jpg"
+      "twitter": "@EstherDerby",
+      "profilePic": "img/speakers/EstherDerby.jpg"
     },
     {
-      "about": "<p>Joanne is passionate about helping teams and people grow and improve.\nShe is a graduate of PSL (Problem Solving Leadership) and has worked for more than a decade in the software industry in all areas of software development. She is a Certified Scrum Trainer, and has participated in both Kanban training and coaching on Kanban initiatives. She recently attended the Cognitive Edge training from Dave Snowdon on complexity thinking and sensemaking.\nInterested in both people and process improvement, she is continuously learning and finding better ways to solve problems.\nJoanne has been a Scrum Master and Agile coach since 2009. She has spoken at Let’s Test Australia and Let’s test Sweden. She has given workshops at both local and international Scrum Gatherings</p>",
-      "name": "Joanne Perold",
+      "about": "<p>Skylar Watson is a software consultant and owner of SkyNet software solutions where he coaches and implements high-value software to satisfy customers needs. Skylar works with companies both domestically and internationally assisting in adopting agile practices.</p>",
+      "name": "Skylar Watson",
       "priority": 1,
-      "twitter": "@joPerold",
-      "profilePic": "img/speakers/Joanne-Perold.jpg"
+      "twitter": "@skylarRwatson",
+      "profilePic": "img/speakers/SkylarWatson.jpg"
     },
     {
-      "about": "<p>Klaus Leopold is computer scientist and Kanban pioneer with many years of experience in helping organizations from different industries on their improvement journey with Lean and Kanban. He is author of the book “Practical Kanban” (www.practicalkanban.com) and co-author of the book \"Kanban Change Leadership”. Klaus is one of the first Lean Kanban trainers and coaches worldwide. He was awarded with the Brickell Key Award for “outstanding achievement and leadership” within the Lean Kanban community in San Francisco, 2014. His main interest is establishing lean business agility by improving organizations beyond the team level, especially in large environments from 50 to 5000 people. Klaus publishes his current thoughts on his blog www.LEANability.com and you can follow him on Twitter at @klausleopold.</p>",
-      "name": "Klaus Leopold",
+      "about": "<p>Alex Sloley is an Agile consultant, specializing in Agile training, Agile coaching, and software development best practices. Alex is a fifteen-year veteran of Microsoft where he acted as a Program Manager, Software Test Engineer, and Software Design Engineer in Test. At Microsoft, he shipped in over ten products, worked with Microsoft Research on multiple high-profile projects, and helped lead his organization into enterprise-level implementation of Scrum. As an Agile consultant, he has led Agile transformation efforts at a variety of clients, spanning industries and incorporating a diverse range of Agile practices.</p>",
+      "name": "Alex Sloley",
       "priority": 1,
-      "twitter": "@klausleopold",
-      "profilePic": "img/speakers/Klaus-Leopold.jpg"
+      "twitter": "@alex_sloley",
+      "profilePic": "img/speakers/AlexSloley.jpg"
     },
     {
-      "about": "<p>Klaus Leopold is computer scientist and Kanban pioneer with many years of experience in helping organizations from different industries on their improvement journey with Lean and Kanban. He is author of the book “Practical Kanban” (www.practicalkanban.com) and co-author of the book \"Kanban Change Leadership”. Klaus is one of the first Lean Kanban trainers and coaches worldwide. He was awarded with the Brickell Key Award for “outstanding achievement and leadership” within the Lean Kanban community in San Francisco, 2014. His main interest is establishing lean business agility by improving organizations beyond the team level, especially in large environments from 50 to 5000 people. Klaus publishes his current thoughts on his blog www.LEANability.com and you can follow him on Twitter at @klausleopold.</p>",
-      "name": "Kevin Pedersen",
+      "about": "<p>Bevan has been an IT professional since 2009 and is currently the Agile Coach at Travelstart. He has previously worked as a Software Engineer, Scrum Master and Manager for a team of developers in Taipei. His passion is coaching, enabling and leading people to do their best work, focussing on personal, career and organizational growth.</p>",
+      "name": "Bevan Williams",
       "priority": 1,
-      "twitter": "@KevinPedersen",
-      "profilePic": "img/speakers/Kevin-Pedersen.jpg"
+      "twitter": "@bevanwilliams",
+      "profilePic": "img/speakers/BevanWilliams.jpg"
     },
     {
-      "about": "<p>A long time IT practitioner, I started focusing on new ways of work in 2014 when the bank started to focus on changing culture and shifting its processes. I started as a Lean Coach, shifted into Kanban and visualisation of flow (Presented a talk on Visualisation and Coaching as a way to create change at the Lean Summit 2016). \nI am a Servant Leadership facilitator for Standard Bank’s internal Agile Leadership Programme targeted at all 2000 IT employees (this has gone viral an is now spreading out across the bank as a whole) and am currently focused on embedding and strengthening this way of thinking and leading in one of the Core IT Transformation Programmes (200 people who have a strong Agile/ Scrum base).\n\nI am also an Ontological Transformation Coach and hold the Guinness World Record for the Deepest Dive by a Woman on Scuba. These last two are important pillars for my focus on changing mindsets and behaviours as I have lived through the impact of being embedded in unilateral control thinking - it was stopping me from seeing a way forward in my diving. It was only when I chose a new way of showing up that I was able to find my way forward and reach 221 meters and the Woman’s World Record.\n</p>",
-      "name": "Verna van Schaik",
+      "about": "<p>Sintu Tonjeni tests software. His career started in a professional services firm with many clients and is now at home in a managed services team. He cares more about doing the right thing more than doing the thing right, so unusually, instead of gaining certifications in testing he gained certification in SCRUM because he hates doing the wrong thing really efficiently. It's all about value! If you see him looking aimlessly at any time, he's probably deeply engaged in audiobooks where a character's having a hard time:)</p>",
+      "name": "Sintu Tonjeni",
       "priority": 1,
-      "profilePic": "img/speakers/Verna-van-Schaik.jpg",
-      "twitter": "@VernaV"
+      "profilePic": "img/speakers/SintuTonjeni.jpg"
     },
     {
-      "about": "<p>Justin used to be part of the SUGSA committee. He used to live and work in sunny Cape Town. Justin currently lives and works in snowy Stockholm. He is happy.\n\nJustin wants to live in a world filled with innovative businesses, happy teams, happy customers and a dancing squirrel. As an agile coach at Spotify, he often inspects & adapts. He also sings the Agile Manifesto song in a Stockholm shower to the beat of Mamma Mia. \nYou can reach him at @the_jus on twitter or listen to him talk about scrum at scrumand.co</p>",
-      "name": "Justin Kotze",
+      "about": "<p>I'm an agile coach at Absa and the co-lead of the central agile adoption team. I am a passionate agilist that is committed to shifting mindsets with the belief  that change begins within. I see my purpose as being to create workplaces conducive to higher consciousness through a new era of leaders.</p>",
+      "name": "Mispah Carelsen",
       "priority": 1,
-      "twitter": "@the_jus",
-      "profilePic": "img/speakers/Justin-Kotze.jpg"
+      "twitter": "@MispahC",
+      "profilePic": "img/speakers/MispahCarelsen.jpg"
     },
     {
-      "about": "<p>Gavin Stevens is currently a Product Owner at Prodigy Finance - an international fintech startup which provides loans to international students.  His PO journey began in e-commerce, but he has now been with Prodigy for the last 3 years.  In his time at Prodigy, he has worked with several scrum teams to implement various products and features across the business, although his focus is currently on risk assessment and verification.  He is passionate about figuring out ways to empower his team and not get involved unnecessarily.</p>",
-      "name": "Gavin Stevens",
-      "priority": 1,
-      "twitter": "@GavStevens",
-      "profilePic": "img/speakers/Gavin-Stevens.jpg"
-    },
-    {
-      "about": "<p>Chief storyteller of The Three Pillars of Agile Testing and Quality, Mary Thorn is Director of Agile Practices at Ipreo in Raleigh, NC. Mary has a broad agile and testing background that spans automation, data warehouses, and web-based systems in a wide variety of technologies and testing techniques. During her more than nineteen years of experience with healthcare, HR, financial, and SaaS-based products, Mary has held manager- and contributor-level positions in software development organizations. A strong leader in agile and testing methodologies, Mary has direct experience leading teams through agile adoption and beyond.</p>",
-      "name": "Mary Thorn",
-      "priority": 1,
-      "twitter": "@MaryHThorn",
-      "profilePic": "img/speakers/Mary-Thorn.jpg"
-    },
-    {
-      "about": "<p>Over almost 2 decades working in software engineering, John has worked as a system administrator, software engineer, technical lead, technical director, development manager and agile coach. He currently runs the consultancy firm Wise Noodles here he helps organisations solve tough technical problems by untangling their people problems. He is also host of The Agile Path Podcast which creates in-depth audio documentaries on the topics that most affect organisations transitioning to agile ways of working.</p>",
-      "name": "John Le Drew",
-      "priority": 1,
-      "twitter": "@antz29",
-      "profilePic": "img/speakers/John-Le-Drew.jpg"
-    },
-    {
-      "about": "<p>I have been a Scrum master for over 3 years now and I do some agile coaching on the side. I have an Honours degree in Psychology and continue to be fascinated by people.  I was a Project manager and Business analyst in my previous life and am a born and bred Capetonian.  I enjoy running along the promenade or in the mountains and socialising with good friends and family amongst other things.</p>",
-      "name": "Catherine Holland",
-      "priority": 1,
-      "profilePic": "img/speakers/Catherine-Holland.jpg"
-    },
-    {
-      "about": "<p>I currently work at Jumo as an Agile Lead and as a volunteer committee member for Scrum User Group South Africa (SUGSA). I think the most amazing thing about me is that I became a scrum master by “accident” but now I can’t imagine doing anything else. I really love finding new ways to encourage collaboration and transparency and hope to always learn new things.</p><br><p></p>",
-      "name": "Jay-Allen Morris",
-      "priority": 1,
-      "profilePic": "img/speakers/Jay-Allen-Morris.jpg",
-      "twitter": "@JayAllenM"
-    },
-    {
-      "about": "<p>My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time. \nMost of my career has been in the IT industry, specifically Software Development. Nowadays I find myself guiding and mentoring others with a passion for agile. This year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far.</p>",
-      "name": "Samantha Laing",
-      "priority": 1,
-      "profilePic": "img/speakers/Samantha-Laing.jpg",
-      "twitter": "@samlaing"
-    },
-    {
-      "about": "<p>Yogini is a scrum master, aspiring Agile Coach in Absa. Yogini first heard about Agile in 2014 and has been learning about and practising ever since. She loves the simplicity and that benefits can be seen immediately.</p>",
+      "about": "<p>I am an Agile Coache in Absa in Johannesburg. I started learning about Agile in 2014 and have been to every scrum gathering in South Africa since. I am passionate about the learning from the agile community and growing the community. I host Agile Coffees and a Scrum Master Community internally at Absa. I've spoken at Agile Africa and Scrum Gathering last year.</p>",
       "name": "Yogini Moodley",
       "priority": 1,
       "twitter": "@yogini_zn",
-      "profilePic": "img/speakers/Yogini-Moodley.jpg"
+      "profilePic": "img/speakers/YoginiMoodley.jpg"
     },
     {
-      "about": "<p>Karen is a co-founder and agile coach at Growing Agile. A company focused on helping teams improve the way they work together. She first encountered agile by accident in 2001 and hasn't looked back since!\n</p>",
-      "name": "Karen Greaves",
+      "about": "<p>I am passionate about helping teams and people grow and improve, I enjoy helping teams and organizations implement and improve their agile practices. I am a graduate of Jerry Weinberg, Esther Derby and Johanna Rothman’s PSL (Problem solving leadership) and I have worked for more than a decade in the software industry in all areas of software development. I am interested in both people and process improvement and continuously learning and finding better ways to solve problems. I have worked as a product owner, scrum master and team member. I have worked with different types and sizes of teams, some starting out their Agile journey and some having been on that path for long. I have learned from these teams and helped them learn from me. I love what I do and I like to have fun while working. Outside of all of this I enjoy reading, good food, good wine and the occasional good whiskey.</p>",
+      "name": "Joanne Perold",
       "priority": 1,
-      "twitter": "@karen_greaves ",
-      "profilePic": "img/speakers/Karen-Greaves.jpg"
+      "twitter": "@joPerold",
+      "profilePic": "img/speakers/JoannePerold.jpg"
     },
     {
-      "about": "<p>Joshua is an Agile and Developer Coach who loves supporting individuals, teams and organisations in their continuous improvement journeys. He is currently an Agile Coach at Kaizania and an Associate at nReality. He also lectures at a post-grad level part-time at Wits.</p>",
-      "name": "Joshua Lewis",
+      "about": "<p>Having worked in software for 30 years I focus my energy and efforts working with executives to create the conditions where teams can flourish developing business value. This includes assessments, focused coaching, public and private workshops.\n\nI currently co-facilitate the well-known Coaching Beyond the Team and Problem Solving Leadership workshops. With Andy Hunt and Tony Brill I’m co-creating the GROWS Method of software development that focuses on individual, team and organizational learning.\n\nI co-wrote two books with Jerry Weinberg, Esther Derby and Johanna Rothman: “Center Enter Turn Sustain: Essays on Change Artistry”  and “Readings for Problems-Solving Leadership”.  You can find the articles I've written for free at http://www.donaldegray.com</p>",
+      "name": "Don Gray",
       "priority": 1,
-      "profilePic": "img/speakers/Joshua-Lewis.jpg",
-      "twitter": "@joshilewis"
+      "twitter": "@donaldegray",
+      "profilePic": "img/speakers/DonGray.jpg"
     },
     {
-      "about": "<p>Testing is not just a career to me, it is a massive part of who I am. I have been blessed to come across people who have inspired me and taught me and I believe I have been that person to others over the years. The learning never stops though, and I continue to practice the craft and apply learnings from other disciplines back into software testing.</p><br><p>I am at my happiest when I see a team able to do their best testing work and add valuable information into the system. One way I like to do this is to be part of the team. Mentoring and coaching the team from an external viewpoint is also something I am comfortable with. I realise that much of the work we do is heavily influenced by the greater system we are in. I have many years experience of making these things visible and coming up with practical ideas to maximize the value derived from the testing efforts.</p><br><p>Building the craft and community of testing in South Africa is also a passion of mine. To this end, I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup.</p><br><p>I enjoy speaking at conferences and have spoken at Let’s Test in Sweden, Copenhagen Context and CAST in North America and I was the co-program chair for CAST 2013.</p><br><p>As Director and Consultant at House of Test South Africa, I am hoping to continue working with awesome people, partnering with friends whom I respect and working my butt off to promote $hit HoT testing.</p><br><p></p>",
-      "name": "Louise Perold",
+      "about": "<p>As the head of the agility@IQbusiness offering at IQbusiness since 2012, he has built an amazing team of Agile consultants (arguably the largest in South Africa) that share a common purpose of continuous learning, team and organisational improvement. Together with his team, Biase has trained over 6 000 people on Agile and has been involved in some of the largest Agile transformations in various industries. He has recently been appointed as the Practice lead of Human Performance which includes Change management, Organisational Design, Learning, Strategic Human Capital and now Agile consulting</p>",
+      "name": "Biase de Gregorio",
       "priority": 1,
-      "twitter": "@lperold",
-      "profilePic": "img/speakers/Louise-Perold.jpg"
+      "twitter": "@biased77",
+      "profilePic": "img/speakers/BiasedeGregorio.jpg"
     },
     {
-      "about": "<p>I'm an agile Product Owner Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
+      "about": "<p>Malene Jacobsen is one of the few people that have never done a Waterfall project. She was taught Agile/Scrum from the first day of her education in Advanced Computer Science and since then it became a natural way of thinking both in her work and private life. Malene fully lives up to the saying: you don’t do agile, you become agile!\n\nMalene started her professional career as a Developer. In her career, she has fulfilled all scrum roles: Developer, Product Owner and Scrum Master and she realized that her passion is to teach other people in the understanding of the Scrum framework and getting everybody to feel the same passion and joy for agile as she does. She is doing this as an Agile coach and trainer at Agile of Course in Cape Town.</p>",
+      "name": "Malene Bendixen",
+      "priority": 1,
+      "twitter": "@MaleneMBJ",
+      "profilePic": "img/speakers/MaleneBendixen.jpg"
+    },
+    {
+      "about": "<p>Pavel is a Certified Scrum Trainer (CST©) based in Johannesburg, South Africa. He was born in Belarus but in 2009, dislike of harsh winters and an adventurous spirit brought him first to Cape Town then to Johannesburg. He helps organizations implement Agile sustainably through mentoring, training, and coaching. Over the past several years, Pavel has worked with major financial organizations, retail giants, and telecommunication companies to improve their organizational processes. He also helped organize multiple Regional Scrum Gatherings in Cape Town and Johannesburg. Pavel is a seasoned presenter who has spoken at events in Paris, Prague, Shanghai, Bangalore, Atlanta, New York, Singapore, New Jersey and Orlando, as well as in South Africa. Currently, he explores topics on coaching psychology and financial models behind Agile projects.</p>",
+      "name": "Pavel Dabrytski",
+      "priority": 1,
+      "twitter": "@PavelDabrytski",
+      "profilePic": "img/speakers/PavelDabrytski.jpg"
+    },
+    {
+      "about": "<p>I'm an agile Product Owner Coach, and and Agile Fluency™ Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
       "name": "Steve Holyer",
       "priority": 1,
       "twitter": "@zurcherart",
-      "profilePic": "img/speakers/Steve-Holyer.jpg"
+      "profilePic": "img/speakers/SteveHolyer.jpg"
     },
     {
-      "about": "<p>Cara is the COO and Agile Coach at Project codeX, a disruptive education initiative that equips aspiring coders with high quality skills and experience, while bridging the digital divide.</p><br><p>Her ultimate goal is for us all to find the work we love doing, and build a better future doing it. Having spent years helping teams adopt agile practices that reduce risk and increase workplace happiness, she now helps aspiring coders to discover and follow their tech passions, on their journey to become agile software developers.</p><br><p>She has an insatiable love of learning, and cares deeply about sharing knowledge to build stronger communities and foster greater diversity in the software world.</p><br><p></p>",
+      "about": "<p>Cara is the COO and Agile Coach at Project codeX, a disruptive education initiative that equips aspiring coders with high quality skills and experience, while bridging the digital divide.\n \nHer ultimate goal is for us all to find the work we love doing, and build a better future doing it. Having spent years helping teams adopt agile practices that reduce risk and increase workplace happiness, she now helps aspiring coders to discover and follow their tech passions, on their journey to become agile software developers. \n \nShe has an insatiable love of learning, and cares deeply about sharing knowledge to build stronger communities and foster greater diversity in the software world.</p>",
       "name": "Cara Turner",
       "priority": 1,
-      "profilePic": "img/speakers/cara-turner.jpg",
-      "twitter": "@Cara_Faye"
+      "twitter": "@Cara_Faye",
+      "profilePic": "img/speakers/CaraTurner.jpg"
     },
     {
-      "about": "<p>Regina works as an Agile Coach and loves what she does. She's worked in IT for most of her working career although she started off in the business. She's worked mainly in the financial services industry although she did spent 8 years managing projects at Dimension Data.\n\nFor fun she engages in blogging, public speaking, reading, photography and travel. She lives in sunny South Africa although she does often go to Berlin for agile42’s coach camps. During these forays she can often be found trawling the stationery shops for Neuland markers.\n\nShe loves the idea that agile coaching is the only profession in the world where she can take her wax crayons to work.\n\nYou can reach her at regina.martins@agile42.com.</p>",
-      "name": "Regina Martins",
+      "about": "<p>I currently work at Jumo as an Agile Lead and as a volunteer committee member for Scrum User Group South Africa (SUGSA). I think the most amazing thing about me is that I became a scrum master by “accident” but now I can’t imagine doing anything else. I really love finding new ways to encourage collaboration and transparency and connecting with other communities. My favourite things are building lego and playing games.</p>",
+      "name": "Jay-Allen Morris",
       "priority": 1,
-      "profilePic": "img/speakers/Regina-Martins.jpg",
-      "twitter": "@gianamar"
+      "twitter": "@JayAllenM",
+      "profilePic": "img/speakers/Jay-AllenMorris.jpg"
     },
     {
-      "about": "<p>Joakim Sundén is an agile coach at Spotify, making music available and accessible to the world. He helps people improve through mentoring and coaching at individual, team and organizational levels, often using Agile and Lean thinking and methods such as Kanban, Scrum and XP. He is an organizer of, and active participant in, conferences, networks and user groups in the Agile and Lean communities. Joakim is also author of Kanban in Action from Manning Publications. He currently lives and works in Boston, Massachusetts.</p>",
-      "name": "Joakim Sundén",
+      "about": "<p>Kirsten began her career in counselling and psychology and moved into software about 4 years ago. In the last 3-4 years she has found facilitating and coaching Agile teams deeply rewarding as the role allows her to bring a lot of the things she cares deeply about together. She is currently working at Jumo as a Scrum Master and Facilitator. Prior to this she worked at 22seven as an Agile Facilitator.</p>",
+      "name": "Kirsten Clacey",
       "priority": 1,
-      "profilePic": "img/speakers/Joakim-Sundén.jpg",
-      "twitter": "@joakimsunden"
+      "twitter": "@KirstenClacey",
+      "profilePic": "img/speakers/KirstenClacey.jpg"
     },
     {
-      "about": "<p>I am a professional trainer and consultant specialising in Agile practices. Over the last 20+ years I have worked in many different industries from the collar and tie of large corporates to the hard-hats and steel-caps of manufacturing. In these industries I have been responsible for building and leading teams in the delivery and support of large-scale software solutions primarily using Agile frameworks. \n\nI love helping organisations to adopt Agile thinking to improve their end to end software delivery, from initial scoping and business cases, through to final user acceptance testing. This has included training and mentoring teams across the entire product development lifecycle.\n\nI am a strong advocate of agility because of the focus and simplicity that it brings to an organisation. I enjoy being part of building cohesive and collaborative teams: Magic is formed when people are encouraged to be vocal, expressive and collectively responsible.\n\n“Make no little plans: they have no magic to stir men’s blood.” - Daniel Burnham</p>",
-      "name": "Stephen de Villiers Graaff",
+      "about": "<p>I'm Michael Carr, software developer, manager and a co-founder of UK startup. I have built software for multinational countries and currently managing a team at Amazon in Edinburgh. I am passionate about being agile and deliver value to the customer as quickly as possible.</p>",
+      "name": "Michael Carr",
       "priority": 1,
-      "profilePic": "img/speakers/Stephen-de-Villiers-Graaff.jpg",
-      "twitter": "@gravworks"
+      "twitter": "@redlightmikey",
+      "profilePic": "img/speakers/MichaelCarr.jpg"
     },
     {
-      "about": "<p>I am a professional trainer and consultant specialising in Agile practices. Over the last 20+ years I have worked in many different industries from the collar and tie of large corporates to the hard-hats and steel-caps of manufacturing. In these industries I have been responsible for building and leading teams in the delivery and support of large-scale software solutions primarily using Agile frameworks. \n\nI love helping organisations to adopt Agile thinking to improve their end to end software delivery, from initial scoping and business cases, through to final user acceptance testing. This has included training and mentoring teams across the entire product development lifecycle.\n\nI am a strong advocate of agility because of the focus and simplicity that it brings to an organisation. I enjoy being part of building cohesive and collaborative teams: Magic is formed when people are encouraged to be vocal, expressive and collectively responsible.\n\n“Make no little plans: they have no magic to stir men’s blood.” - Daniel Burnham</p>",
-      "name": "Pawel Kaminski",
+      "about": "<p>With more than twenty years of project delivery experience, Faye Thompson is a consultant, coach, and ScrumMaster. With a focus on agile methodologies and continuous improvement, Faye has had a positive impact in the financial services, health care, advertising, automotive, aviation and utility industries. Passionate about using innovative solutions to drive business value, she helps workgroups transform themselves into highly engaged and energized teams. Faye enjoys serving on the board of directors for the Central Ohio Agile Association and as president of the Women in STEMM Alumni Society of The Ohio State University. She spends her free time volunteering as an emergency medical responder and public affairs coordinator for the American Red Cross, and hanging out with her husband and dog.</p>",
+      "name": "Faye Thompson",
       "priority": 1,
-      "twitter": "@kaminskipawel"
+      "twitter": "@AgileFaye",
+      "profilePic": "img/speakers/FayeThompson.jpg"
     },
     {
-      "about": "<p>Pavel Dabrytski is an agile coach and trainer from South Africa. He helps organizations implement Agile sustainably through mentoring, training, and coaching. Over the past years, Pavel worked with major financial organizations and retail giants improving their organisational processes. He also helped organise multiple international conferences in Cape Town and Johannesburg. Pavel is a seasoned presenter who spoke at events in Paris, Prague, Shanghai, Bangalore, Atlanta, New York, Singapore, Orlando as well as in South Africa. Currently, he explores topics on coaching psychology and financial models behind Agile projects.</p>",
-      "name": "Pavel Dabrytski",
+      "about": "<p>John has spent most of the last 2 decades working in the software industry, with a focus on web technologies. After 10 years as a software engineer John moved into consultancy where he quickly learned the value of team dynamics and how most technical challenges are projecting underlying issues with collaboration. So his focus shifted, while still being very involved technically, his first focus is on facilitating a safe, creative, collaborative environment.</p>",
+      "name": "John Le Drew",
       "priority": 1,
-      "profilePic": "img/speakers/Pavel-Dabrytski.jpg",
-      "twitter": "@PavelDabrytski"
+      "twitter": "@antz29",
+      "profilePic": "img/speakers/JohnLeDrew.jpg"
     },
     {
-      "about": "<p>Alison Gitelson of CanBeeDone is a maximizer, facilitator and speaker. She combines her extensive, practical, business background with a deep understanding of human behaviour. This rare combination blends human needs with business needs. \nWhilst still studying Alison started her first business as a tutor & completed her first assignment as a project manager. During her careers in Optometry, ICT and Transformation she established a successful technical and management track record.\n\nAlison brings clarity and mastery to the art of effective people management. She focuses on the key areas of communication, individualized management, engagement, embracing diversity and conflict resolution. She enables Leader-managers to increase productivity, quality and profitability. Her customized workshops & talks are always well received as informative, engaging and practical.\n\nAlison has been interviewed on radio and appeared on TV, and has presented widely on the key components of the Leader – Management Framework. She has been a long time volunteer for Headway-Gauteng, an organisation that supports people with brain injuries, and in 2015 she cofounded Open Community Encounters, an initiative to improve tolerance, communication and healing amongst South Africans.</p>",
+      "about": "<p>Passionate about agile and fascinated with the changing world, Nkululeko Masondo has journeyed with teams within Discovery, WesBank, NedBank and currently Absa in discovering their new ways of working. Nkululeko has a Management Consulting background aligned to Financial Services and was first introduced to Scrum in 2012. Originally from Durban, minus the dance moves; Nkululeko is also a current affairs junkie, music lover, and a law enthusiast.</p>",
+      "name": "Nkululeko Masondo.jpg",
+      "priority": 1,
+      "twitter": "@masondo",
+      "profilePic": "img/speakers/NkululekoMasondo.jpg"
+    },
+    {
+      "about": "<p>Alison Gitelson of CanBeeDone is a maximizer, facilitator and growth enabler.\n\nShe combines over thirty years of technical and management experience (in healthcare, ICT, engineering, education, government and NGO sectors) with a deep understanding of human behaviour.\n\nHating to see time and effort wasted she helps leader-managers to bring out the best in themselves and the people they work with, so the people and the business can thrive.\n\nAlison has successfully led teams through transformation and change, and mentored other leader managers to do the same.\n\nHer workshops consistently receive high ratings and are received as informative, engaging, practical and transformative by clients from a broad spectrum of businesses. She is a popular presenter at Agile and Lean conferences and events.</p>",
       "name": "Alison Gitelson",
       "priority": 1,
-      "profilePic": "img/speakers/Alison-Gitelson.jpg",
-      "twitter": "@AlisonGitelson"
+      "twitter": "@AlisonGitelson",
+      "profilePic": "img/speakers/AlisonGitelson.jpg"
     },
     {
-      "about": "<p>Alistair Sloley is an Agile consultant, specializing in Agile training, Agile coaching, and software development best practices training. Alistair is a fifteen-year veteran of Microsoft where he acted as a Program Manager, Software Test Engineer, and Software Design Engineer in Test. During his tenure at Microsoft, he shipped in over ten Microsoft products, worked with Microsoft Research on multiple high-profile projects, and helped lead his organization into enterprise-level implementation of Scrum. As an Agile consultant for Steve McConnell at Construx Software, he led Agile transformation efforts at a variety of clients, spanning industry verticals and incorporating a diverse range of Agile techniques.</p>",
-      "name": "Alistair Sloley",
+      "about": "<p>Charmaine started her IT career in 1986 as a COBOL programmer.  She has been in the role of Programmer, System Analyst an BA and team lead for many years.  Her Agile journey started at ABSA in 2015 where she certified as a scrum master in the first Scrum Master Academy that was presented in ABSA by Just Plain Agile, Agile 42 and IQ. Charmaine is currently an Agile Coach and Trainer in the Agile Transformation Team at ABSA.</p>",
+      "name": "Charmaine van Bavel",
       "priority": 1,
-      "profilePic": "img/speakers/Alistair-Sloley.jpg",
-      "twitter": "@axs666"
+      "profilePic": "img/speakers/CharmainevanBavel.jpg"
     },
     {
-      "about": "<p>With over 15 years of working in the delivery, testing and maintenance of systems, Oz seeks to identify and solve the right problems, while realising value. Oz loves to share experiences and is an advocate for collaboration in teams and organisations. He currently works as a Tester Coach at House of Test South Africa and is a co-organiser of the Joburg Software Testers meetup. He is active in building a community of super testers. A life learner and explorer; he believes thinking is his strongest skill in his bag of many varied tricks. Oz became an accidental runner who enjoys long runs and has completed the Comrades marathon.</p>",
-      "name": "Ozwell Chihwayi",
+      "about": "<p>Over the course of my career, I have shifted from working face-to-face with customers, to articulating what customers need, to working with teams delivering the solution, to evolving ways to deliver the solution, to improving collaboration of teams working together. This was driven by my obsession to deliver high-quality solutions that people need... faster!\n\nThrough all this, I have come to value working with people the most. I love that human beings are complex creatures and none of us come with the same operating manual! Sometimes we work well together, sometimes we don’t. And that is where true creative potential lies.</p>",
+      "name": "Angie Doyle",
       "priority": 1,
-      "profilePic": "img/speakers/Ozwell-Chihwayi.jpg",
-      "twitter": "@ozchihwayi"
-    },
-    {
-      "about": "<p>Dana is an Agile Coach, trainer, author and international speaker with over 17 years of diverse IT experience. Keen interest in DevOps culture and experience in Gamification all come together in Dana's game and book “Introduction to DevOps with Chocolate, LEGO and Scrum Game”. Dana is passionate about collaboration and helping the teams improve. She is a certified Training from the Back of the Room trainer, Open Space and Retrospectives facilitator, the founder of Big Apple Scrum Day conference and an active member of global agile community.</p>",
-      "name": "Dana Pylayeva",
-      "priority": 1,
-      "profilePic": "img/speakers/Dana-Pylayeva.jpg",
-      "twitter": "@DanaPylayeva"
+      "twitter": "@Doyle_Angie",
+      "profilePic": "img/speakers/AngieDoyle.jpg"
     }
   ],
   "sponsors": [
@@ -1205,22 +1138,12 @@
       ]
     },
     {
-      "groupName": "Silver Sponsors",
+      "groupName": "Gold Sponsors",
       "sponsors": [
         {
-          "name": "OfferZen",
-          "imageSrc": "img/sponsors/OfferZen.png",
-          "url": "https://www.offerzen.com/"
-        },
-        {
-          "name": "Allan Gray",
-          "imageSrc": "img/sponsors/AllanGray.gif",
-          "url": "https://www.allangray.co.za/"
-        },
-        {
-          "name": "Steve Holyer",
-          "imageSrc": "img/sponsors/POByDesign.jpg",
-          "url": "http://pobydesign.com/"
+          "name": "IQbusiness",
+          "imageSrc": "img/sponsors/IQbusiness.jpg",
+          "url": "https://iqbusiness.net/"
         }
       ]
     },
@@ -1228,9 +1151,14 @@
       "groupName": "Bag Sponsors",
       "sponsors": [
         {
-          "name": "Agile 42",
-          "imageSrc": "img/sponsors/Agile42.png",
+          "name": "agile42",
+          "imageSrc": "img/sponsors/agile42.jpg",
           "url": "http://www.agile42.com/"
+        },
+        {
+          "name": "Kaleidocode",
+          "imageSrc": "img/sponsors/Kaleidocode.jpg",
+          "url": "http://www.kaleidocode.co.za/"
         }
       ]
     },
@@ -1243,41 +1171,41 @@
           "url": "http://www.nreality.com/"
         }
       ]
-    },
-    {
-      "groupName": "Coffee Sponsors",
-      "sponsors": [
-        {
-          "name": "Ipren",
-          "imageSrc": "img/sponsors/Ipreo.gif",
-          "url": "https://ipreo.com/"
-        }
-      ]
     }
   ],
   "map": [
     {
-      "name": "DoubleTree by Hilton",
-      "lat": -33.9353866,
-      "lng": 18.4550375,
+      "name": "Coastlands Hotels and Resorts",
+      "lat": -29.726074,
+      "lng": 31.070627,
       "center": true
     }
   ],
   "locationMappings": [
     {
-      "name": "Central",
-      "id": "central",
+      "name": "African Fire 1 - 4",
+      "id": "africanfire14",
       "color": "#188FAF"
     },
     {
-      "name": "Queens",
-      "id": "queens",
+      "name": "African Fire 1 - 2",
+      "id": "africanfire12",
       "color": "#866686"
     },
     {
-      "name": "Harlem",
-      "id": "harlem",
+      "name": "African Fire 3 - 4",
+      "id": "africanfire34",
       "color": "#D95F62"
+    },
+    {
+      "name": "African Fire 5 - 6",
+      "id": "africanfire56",
+      "color": "#D95F62"
+    },
+    {
+      "name": "African Heritage",
+      "id": "africanheritage",
+      "color": "#4C9689"
     },
     {
       "name": "Foyer",
