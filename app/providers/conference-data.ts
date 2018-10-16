@@ -44,7 +44,7 @@ export class ConferenceData {
           });
       }
 
-      console.log('loading failed, loading local data');
+      console.log('local data');
           this.http.get('data/data.json').subscribe(res => {
               this.processResponse(res, 'offline', resolve);
           });
