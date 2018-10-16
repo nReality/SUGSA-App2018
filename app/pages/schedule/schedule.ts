@@ -6,7 +6,6 @@ import { ConferenceData } from '../../providers/conference-data';
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { UserData } from '../../providers/user-data';
 
-
 @Component({
   templateUrl: 'build/pages/schedule/schedule.html'
 })
@@ -19,7 +18,6 @@ export class SchedulePage {
   @ViewChild(Content) content: Content;
 
   dayIndex = 0;
-
   queryText = '';
   segment = 'all';
   excludeTracks = [];
@@ -154,7 +152,6 @@ export class SchedulePage {
     let dateTimeString = "2016" + dayString + groupTime;
     if(Date.now() > Date.parse(dateTimeString))
       return "group-passed";
-
     return "time-group";
   }
 
@@ -169,4 +166,22 @@ export class SchedulePage {
   getLocationColor(location) {
     return location.hide ? "#ACACAC" : "white";
   }
+
+  getSpeakerPicture(session) {
+    if(session.speakers.length === 1) {
+      return session.speakers[0]['profilePic'];
+    } else {
+      return session.speakers[0]['profilePic'];
+    }
+    
+  }
+
+  getSpeakers(session) {
+    return session.speakers && session.speakers.length > 0 ? session.speakers
+    .filter(speaker => speaker.hasOwnProperty('profilePic')) : null
+  }
+
 }
+
+
+

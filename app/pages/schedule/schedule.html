@@ -4,23 +4,22 @@
       <button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-    <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search schedule">
+    <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search for schedule talks">
     </ion-searchbar>
-    <ion-buttons end>
-
-      <button (click)="toggleFavourites()" *ngIf="segment === 'all'">
-        <ion-icon name="star-outline"></ion-icon>
-      </button>
-      <button (click)="toggleFavourites()" *ngIf="segment !== 'all'">
-        <ion-icon name="star"></ion-icon>
-      </button>
-    </ion-buttons>
   </ion-navbar>
 
   <ion-toolbar class="toggletoolbar" no-border-top>
 
     <table width="100%">
       <tr>
+        <td>
+            <button small block class="scheduletogglebutton schedule-button" (click)="toggleFavourites()" *ngIf="segment === 'all'">
+              <ion-icon name="star"></ion-icon>
+            </button>
+            <button small block class="scheduletogglebutton schedule-button" (click)="toggleFavourites()" *ngIf="segment !== 'all'">
+              <ion-icon name="star-outline"></ion-icon>
+            </button>
+        </td>
         <td *ngFor="let location of locations" class="scheduletoggle">
           <button (click)="toggleLocation(location.id)" [outline]="location.hide" class="scheduletogglebutton" small block [ngStyle]="{'background-color': getLocationBackgroungColor(location), 'color': getLocationColor(location), 'border-color': getLocationColor(location) }">{{location.name}}</button>
         </td>
@@ -50,29 +49,34 @@
             {{group.time}}
           </ion-item-divider>
 
-          <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.location]="locationNoSpaces(session.locationId) | lowercase" [hidden]="session.hide">
-
+          <ion-item-sliding *ngFor="let session of group.sessions; let i = index" [attr.data-index]="i" #slidingItem [attr.location]="locationNoSpaces(session.locationId) | lowercase" [hidden]="session.hide">
             <ion-item>
-
               <ion-grid style="padding:0">
                 <ion-row style="padding:0">
                   <ion-col style="padding:10; max-width: 1%;" width-10>
-                    <ion-icon style="font-size: 35px;" [ngStyle]="{'color': session.location.color}" name="star" *ngIf="isFavourite(session)" favorite (click)="removeFavorite(session)"></ion-icon>
-                    <ion-icon style="font-size: 35px;" [ngStyle]="{'color': session.location.color}" name="star-outline" *ngIf="!isFavourite(session)" favorite (click)="addFavorite(session)"></ion-icon>
+                    <ion-avatar class="speaker-avatar-image" *ngIf="getSpeakers(session) && getSpeakers(session).length === 1">
+                      <img [src]="getSpeakerPicture(session)">
+                    </ion-avatar>
+                    <ion-avatar class="speaker-avatar-image" *ngIf="getSpeakers(session) && getSpeakers(session).length > 1">
+                      <img [src]="getSpeakerPicture(session)">
+                    </ion-avatar>
                   </ion-col>
-                  <ion-col style="padding:0;padding-left:25px;" width-100>
-                    <button text-wrap ion-item  style="padding-left:6px;" (click)="goToSessionDetail(session)">
-
+                  <ion-col style="padding:0;padding-left:35px;" width-80>
+                    <button text-wrap ion-item style="padding-left:6px;" (click)="goToSessionDetail(session)">
                       <h3 [innerHtml]="session.name"></h3>
                       <p>
-
-                        <span  *ngIf="session.speakerNames">{{session.speakerNames}} in</span>
-                         <span [ngStyle]="{'color': session.location.color}">{{session.location.name}}</span>
+                        <span *ngIf="session.speakerNames">{{session.speakerNames}}</span> in
+                        <span [ngStyle]="{'color': session.location.color}">{{session.location.name}}</span>
                       </p>
                     </button>
                   </ion-col>
+                  <ion-col style="padding:10;" width-10>
+                    <ion-icon style="font-size: 35px;" [ngStyle]="{'color': session.location.color}" name="star" *ngIf="isFavourite(session)" favorite (click)="removeFavorite(session)"></ion-icon>
+                    <ion-icon style="font-size: 35px;" [ngStyle]="{'color': session.location.color}" name="star-outline" *ngIf="!isFavourite(session)" favorite (click)="addFavorite(session)"></ion-icon>
+                  </ion-col>
                 </ion-row>
               </ion-grid>
+              <hr *ngIf="group.sessions.length > 0 && i < (group.sessions.length - 1)">
             </ion-item>
           </ion-item-sliding>
         </ion-item-group>
