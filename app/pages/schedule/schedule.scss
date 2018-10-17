@@ -2,10 +2,6 @@
   object-fit: cover;
 }
 
-.schedule-button {
-  background-color: #ef5533;
-}
-
 ion-searchbar {
   border:0px;
 }
@@ -32,8 +28,8 @@ ion-footer{
     padding-bottom: 0px;
 }
 
-td.scheduletoggle{
-  padding: 1px;
+.scheduletoggle{
+  padding: 2px;
 }
 
 td.daytoggle{
@@ -44,6 +40,7 @@ td.daytoggle{
 button.scheduletogglebutton{
   margin: 0;
   font-size: 12px;
+  padding:10%;
 }
 
 $categories: (

@@ -4,27 +4,29 @@
       <button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-    <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search for schedule talks">
+    <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search">
     </ion-searchbar>
+    <ion-buttons end>
+        <button small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment === 'all'">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span style="padding-top:3px">favourites</span>
+        </button>
+        <button small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment !== 'all'">
+          <ion-icon name="heart"></ion-icon>
+          <span style="padding-top:3px">favourites</span>
+        </button>
+    </ion-buttons>
   </ion-navbar>
 
   <ion-toolbar class="toggletoolbar" no-border-top>
 
-    <table width="100%">
-      <tr>
-        <td *ngFor="let location of locations" class="scheduletoggle">
-          <button (click)="toggleLocation(location.id)" [outline]="location.hide" class="scheduletogglebutton" small block [ngStyle]="{'background-color': getLocationBackgroungColor(location), 'color': getLocationColor(location), 'border-color': getLocationColor(location) }">{{location.name}}</button>
-        </td>
-        <td>
-            <button small block class="scheduletogglebutton schedule-button" (click)="toggleFavourites()" *ngIf="segment === 'all'">
-              <ion-icon name="heart-outline"></ion-icon>
-            </button>
-            <button small block class="scheduletogglebutton schedule-button" (click)="toggleFavourites()" *ngIf="segment !== 'all'">
-              <ion-icon name="heart"></ion-icon>
-            </button>
-        </td>
-      </tr>
-    </table>
+      <ion-grid>
+          <ion-row>
+              <ion-col col-2 *ngFor="let location of locations" class="scheduletoggle">
+                <button (click)="toggleLocation(location.id)" [outline]="location.hide" class="scheduletogglebutton" small block [ngStyle]="{'background-color': getLocationBackgroungColor(location), 'color': getLocationColor(location), 'border-color': getLocationColor(location) }">{{location.tag}}</button>
+              </ion-col>
+          </ion-row>
+      </ion-grid>
   </ion-toolbar>
 
 </ion-header>
@@ -64,10 +66,8 @@
                   <ion-col style="padding:0;padding-left:35px;" width-80>
                     <button text-wrap ion-item style="padding-left:6px;" (click)="goToSessionDetail(session)">
                       <h3 [innerHtml]="session.name"></h3>
-                      <p>
-                        <span *ngIf="session.speakerNames">{{session.speakerNames}}</span> in
-                        <span [ngStyle]="{'color': session.location.color}">{{session.location.name}}</span>
-                      </p>
+                      <p><span *ngIf="session.speakerNames">{{session.speakerNames}}</span></p>
+                      <p><span [ngStyle]="{'color': session.location.color}">{{session.location.name}}</span></p>
                     </button>
                   </ion-col>
                   <ion-col style="padding:10; position: relative;" width-10>
@@ -76,7 +76,7 @@
                   </ion-col>
                 </ion-row>
               </ion-grid>
-              <hr *ngIf="group.sessions.length > 0 && i < (group.sessions.length - 1)">
+              <hr style="color:#FEFCFF" *ngIf="group.sessions.length > 0 && i < (group.sessions.length - 1)">
             </ion-item>
           </ion-item-sliding>
         </ion-item-group>

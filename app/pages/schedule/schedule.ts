@@ -22,8 +22,8 @@ export class SchedulePage {
   segment = 'all';
   excludeTracks = [];
   excludeLocations = [];
-  locations: Array<{name: string, id: string, hide: boolean, color: string}> = [];
-  location_rows: Array<Array<{name: string, id: string, hide: boolean, color: string}>> = [];
+  locations: Array<{name: string, id: string, hide: boolean, color: string, tag: string}> = [];
+  location_rows: Array<Array<{name: string, id: string, hide: boolean, color: string, tag: string}>> = [];
   excludeDays = [];
   days = [];
   storage : Storage;
@@ -36,11 +36,13 @@ export class SchedulePage {
     public user: UserData
   ) {
     this.confData.data.locations.forEach(location => {
+      console.log(location)
       this.locations.push({
         name: location.name,
         id: location.id,
         hide: false,
-        color: location.color
+        color: location.color,
+        tag: location.tag
       });
     });
     this.splitLocationsIntoRows();
