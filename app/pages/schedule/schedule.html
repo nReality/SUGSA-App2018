@@ -9,11 +9,11 @@
     <ion-buttons end>
         <button small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment === 'all'">
           <ion-icon name="heart-outline"></ion-icon>
-          <span style="padding-top:3px">favourites</span>
+          <span style="padding-top:0px">favourites</span>
         </button>
         <button small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment !== 'all'">
           <ion-icon name="heart"></ion-icon>
-          <span style="padding-top:3px">favourites</span>
+          <span style="padding-top:0px">favourites</span>
         </button>
     </ion-buttons>
   </ion-navbar>
@@ -40,7 +40,7 @@
     </ion-list-header>
 
     <ion-item-group no-lines *ngFor="let day of days">
-      <ion-item-divider sticky class="time-group">
+      <ion-item-divider style="background-color:#D0D0D0" sticky class="time-group">
         {{day.date}}
       </ion-item-divider>
 
@@ -55,28 +55,30 @@
             <ion-item>
               <ion-grid style="padding:0">
                 <ion-row style="padding:0">
-                  <ion-col style="padding:10; max-width: 1%;" width-10>
+                  <ion-col style="padding:0 10px 0 10px; max-width: 1%;" width-10>
                     <ion-avatar class="speaker-avatar-image" *ngIf="getSpeakers(session) && getSpeakers(session).length === 1">
-                      <img [src]="getSpeakerPicture(session)">
+                      <img class="schedule-avatar-image" [src]="getSpeakerPicture(session)">
                     </ion-avatar>
-                    <ion-avatar class="speaker-avatar-image" *ngIf="getSpeakers(session) && getSpeakers(session).length > 1">
-                      <img [src]="getSpeakerPicture(session)">
-                    </ion-avatar>
+                    <div *ngIf="getSpeakers(session) && getSpeakers(session).length > 1">
+                      <ion-avatar *ngFor="let speaker of getSpeakers(session); let a = index" [attr.data-index]="a" class="speaker-avatar-image">
+                        <img class="schedule-avatar-image" [style.margin-top]="getPictureMargin(a)" [src]="speaker.profilePic">
+                      </ion-avatar>
+                    </div>
                   </ion-col>
-                  <ion-col style="padding:0;padding-left:35px;" width-80>
-                    <button text-wrap ion-item style="padding-left:6px;" (click)="goToSessionDetail(session)">
+                  <ion-col style="padding:0;padding-left:35px; margin-right: 5px" width-80>
+                    <ion-item text-wrap (click)="goToSessionDetail(session)">
                       <h3 [innerHtml]="session.name"></h3>
-                      <p><span *ngIf="session.speakerNames">{{session.speakerNames}}</span></p>
+                      <p><span *ngIf="session.speakerNames">{{getSpeakersNames(session.speakerNames)}}</span></p>
                       <p><span [ngStyle]="{'color': session.location.color}">{{session.location.name}}</span></p>
-                    </button>
+                    </ion-item>
                   </ion-col>
-                  <ion-col style="padding:10; position: relative;" width-10>
-                    <ion-icon style="font-size: 30px;position: absolute; left: 15px" [ngStyle]="{'color': session.location.color}" name="heart" *ngIf="isFavourite(session)" favorite (click)="removeFavorite(session)"></ion-icon>
-                    <ion-icon style="font-size: 30px; position: absolute; left: 15px" [ngStyle]="{'color': session.location.color}" name="heart-outline" *ngIf="!isFavourite(session)" favorite (click)="addFavorite(session)"></ion-icon>
+                  <ion-col style="padding:0;position: relative; max-width: 1%;" width-10>
+                    <ion-icon style="font-size: 30px;position: absolute; left: 5px" [ngStyle]="{'color': session.location.color}" name="heart" *ngIf="isFavourite(session)" favorite (click)="removeFavorite(session)"></ion-icon>
+                    <ion-icon style="font-size: 30px; position: absolute; left: 5px" [ngStyle]="{'color': session.location.color}" name="heart-outline" *ngIf="!isFavourite(session)" favorite (click)="addFavorite(session)"></ion-icon>
                   </ion-col>
                 </ion-row>
               </ion-grid>
-              <hr style="color:#FEFCFF" *ngIf="group.sessions.length > 0 && i < (group.sessions.length - 1)">
+              <hr style="background-color:#f9f9f1" *ngIf="group.sessions.length > 0 && i < (group.sessions.length - 1)">
             </ion-item>
           </ion-item-sliding>
         </ion-item-group>

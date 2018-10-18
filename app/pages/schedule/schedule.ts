@@ -36,7 +36,6 @@ export class SchedulePage {
     public user: UserData
   ) {
     this.confData.data.locations.forEach(location => {
-      console.log(location)
       this.locations.push({
         name: location.name,
         id: location.id,
@@ -170,12 +169,15 @@ export class SchedulePage {
   }
 
   getSpeakerPicture(session) {
-    if(session.speakers.length === 1) {
-      return session.speakers[0]['profilePic'];
-    } else {
-      return session.speakers[0]['profilePic'];
-    }
-    
+    return session.speakers[0]['profilePic'];
+  }
+
+  getSpeakersNames(names) {
+    return names.length <= 1 ? names : names.join(", ")
+  }
+
+  getPictureMargin(index) {
+    return `${index*-15}px`
   }
 
   getSpeakers(session) {
