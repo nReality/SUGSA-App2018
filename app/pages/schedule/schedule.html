@@ -1,19 +1,15 @@
 <ion-header>
   <ion-navbar class="nav-no-border">
-
-      <button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-    <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search">
+    <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search schedule">
     </ion-searchbar>
     <ion-buttons end>
-        <button small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment === 'all'">
+        <button style="padding:2px" small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment === 'all'">
           <ion-icon name="heart-outline"></ion-icon>
-          <span style="padding-top:0px">favourites</span>
+          <span>favourites</span>
         </button>
-        <button small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment !== 'all'">
+        <button style="padding:2px" small block class="scheduletogglebutton" (click)="toggleFavourites()" *ngIf="segment !== 'all'">
           <ion-icon name="heart"></ion-icon>
-          <span style="padding-top:0px">favourites</span>
+          <span>favourites</span>
         </button>
     </ion-buttons>
   </ion-navbar>
