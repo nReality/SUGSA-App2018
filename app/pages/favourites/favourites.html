@@ -1,0 +1,74 @@
+<ion-header>
+    <ion-navbar class="nav-no-border">
+      <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search schedule">
+      </ion-searchbar>
+    </ion-navbar>
+  
+    <ion-toolbar class="toggletoolbar" no-border-top>
+  
+        <ion-grid>
+            <ion-row>
+                <ion-col col-2 *ngFor="let location of locations" class="scheduletoggle">
+                  <button (click)="toggleLocation(location.id)" [outline]="location.hide" class="scheduletogglebutton" small block [ngStyle]="{'background-color': getLocationBackgroungColor(location), 'color': getLocationColor(location), 'border-color': getLocationColor(location) }">{{location.tag}}</button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-toolbar>
+  
+  </ion-header>
+  
+  
+  <ion-content class="schedule" on-scroll="onPageScroll()">
+  
+    <ion-list #scheduleList>
+      <ion-list-header text-center class="time-group" [hidden]="days.length > 0">
+        No sessions were found.
+      </ion-list-header>
+  
+      <ion-item-group no-lines *ngFor="let day of days">
+        <ion-item-divider style="background-color:#D0D0D0" sticky class="time-group">
+          {{day.date}}
+        </ion-item-divider>
+  
+        <ion-item-content class="time-group">
+  
+          <ion-item-group *ngFor="let group of day.groups" [hidden]="group.hide">
+            <ion-item-divider [class]="checkIfTimeHasPassed(day.date, group.time)">
+              {{group.time}}
+            </ion-item-divider>
+  
+            <ion-item-sliding *ngFor="let session of group.sessions; let i = index" [attr.data-index]="i" #slidingItem [attr.location]="locationNoSpaces(session.locationId) | lowercase" [hidden]="session.hide">
+              <ion-item>
+                <ion-grid style="padding:0">
+                  <ion-row style="padding:0">
+                    <ion-col style="padding:0 10px 0 10px; max-width: 1%;" width-10>
+                      <ion-avatar class="speaker-avatar-image" *ngIf="getSpeakers(session) && getSpeakers(session).length === 1">
+                        <img class="schedule-avatar-image" [src]="getSpeakerPicture(session)">
+                      </ion-avatar>
+                      <div *ngIf="getSpeakers(session) && getSpeakers(session).length > 1">
+                        <ion-avatar *ngFor="let speaker of getSpeakers(session); let a = index" [attr.data-index]="a" class="speaker-avatar-image">
+                          <img class="schedule-avatar-image" [style.margin-top]="getPictureMargin(a)" [src]="speaker.profilePic">
+                        </ion-avatar>
+                      </div>
+                    </ion-col>
+                    <ion-col style="padding:0;padding-left:35px; margin-right: 5px" width-80>
+                      <ion-item text-wrap (click)="goToSessionDetail(session)">
+                        <h3 [innerHtml]="session.name"></h3>
+                        <p><span *ngIf="session.speakerNames">{{getSpeakersNames(session.speakerNames)}}</span></p>
+                        <p><span [ngStyle]="{'color': session.location.color}">{{session.location.name}}</span></p>
+                      </ion-item>
+                    </ion-col>
+                    <ion-col style="padding:0;position: relative; max-width: 1%;" width-10>
+                      <ion-icon style="font-size: 30px;position: absolute; left: 5px" [ngStyle]="{'color': session.location.color}" name="heart" *ngIf="isFavourite(session)" favorite></ion-icon>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+                <hr style="background-color:#f9f9f1" *ngIf="group.sessions.length > 0 && i < (group.sessions.length - 1)">
+              </ion-item>
+            </ion-item-sliding>
+          </ion-item-group>
+        </ion-item-content>
+      </ion-item-group>
+    </ion-list>
+  </ion-content>
+  

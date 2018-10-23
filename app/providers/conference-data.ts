@@ -138,7 +138,6 @@ export class ConferenceData {
   }
 
   getTimeline(dayIndex, queryText = '', excludeTracks = [], excludeLocations = [], excludeDays = [], segment = 'all') {
-
     return this.load().then(data => {
       let days = [];
       let daySessions = [];

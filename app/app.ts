@@ -23,13 +23,12 @@ interface PageObj {
 })
 class ConferenceApp {
   @ViewChild(Nav) nav: Nav;
-
   appPages: PageObj[] = [
     { title: 'Schedule', component: TabsPage, icon: 'calendar' },
+    { title: 'Favourites', component: TabsPage, icon: 'heart' },
     { title: 'Speakers', component: TabsPage, icon: 'contacts' },
-    { title: 'View Tweets', component: TabsPage, icon: 'logo-twitter'  },
-    { title: 'About', component: TabsPage, icon: 'information-circle' },
-    { title: 'Sponsors', component: TabsPage, icon: 'ribbon' }
+    { title: 'Sponsors', component: TabsPage, icon: 'ribbon' },
+    { title: 'About', component: TabsPage, icon: 'information-circle' }
   ];
  rootPage: any;
 

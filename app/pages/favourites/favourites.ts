@@ -1,25 +1,21 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { Content, AlertController, App, ItemSliding, List, LocalStorage, Storage, NavController } from 'ionic-angular';
+import { Content, AlertController, App, List, LocalStorage, Storage, NavController } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { UserData } from '../../providers/user-data';
 
 @Component({
-  templateUrl: 'build/pages/schedule/schedule.html'
+  templateUrl: 'build/pages/favourites/favourites.html'
 })
-export class SchedulePage {
-  // the list is a child of the schedule page
-  // @ViewChild('scheduleList') gets a reference to the list
-  // with the variable #scheduleList, `read: List` tells it to return
-  // the List and not a reference to the element
+export class FavouritesPage {
   @ViewChild('scheduleList', {read: List}) scheduleList: List;
   @ViewChild(Content) content: Content;
 
   dayIndex = 0;
   queryText = '';
-  segment = 'all';
+  segment = 'favorites';
   excludeTracks = [];
   excludeLocations = [];
   locations: Array<{name: string, id: string, hide: boolean, color: string, tag: string}> = [];
@@ -60,15 +56,6 @@ export class SchedulePage {
       this.location_rows.push(this.locations.slice(start, end));
       start = end;
     }
-  }
-
-  toggleFavourites(){
-    if (this.segment == "all")
-      this.segment= "favorites";
-    else
-      this.segment = "all"
-    this.updateSchedule();
-
   }
 
   toggleLocation(locationId){
@@ -116,8 +103,8 @@ export class SchedulePage {
     });
   }
 
+
   updateSchedule() {
-    // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
     this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.excludeLocations, this.excludeDays, this.segment).then(data => {
@@ -126,20 +113,11 @@ export class SchedulePage {
   }
 
   goToSessionDetail(sessionData) {
-    // go to the session detail page
-    // and pass in the session data
     this.navCtrl.push(SessionDetailPage, sessionData);
   }
 
   isFavourite(sessionData){
     return this.user.hasFavorite(sessionData.name);
-  }
-  addFavorite(sessionData) {
-    this.user.addFavorite(sessionData.name);
-  }
-
-  removeFavorite(sessionData) {
-    this.user.removeFavorite(sessionData.name);
   }
 
   locationNoSpaces(location){
@@ -185,6 +163,3 @@ export class SchedulePage {
   }
 
 }
-
-
-
