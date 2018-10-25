@@ -26,9 +26,9 @@ ion-header ion-toolbar ion-navbar .toolbar-background {
 }
 
 ion-footer {
-    padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .scheduletoggle {
@@ -40,10 +40,10 @@ td.daytoggle {
   padding-top: 0px;
 }
 
-button.scheduletogglebutton {
+.scheduletogglebutton {
   margin: 0;
   font-size: 12px;
-  padding:10%;
+  padding: 5px;
 }
 
 $categories: (
