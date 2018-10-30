@@ -5,14 +5,13 @@
     </ion-navbar>
   
     <ion-toolbar wrap class="toggletoolbar" no-border-top>
-  
-        <ion-grid>
-            <ion-row>
-                <ion-col col-2 *ngFor="let location of locations" class="scheduletoggle">
-                  <button (click)="toggleLocation(location.id)" [outline]="location.hide" class="scheduletogglebutton" small block [ngStyle]="{'background-color': getLocationBackgroungColor(location), 'color': getLocationColor(location), 'border-color': getLocationColor(location) }">{{location.tag}}</button>
-                </ion-col>
-            </ion-row>
-        </ion-grid>
+      <ion-grid>
+        <ion-row wrap>
+          <ion-col width-33 col-4 *ngFor="let location of locations" class="scheduletoggle">
+            <button (click)="toggleLocation(location.id)" [outline]="location.hide" class="scheduletogglebutton" small block [ngStyle]="{'background-color': getLocationBackgroungColor(location), 'color': getLocationColor(location), 'border-color': getLocationColor(location) }">{{location.name}}</button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-toolbar>
   
   </ion-header>
@@ -44,6 +43,9 @@
                     <ion-col style="padding:0 10px 0 10px; max-width: 1%;" width-10>
                       <ion-avatar class="speaker-avatar-image" *ngIf="getSpeakers(session) && getSpeakers(session).length === 1">
                         <img class="schedule-avatar-image" [src]="getSpeakerPicture(session)">
+                      </ion-avatar>
+                      <ion-avatar class="speaker-avatar-image" *ngIf="!getSpeakers(session)">
+                        <img class="schedule-avatar-image" src="img/icon.jpg">
                       </ion-avatar>
                       <div *ngIf="getSpeakers(session) && getSpeakers(session).length > 1">
                         <ion-avatar *ngFor="let speaker of getSpeakers(session); let a = index" [attr.data-index]="a" class="speaker-avatar-image">

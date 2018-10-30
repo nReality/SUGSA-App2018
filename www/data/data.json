@@ -53,7 +53,7 @@
                   "about": "<p>Open Space</p>",
                   "name": "SUGSA",
                   "priority": 1,
-                  "profilePic": "img/icon.png"
+                  "profilePic": "img/icon.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -102,7 +102,7 @@
                   "about": "<p></p>",
                   "name": "Barry Tandy & Elizabeth Marinakis",
                   "priority": 1,
-                  "profilePic": "img/icon.png"
+                  "profilePic": "img/icon.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -577,7 +577,7 @@
                   "about": "<p></p>",
                   "name": "SUGSA",
                   "priority": 1,
-                  "profilePic": "img/icon.png"
+                  "profilePic": "img/icon.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -870,7 +870,7 @@
                   "about": "<p></p>",
                   "name": "SUGSA",
                   "priority": 1,
-                  "profilePic": "img/icon.png"
+                  "profilePic": "img/icon.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -919,7 +919,7 @@
                   "about": "<p></p>",
                   "name": "SUGSA",
                   "priority": 1,
-                  "profilePic": "img/icon.png"
+                  "profilePic": "img/icon.jpg"
                 }
               ],
               "description": "<p></p>",
@@ -1034,7 +1034,7 @@
       "name": "Biase de Gregorio",
       "priority": 1,
       "twitter": "@biased77",
-      "profilePic": "img/speakers/BiasedeGregorio.jpg"
+      "profilePic": "img/speakers/BiaseDeGregorio.jpg"
     },
     {
       "about": "<p>Malene Jacobsen is one of the few people that have never done a Waterfall project. She was taught Agile/Scrum from the first day of her education in Advanced Computer Science and since then it became a natural way of thinking both in her work and private life. Malene fully lives up to the saying: you don’t do agile, you become agile!\n\nMalene started her professional career as a Developer. In her career, she has fulfilled all scrum roles: Developer, Product Owner and Scrum Master and she realized that her passion is to teach other people in the understanding of the Scrum framework and getting everybody to feel the same passion and joy for agile as she does. She is doing this as an Agile coach and trainer at Agile of Course in Cape Town.</p>",

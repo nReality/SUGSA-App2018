@@ -168,7 +168,8 @@ export class SchedulePage {
   }
 
   getSpeakerPicture(session) {
-    return session.speakers[0]['profilePic'];
+    const picture = session.speakers[0]['profilePic']
+    return picture;
   }
 
   getSpeakersNames(names) {
@@ -180,8 +181,9 @@ export class SchedulePage {
   }
 
   getSpeakers(session) {
-    return session.speakers && session.speakers.length > 0 ? session.speakers
+    const speakers = session.speakers && session.speakers.length ? session.speakers
     .filter(speaker => speaker.hasOwnProperty('profilePic')) : null
+    return speakers
   }
 
 }

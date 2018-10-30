@@ -54,7 +54,7 @@ class ConferenceApp {
       StatusBar.styleDefault();
       confData.load().then(() => {
         this.rootPage = TabsPage;
-        this.menu.enable(true, 'mainmenu');
+        this.menu.enable(false, 'mainmenu');
         Splashscreen.hide();
       });
     });
