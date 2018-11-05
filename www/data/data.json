@@ -50,13 +50,13 @@
               "date": "8th November 2018",
               "speakers": [
                 {
-                  "about": "<p>Open Space</p>",
-                  "name": "SUGSA",
+                  "about": "<p>I'm an agile Product Owner Coach, and and Agile Fluency™ Coach, Trainer, Facilitator and Consultant. I help product organisations optimise value and deliver results. I created POByDesign™, and I invite you to re-design your work to fit your real-world product development challenges. I live in Zurich, Switzerland.</p>",
+                  "name": "Steve Holyer",
                   "priority": 1,
-                  "profilePic": "img/icon.png"
+                  "profilePic": "img/speakers/SteveHolyer.jpg"
                 }
               ],
-              "description": "<p></p>",
+              "description": "<p>Scrum methods and Agile practices were built around transformation—transformation of the workplace, transformation of skills, and transformation of the community.\n\nThere is so much abundance in South Africa especially within the SUGSA community: Abundant viewpoints. Abundant talent. Abundant experience. Abundant skills. Abundant Agile practices. Abundant backgrounds. Abundant lives.\n\nAnd yet there are many barriers that separate and keep us from experiencing real abundance in our business, and communities. What can you do to remove those barriers and create inclusion in the community?\n\nThis is an invitation to dream of an abundant future, and to recognise—and remove—the barriers that prevent us from experiencing totally abundant transformation. By sharing our experiences and stories we are looking for ways to actively remove barriers together.\n\nDo you feel the passion for this work? Then, please join us for the early morning, pre-start, open jam. Each morning, during this time, Steve Holyer will hold a space for us to create short unconference style jam sessions together using the patterns and principles of open space.\n\nOur agenda will be something we create together. The content will be what each person brings. The right people will come. Whatever happens is the only thing that could happen.\n\nWe will open a space during the jam sessions and ask your for questions to ask, experiences to share, ideas to present, or conversations to start. We will hold jam sessions where good thinking, creating, celebrating and just plain being together will take place.\n\n<h2>Topic Ideas:</h2>\n\nYou’re invited to think about abundance and inclusion in many ways. You’re invited to create topics about technical practice, management practice, and scrum practice. You’re invited to examine racism, socio-economic privilege and radical inclusion. You’re invited to create new dialogues between people. Join us in this space for your jam sessions about Active Barrier Removal.</p>",
               "name": "Open Space",
               "locationId": "africanfire12",
               "timeStart": "7:00 am",
@@ -65,7 +65,7 @@
                 "African Fire 1 - 2"
               ],
               "speakerNames": [
-                "SUGSA"
+                "Steve Holyer"
               ]
             }
           ]
