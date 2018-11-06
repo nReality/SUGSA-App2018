@@ -1172,6 +1172,16 @@
           "url": "http://www.nreality.com/"
         }
       ]
+    },
+    {
+      "groupName": "Bronze Sponsors",
+      "sponsors": [
+        {
+          "name": "Zensar Technologies",
+          "imageSrc": "img/sponsors/zensar",
+          "url": "https://www.zensar.com/"
+        }
+      ]
     }
   ],
   "map": [
